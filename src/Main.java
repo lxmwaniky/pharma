@@ -6,6 +6,8 @@ import java.awt.*;
 import java.util.Arrays;
 
 public class Main {
+    private static int screenWidth = 700;
+    private static int screenHeight = 600;
     public static void main(String[] args) {
         try{
             UIManager.setLookAndFeel(new FlatIntelliJLaf());
@@ -14,16 +16,19 @@ public class Main {
             System.out.println("Failed to apply theme");
         }
 
+        JFrame screen = new JFrame();
+        screen.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+
         Login loginScreen = new Login();
-        loginScreen.setContentPane(loginScreen.getMainPanel());
 
         //Event Listeners
         loginScreen.getUsernameFormattedTextField().addFocusListener(loginScreen.getUsernameFieldListener());
         loginScreen.getPasswordPasswordField().addFocusListener(loginScreen.getPasswordFieldListener());
 
-        loginScreen.setTitle("Pharma | Pharmacy POS");
-        loginScreen.setSize(700,600);
-        loginScreen.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-        loginScreen.setVisible(true);
+        //Setting up window
+        screen.setContentPane(loginScreen.getMainPanel());
+        screen.setTitle("Pharma | Pharmacy POS");
+        screen.setSize(screenWidth,screenHeight);
+        screen.setVisible(true);
     }
 }
