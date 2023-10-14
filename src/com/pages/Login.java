@@ -6,12 +6,13 @@ import com.utils.InputFieldFocusListener;
 
 import javax.swing.UIManager;
 import javax.swing.*;
-public class Login extends JFrame{
+public class Login{
     private JTextField usernameFormattedTextField;
     private JButton loginButton;
     private JComboBox userRoleComboBox;
     private JPasswordField passwordPasswordField;
     private JPanel mainPanel;
+    private JLabel lbl_error_login;
 
 
     //Listeners

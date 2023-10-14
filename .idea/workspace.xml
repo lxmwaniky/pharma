@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19d791b9-e31e-432b-9f0f-9108897f0020" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pages/Login.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pages/Login.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/pages/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pages/Login.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -178,7 +181,23 @@
       <option name="project" value="LOCAL" />
       <updated>1697312639417</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="chore : Implemented placeholder functionality on Password input field">
+      <option name="closed" value="true" />
+      <created>1697312918253</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1697312918253</updated>
+    </task>
+    <task id="LOCAL-00014" summary="chore : Removed debugger code">
+      <option name="closed" value="true" />
+      <created>1697313012693</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1697313012693</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -193,6 +212,8 @@
     <MESSAGE value="refactor : make `PLACEHOLDER` a param to make class more flexible and usable" />
     <MESSAGE value="refactor : store trimmed text in a variable to avoid calling .getText() each time I focus on the input" />
     <MESSAGE value="fix : trimmed check only stores value at initial call. Value needs to be refreshed when focus is lost" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix : trimmed check only stores value at initial call. Value needs to be refreshed when focus is lost" />
+    <MESSAGE value="chore : Implemented placeholder functionality on Password input field" />
+    <MESSAGE value="chore : Removed debugger code" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore : Removed debugger code" />
   </component>
 </project>
