@@ -5,13 +5,16 @@ import com.formdev.flatlaf.FlatLightLaf;
 import javax.swing.UIManager;
 import javax.swing.*;
 public class Login extends JFrame{
-    private JFormattedTextField usernameFormattedTextField;
+    private JTextField usernameFormattedTextField;
     private JButton loginButton;
     private JComboBox userRoleComboBox;
     private JPasswordField passwordPasswordField;
     private JPanel mainPanel;
 
-    public JFormattedTextField getUsernameFormattedTextField() {
+    //Listeners
+
+    //Getter and Setter Functions
+    public JTextField getUsernameFormattedTextField() {
         return usernameFormattedTextField;
     }
 
