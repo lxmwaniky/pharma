@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19d791b9-e31e-432b-9f0f-9108897f0020" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pages/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pages/Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/utils/InputFieldFocusListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/utils/InputFieldFocusListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,12 +106,48 @@
       <option name="project" value="LOCAL" />
       <updated>1697310847696</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feature : Set up placeholder functionality for login screen inputs">
+      <option name="closed" value="true" />
+      <created>1697311519365</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697311519365</updated>
+    </task>
+    <task id="LOCAL-00005" summary="refactor : `isEmpty()` is a more concise way and reduces chances of reducing an error">
+      <option name="closed" value="true" />
+      <created>1697311611465</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1697311611465</updated>
+    </task>
+    <task id="LOCAL-00006" summary="refactor : assign final keyword to prevent mutability of the variable once it's assigned to the constructor">
+      <option name="closed" value="true" />
+      <created>1697311689083</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1697311689083</updated>
+    </task>
+    <task id="LOCAL-00007" summary="refactor : define placeholder as constant to update PLACEHOLDER text in the future">
+      <option name="closed" value="true" />
+      <created>1697311805879</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1697311805879</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="chore : Initialized IntelliJ .java project" />
     <MESSAGE value="feature : util class InputFieldFocusListener.java to hold placeholder for application" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature : util class InputFieldFocusListener.java to hold placeholder for application" />
+    <MESSAGE value="feature : Set up placeholder functionality for login screen inputs" />
+    <MESSAGE value="refactor : `isEmpty()` is a more concise way and reduces chances of reducing an error" />
+    <MESSAGE value="refactor : assign final keyword to prevent mutability of the variable once it's assigned to the constructor" />
+    <MESSAGE value="refactor : define placeholder as constant to update PLACEHOLDER text in the future" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor : define placeholder as constant to update PLACEHOLDER text in the future" />
   </component>
 </project>

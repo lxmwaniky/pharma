@@ -1,6 +1,7 @@
 package com.utils;
 
 import javax.swing.*;
+import java.awt.event.FocusAdapter;
 import java.awt.event.FocusEvent;
 import java.awt.event.FocusListener;
 
@@ -10,7 +11,7 @@ import java.awt.event.FocusListener;
  * - Clearing the placeholder text when the text field gains focus
  * - Setting the placeholder text when the text field loses focus and is empty
  */
-public class InputFieldFocusListener implements FocusListener {
+public class InputFieldFocusListener extends FocusAdapter {
     private final JTextField usernameFormattedTextField;
     private final String PLACEHOLDER = "Username...";
     //Constructor
