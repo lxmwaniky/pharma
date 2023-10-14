@@ -11,7 +11,7 @@ import java.awt.event.FocusListener;
  * - Setting the placeholder text when the text field loses focus and is empty
  */
 public class InputFieldFocusListener implements FocusListener {
-    private JTextField usernameFormattedTextField;
+    private final JTextField usernameFormattedTextField;
 
     //Constructor
     public InputFieldFocusListener(JTextField usernameFormattedTextField){
