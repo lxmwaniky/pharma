@@ -50,16 +50,4 @@ public class Login extends JFrame{
     public JPanel getMainPanel(){
         return mainPanel;
     }
-    public static void main(String[] args) {
-        try {
-            UIManager.setLookAndFeel( new FlatIntelliJLaf() );
-        } catch( Exception ex ) {
-            System.err.println( "Failed to initialize LaF" );
-        }
-        Login loginScreen = new Login();
-        loginScreen.setContentPane(loginScreen.mainPanel);
-        loginScreen.setTitle("Pharma | Pharmacy POS");
-        loginScreen.setSize(300,400);
-        loginScreen.setVisible(true);
-    }
 }

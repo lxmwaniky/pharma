@@ -15,6 +15,7 @@ public class Main {
         loginScreen.setContentPane(loginScreen.getMainPanel());
         loginScreen.setTitle("Pharma | Pharmacy POS");
         loginScreen.setSize(700,600);
+        loginScreen.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         loginScreen.setVisible(true);
     }
 }
