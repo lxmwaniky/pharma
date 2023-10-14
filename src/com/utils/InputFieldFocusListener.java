@@ -29,7 +29,7 @@ public class InputFieldFocusListener implements FocusListener {
     @Override
     public void focusLost(FocusEvent e) {
         //If empty when unfocused
-        if(usernameFormattedTextField.getText().trim().equals("")){
+        if(usernameFormattedTextField.getText().trim().isEmpty()){
             //Set placeholder
             usernameFormattedTextField.setText("Username...");
         }
