@@ -38,34 +38,6 @@ public class Login{
         this.usernameFormattedTextField = usernameFormattedTextField;
     }
 
-    public void setLoginButton(JButton loginButton) {
-        this.loginButton = loginButton;
-    }
-
-    public void setUserRoleComboBox(JComboBox userRoleComboBox) {
-        this.userRoleComboBox = userRoleComboBox;
-    }
-
-    public void setPasswordPasswordField(JPasswordField passwordPasswordField) {
-        this.passwordPasswordField = passwordPasswordField;
-    }
-
-    public void setMainPanel(JPanel mainPanel) {
-        this.mainPanel = mainPanel;
-    }
-
-    public JButton getLoginButton() {
-        return loginButton;
-    }
-
-    public JComboBox getUserRoleComboBox() {
-        return userRoleComboBox;
-    }
-
-    public JPasswordField getPasswordPasswordField() {
-        return passwordPasswordField;
-    }
-
     public JPanel getMainPanel(){
         return mainPanel;
     }
