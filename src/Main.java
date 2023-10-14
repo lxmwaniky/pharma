@@ -13,6 +13,9 @@ public class Main {
 
         Login loginScreen = new Login();
         loginScreen.setContentPane(loginScreen.getMainPanel());
+
+        //Event Listeners
+        loginScreen.getUsernameFormattedTextField().addFocusListener(loginScreen.getUsernameFieldListener());
         loginScreen.setTitle("Pharma | Pharmacy POS");
         loginScreen.setSize(700,600);
         loginScreen.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);

@@ -2,6 +2,8 @@ package com.pages;
 import com.formdev.flatlaf.FlatDarkLaf;
 import com.formdev.flatlaf.FlatIntelliJLaf;
 import com.formdev.flatlaf.FlatLightLaf;
+import com.utils.InputFieldFocusListener;
+
 import javax.swing.UIManager;
 import javax.swing.*;
 public class Login extends JFrame{
@@ -11,9 +13,14 @@ public class Login extends JFrame{
     private JPasswordField passwordPasswordField;
     private JPanel mainPanel;
 
+
     //Listeners
+    private InputFieldFocusListener usernameFieldListener = new InputFieldFocusListener(usernameFormattedTextField);
 
     //Getter and Setter Functions
+    public InputFieldFocusListener getUsernameFieldListener() {
+        return usernameFieldListener;
+    }
     public JTextField getUsernameFormattedTextField() {
         return usernameFormattedTextField;
     }
