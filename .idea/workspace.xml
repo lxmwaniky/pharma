@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19d791b9-e31e-432b-9f0f-9108897f0020" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pages/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pages/Login.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697312392720</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="fix : trimmed check only stores value at initial call. Value needs to be refreshed when focus is lost">
+      <option name="closed" value="true" />
+      <created>1697312639417</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1697312639417</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -184,6 +192,7 @@
     <MESSAGE value="refactor : extends FocusAdaptor instead of implementing FocusListener ( Just read online that it's a good practise since I only override methods I require and not implementing all the methods that come with the Interface )" />
     <MESSAGE value="refactor : make `PLACEHOLDER` a param to make class more flexible and usable" />
     <MESSAGE value="refactor : store trimmed text in a variable to avoid calling .getText() each time I focus on the input" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor : store trimmed text in a variable to avoid calling .getText() each time I focus on the input" />
+    <MESSAGE value="fix : trimmed check only stores value at initial call. Value needs to be refreshed when focus is lost" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix : trimmed check only stores value at initial call. Value needs to be refreshed when focus is lost" />
   </component>
 </project>
