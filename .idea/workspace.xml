@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19d791b9-e31e-432b-9f0f-9108897f0020" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/utils/ImplementLookAndFeel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -202,7 +204,23 @@
       <option name="project" value="LOCAL" />
       <updated>1697314859657</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="refactor : define constants for screen size">
+      <option name="closed" value="true" />
+      <created>1697315203083</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1697315203083</updated>
+    </task>
+    <task id="LOCAL-00017" summary="refactor : Encapsulate logic for adding focus listeners">
+      <option name="closed" value="true" />
+      <created>1697315385988</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1697315385988</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -220,6 +238,8 @@
     <MESSAGE value="chore : Implemented placeholder functionality on Password input field" />
     <MESSAGE value="chore : Removed debugger code" />
     <MESSAGE value="refactor : `Login` shouldn't extend JFrame. Should be a standable class handling login logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor : `Login` shouldn't extend JFrame. Should be a standable class handling login logic" />
+    <MESSAGE value="refactor : define constants for screen size" />
+    <MESSAGE value="refactor : Encapsulate logic for adding focus listeners" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor : Encapsulate logic for adding focus listeners" />
   </component>
 </project>
