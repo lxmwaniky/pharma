@@ -37,7 +37,6 @@ public class InputFieldFocusListener extends FocusAdapter {
         if(usernameFormattedTextField.getText().trim().isEmpty()){
             //Set placeholder
             usernameFormattedTextField.setText(PLACEHOLDER);
-            System.out.println("ACTIVATED");
         }
     }
 }
