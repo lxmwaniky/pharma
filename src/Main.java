@@ -14,7 +14,7 @@ public class Main{
         Login loginScreen = new Login();
 
         //Setting up window
-        screen.setContentPane(loginScreen.getMainPanel());
+        screen.setContentPane(loginScreen.createMainPanel());
         screen.setTitle("Pharma | Pharmacy POS");
         screen.setSize(screenWidth,screenHeight);
         screen.setVisible(true);
