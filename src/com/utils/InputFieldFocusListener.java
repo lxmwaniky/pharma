@@ -12,7 +12,7 @@ import java.awt.event.FocusListener;
  */
 public class InputFieldFocusListener implements FocusListener {
     private final JTextField usernameFormattedTextField;
-
+    private final String PLACEHOLDER = "Username...";
     //Constructor
     public InputFieldFocusListener(JTextField usernameFormattedTextField){
         this.usernameFormattedTextField = usernameFormattedTextField;
@@ -20,7 +20,7 @@ public class InputFieldFocusListener implements FocusListener {
     @Override
     public void focusGained(FocusEvent e) {
         // If placeholder is Username...
-        if(usernameFormattedTextField.getText().trim().equals("Username...")){
+        if(usernameFormattedTextField.getText().trim().equals(PLACEHOLDER)){
             //Clear placeholder
             usernameFormattedTextField.setText("");
         }
@@ -31,7 +31,7 @@ public class InputFieldFocusListener implements FocusListener {
         //If empty when unfocused
         if(usernameFormattedTextField.getText().trim().isEmpty()){
             //Set placeholder
-            usernameFormattedTextField.setText("Username...");
+            usernameFormattedTextField.setText(PLACEHOLDER);
         }
     }
 }
