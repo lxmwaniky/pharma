@@ -20,7 +20,7 @@ public class InputFieldFocusListener implements FocusListener {
     @Override
     public void focusGained(FocusEvent e) {
         // If placeholder is Username...
-        if(usernameFormattedTextField.getText().trim().equals(PLACEHOLDER)){
+        if(PLACEHOLDER.equals(usernameFormattedTextField.getText().trim())){
             //Clear placeholder
             usernameFormattedTextField.setText("");
         }
