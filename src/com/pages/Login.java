@@ -16,27 +16,18 @@ public class Login{
 
 
     //Listeners
-    private final InputFieldFocusListener usernameFieldListener = new InputFieldFocusListener(usernameFormattedTextField, "Username...");
-
-
-
-    private final InputFieldFocusListener passwordFieldListener = new InputFieldFocusListener(passwordPasswordField, "Password...");
 
     //Getter and Setter Functions
-    public InputFieldFocusListener getUsernameFieldListener() {
-        return usernameFieldListener;
-    }
-    public InputFieldFocusListener getPasswordFieldListener() {
-        return passwordFieldListener;
-    }
     public JTextField getUsernameFormattedTextField() {
         return usernameFormattedTextField;
     }
 
     //Set focus listeners
     public void setFocusListeners(){
-        //Username
+        final InputFieldFocusListener usernameFieldListener = new InputFieldFocusListener(usernameFormattedTextField, "Username...");
         usernameFormattedTextField.addFocusListener(usernameFieldListener);
+
+        final InputFieldFocusListener passwordFieldListener = new InputFieldFocusListener(passwordPasswordField, "Password...");
         passwordPasswordField.addFocusListener(passwordFieldListener);
     }
     public void setUsernameFormattedTextField(JFormattedTextField usernameFormattedTextField) {
