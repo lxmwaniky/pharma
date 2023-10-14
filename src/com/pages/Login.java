@@ -15,7 +15,7 @@ public class Login extends JFrame{
 
 
     //Listeners
-    private InputFieldFocusListener usernameFieldListener = new InputFieldFocusListener(usernameFormattedTextField);
+    private InputFieldFocusListener usernameFieldListener = new InputFieldFocusListener(usernameFormattedTextField, "Username...");
 
     //Getter and Setter Functions
     public InputFieldFocusListener getUsernameFieldListener() {

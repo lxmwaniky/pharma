@@ -13,10 +13,11 @@ import java.awt.event.FocusListener;
  */
 public class InputFieldFocusListener extends FocusAdapter {
     private final JTextField usernameFormattedTextField;
-    private final String PLACEHOLDER = "Username...";
+    private final String PLACEHOLDER;
     //Constructor
-    public InputFieldFocusListener(JTextField usernameFormattedTextField){
+    public InputFieldFocusListener(JTextField usernameFormattedTextField, String PLACEHOLDER){
         this.usernameFormattedTextField = usernameFormattedTextField;
+        this.PLACEHOLDER = PLACEHOLDER;
     }
     @Override
     public void focusGained(FocusEvent e) {
