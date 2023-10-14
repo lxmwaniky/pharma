@@ -6,8 +6,8 @@ import java.awt.*;
 import java.util.Arrays;
 
 public class Main {
-    private static int screenWidth = 700;
-    private static int screenHeight = 600;
+    private static final int screenWidth = 700;
+    private static final int screenHeight = 600;
     public static void main(String[] args) {
         try{
             UIManager.setLookAndFeel(new FlatIntelliJLaf());
@@ -22,8 +22,7 @@ public class Main {
         Login loginScreen = new Login();
 
         //Event Listeners
-        loginScreen.getUsernameFormattedTextField().addFocusListener(loginScreen.getUsernameFieldListener());
-        loginScreen.getPasswordPasswordField().addFocusListener(loginScreen.getPasswordFieldListener());
+        loginScreen.setFocusListeners();
 
         //Setting up window
         screen.setContentPane(loginScreen.getMainPanel());

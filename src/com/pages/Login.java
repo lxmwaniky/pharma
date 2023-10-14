@@ -33,6 +33,12 @@ public class Login{
         return usernameFormattedTextField;
     }
 
+    //Set focus listeners
+    public void setFocusListeners(){
+        //Username
+        usernameFormattedTextField.addFocusListener(usernameFieldListener);
+        passwordPasswordField.addFocusListener(passwordFieldListener);
+    }
     public void setUsernameFormattedTextField(JFormattedTextField usernameFormattedTextField) {
         this.usernameFormattedTextField = usernameFormattedTextField;
     }
