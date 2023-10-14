@@ -13,9 +13,6 @@ public class Main{
 
         Login loginScreen = new Login();
 
-        //Event Listeners
-        loginScreen.setFocusListeners();
-
         //Setting up window
         screen.setContentPane(loginScreen.getMainPanel());
         screen.setTitle("Pharma | Pharmacy POS");

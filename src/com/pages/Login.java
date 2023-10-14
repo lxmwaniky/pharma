@@ -15,7 +15,11 @@ public class Login{
     private JLabel lbl_error_login;
 
 
-    //Listeners
+    //Constructor
+    public Login(){
+        //Can be run privately
+        setFocusListeners();
+    }
 
     //Getter and Setter Functions
     public JTextField getUsernameFormattedTextField() {
