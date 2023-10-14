@@ -34,9 +34,10 @@ public class InputFieldFocusListener extends FocusAdapter {
     @Override
     public void focusLost(FocusEvent e) {
         //If empty when unfocused
-        if(trimmedText.isEmpty()){
+        if(usernameFormattedTextField.getText().trim().isEmpty()){
             //Set placeholder
             usernameFormattedTextField.setText(PLACEHOLDER);
+            System.out.println("ACTIVATED");
         }
     }
 }
