@@ -1,11 +1,11 @@
-package com.utils;
+package com.lomoni.pages.utils;
 
 import javax.swing.*;
 import java.awt.event.FocusAdapter;
 import java.awt.event.FocusEvent;
 
 /*
- * Author : Briane Lomoni 168864
+ * Author : Braine Lomoni 168864 14/10/2023
  * Functionality :
  * - Clearing the placeholder text when the text field gains focus
  * - Setting the placeholder text when the text field loses focus and is empty

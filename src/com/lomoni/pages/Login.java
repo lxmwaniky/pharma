@@ -1,9 +1,9 @@
-package com.pages;
-import com.utils.InputFieldFocusListener;
+package com.lomoni.pages;
+import com.lomoni.pages.utils.InputFieldFocusListener;
 
 import javax.swing.*;
 /*
- * Author : Briane Lomoni 168864
+ * Author : Briane Lomoni 168864 14/10/2023
  * Functionality :
  * - Login form with input fields for Username, Password, User role
  * - Set Focus Listeners on Username and Password fields
