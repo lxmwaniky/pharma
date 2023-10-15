@@ -22,10 +22,21 @@ public class Main{
         JFrame screen = new JFrame();
         screen.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
-        Login loginScreen = new Login();
+        /*
+         * LOGIN SCREEN
+         * Login loginScreen = new Login();
+         * screen.setContentPane(loginScreen.createMainPanel());
+         */
+
+        /*
+         * INVENTORY SCREEN
+         * Inventory inventoryScreen = new Inventory();
+         * screen.setContentPane(inventoryScreen.createMainPanel());
+         */
 
         //Setting up window
-        screen.setContentPane(loginScreen.createMainPanel());
+        Inventory inventoryScreen = new Inventory();
+        screen.setContentPane(inventoryScreen.createMainPanel());
         screen.setTitle("Pharma | Pharmacy POS");
         screen.setSize(screenWidth,screenHeight);
         screen.setVisible(true);

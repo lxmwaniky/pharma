@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.lomoni.pages.Inventory">
+  <grid id="27dc6" binding="inventoryPanel" layout-manager="GridLayoutManager" row-count="8" column-count="11" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="547"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <scrollpane id="b3a03">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="7" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <focusable value="false"/>
+          <opaque value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="84b97" class="javax.swing.JTable" binding="inventoryTable">
+            <constraints/>
+            <properties>
+              <intercellSpacing width="1" height="1"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <vspacer id="b1171">
+        <constraints>
+          <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <hspacer id="bd18e">
+        <constraints>
+          <grid row="6" column="10" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="60272" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="6" column="8" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="5" height="200"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16711422"/>
+          <orientation value="1"/>
+        </properties>
+      </component>
+      <vspacer id="2b21c">
+        <constraints>
+          <grid row="7" column="9" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="dd9d3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="1" use-parent-layout="false">
+            <preferred-size width="-1" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Calibri" size="28" style="0"/>
+          <text value="Inventory"/>
+          <verticalAlignment value="3"/>
+          <verticalTextPosition value="3"/>
+        </properties>
+      </component>
+      <grid id="8eb71" binding="addNewItemPanel" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="6" column="9" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="300" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="2cfd7" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Calibri" size="18" style="0"/>
+              <text value="+ Add New Item"/>
+              <verticalAlignment value="3"/>
+              <verticalTextPosition value="3"/>
+            </properties>
+          </component>
+          <component id="52261" class="javax.swing.JComboBox" binding="userRoleComboBox">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="172" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-197889"/>
+              <editable value="false"/>
+              <focusTraversalPolicyProvider value="false"/>
+              <font name="Inter"/>
+              <foreground color="-13947600"/>
+              <inheritsPopupMenu value="false"/>
+              <model>
+                <item value="Doc 1"/>
+                <item value="Doc 2"/>
+                <item value="Pharma 1"/>
+              </model>
+              <opaque value="false"/>
+              <popupVisible value="false"/>
+            </properties>
+          </component>
+          <component id="23653" class="javax.swing.JTextField" binding="usernameFormattedTextField">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <focusable value="true"/>
+              <text value="Username..."/>
+            </properties>
+          </component>
+          <component id="a1fce" class="javax.swing.JPasswordField" binding="passwordPasswordField" default-binding="true">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="172" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Password..."/>
+              <toolTipText value=""/>
+            </properties>
+          </component>
+          <component id="42994" class="javax.swing.JButton" binding="loginButton">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="172" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-16711422"/>
+              <foreground color="-197889"/>
+              <hideActionText value="true"/>
+              <margin top="10" left="0" bottom="10" right="0"/>
+              <text value="SUBMIT"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

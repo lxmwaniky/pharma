@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19d791b9-e31e-432b-9f0f-9108897f0020" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Login.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Login.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lomoni/components/inventory/InventoryTableModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Inventory.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Inventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +26,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
