@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19d791b9-e31e-432b-9f0f-9108897f0020" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pages/Login.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Login.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pages/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/utils/ImplementLookAndFeel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/utils/ImplementLookAndFeel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/utils/InputFieldFocusListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/utils/InputFieldFocusListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Login.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Login.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Login.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -279,7 +275,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697316970907</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="chore : Documenting files as per lecturer's instructions">
+      <option name="closed" value="true" />
+      <created>1697384712858</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1697384712858</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -306,6 +310,7 @@
     <MESSAGE value="docs : Documentation for Login.java" />
     <MESSAGE value="fix : Set the panel to be displayed" />
     <MESSAGE value="chore : Dependancy update" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore : Dependancy update" />
+    <MESSAGE value="chore : Documenting files as per lecturer's instructions" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore : Documenting files as per lecturer's instructions" />
   </component>
 </project>
