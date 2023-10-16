@@ -3,6 +3,7 @@ package com.lomoni.pages;
 import com.lomoni.pages.utils.InputFieldFocusListener;
 import com.lomoni.pages.utils.TableFilter;
 import com.lomoni.services.InventoryService;
+import com.lomoni.services.PrescriptionService;
 
 import javax.swing.*;
 import static com.lomoni.pages.utils.ImplementLookAndFeel.setThemeAndFont;
@@ -39,13 +40,20 @@ public class Main{
          */
 
         /*
-         * //SELL SCREEN
+         * SELL SCREEN
          * Sell sellScreen = new Sell();
          * screen.setContentPane(sellScreen.createMainPanel());
          */
+
+        /*
+         * SELL RECEIPT
+         * SellReceipt sellReceiptScreen = new SellReceipt();
+         * screen.setContentPane(sellReceiptScreen.createMainPanel());
+         */
+
         //Setting up window
-        SellReceipt sellReceiptScreen = new SellReceipt();
-        screen.setContentPane(sellReceiptScreen.createMainPanel());
+        Prescription prescriptionScreen = new Prescription(new PrescriptionService(), new TableFilter());
+        screen.setContentPane(prescriptionScreen.createMainPanel());
         screen.setTitle("Pharma | Pharmacy POS");
         screen.setSize(screenWidth,screenHeight);
         screen.setVisible(true);

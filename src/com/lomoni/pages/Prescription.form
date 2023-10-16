@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.lomoni.pages.Inventory">
-  <grid id="27dc6" binding="inventoryPanel" layout-manager="GridLayoutManager" row-count="6" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.lomoni.pages.Prescription">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="6" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
-      <xy x="20" y="20" width="714" height="578"/>
+      <xy x="20" y="20" width="500" height="400"/>
     </constraints>
     <properties/>
     <border type="none"/>
     <children>
-      <scrollpane id="b3a03">
+      <scrollpane id="98ccc">
         <constraints>
           <grid row="2" column="2" row-span="2" col-span="2" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -19,7 +19,7 @@
         </properties>
         <border type="empty"/>
         <children>
-          <component id="84b97" class="javax.swing.JTable" binding="inventoryTable">
+          <component id="dddfd" class="javax.swing.JTable" binding="prescriptionTable">
             <constraints/>
             <properties>
               <background color="-855310"/>
@@ -33,17 +33,17 @@
           </component>
         </children>
       </scrollpane>
-      <vspacer id="b1171">
+      <vspacer id="4e99c">
         <constraints>
           <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
         </constraints>
       </vspacer>
-      <hspacer id="bd18e">
+      <hspacer id="88650">
         <constraints>
           <grid row="3" column="6" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
       </hspacer>
-      <component id="60272" class="javax.swing.JSeparator">
+      <component id="e0a94" class="javax.swing.JSeparator">
         <constraints>
           <grid row="2" column="4" row-span="2" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
             <preferred-size width="5" height="200"/>
@@ -54,7 +54,7 @@
           <orientation value="1"/>
         </properties>
       </component>
-      <component id="dd9d3" class="javax.swing.JLabel">
+      <component id="896eb" class="javax.swing.JLabel">
         <constraints>
           <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="1" use-parent-layout="false">
             <preferred-size width="-1" height="50"/>
@@ -62,12 +62,12 @@
         </constraints>
         <properties>
           <font name="Calibri" size="28" style="0"/>
-          <text value="Inventory"/>
+          <text value="Prescription"/>
           <verticalAlignment value="3"/>
           <verticalTextPosition value="3"/>
         </properties>
       </component>
-      <component id="7e1f4" class="javax.swing.JTextField" binding="rowFilterTextField">
+      <component id="fb415" class="javax.swing.JTextField" binding="rowFilterTextField">
         <constraints>
           <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="50"/>
@@ -78,23 +78,23 @@
           <text value="Search..."/>
         </properties>
       </component>
-      <component id="2cfd7" class="javax.swing.JLabel">
+      <component id="c3b8e" class="javax.swing.JLabel">
         <constraints>
           <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <font name="Calibri" size="18" style="0"/>
-          <text value="+ Add New Item"/>
+          <text value="+ New Prescription"/>
           <verticalAlignment value="3"/>
           <verticalTextPosition value="3"/>
         </properties>
       </component>
-      <hspacer id="6bac7">
+      <hspacer id="26bde">
         <constraints>
           <grid row="2" column="0" row-span="2" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
       </hspacer>
-      <scrollpane id="f21cf" binding="addNewItemScrollPane">
+      <scrollpane id="31abe" binding="addNewItemScrollPane">
         <constraints>
           <grid row="2" column="5" row-span="2" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -103,13 +103,13 @@
         </properties>
         <border type="empty"/>
         <children>
-          <grid id="c79d7" binding="addNewItemPanel" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+          <grid id="dc6a1" binding="addNewItemPanel" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
             <margin top="0" left="0" bottom="0" right="0"/>
             <constraints/>
             <properties/>
             <border type="none"/>
             <children>
-              <component id="a2eb4" class="javax.swing.JButton" binding="loginButton">
+              <component id="a65a7" class="javax.swing.JButton" binding="submitButton">
                 <constraints>
                   <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="172" height="50"/>
@@ -123,7 +123,7 @@
                   <text value="SUBMIT"/>
                 </properties>
               </component>
-              <component id="c0e27" class="javax.swing.JTextField" binding="medicineName">
+              <component id="e17a" class="javax.swing.JTextField" binding="medicineName">
                 <constraints>
                   <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="50"/>
@@ -134,7 +134,7 @@
                   <text value="Medicine Name"/>
                 </properties>
               </component>
-              <component id="466a4" class="javax.swing.JComboBox" binding="dosageFormComboBox">
+              <component id="e2854" class="javax.swing.JComboBox" binding="dosageFormComboBox">
                 <constraints>
                   <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="172" height="50"/>
@@ -156,7 +156,7 @@
                   <popupVisible value="false"/>
                 </properties>
               </component>
-              <component id="15f9b" class="javax.swing.JTextField" binding="unitPriceOfMedicine">
+              <component id="f22a5" class="javax.swing.JTextField" binding="unitPriceOfMedicine">
                 <constraints>
                   <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="50"/>
@@ -167,7 +167,7 @@
                   <text value="Unit Price"/>
                 </properties>
               </component>
-              <component id="f45a3" class="javax.swing.JTextField" binding="quantityInStock">
+              <component id="9c26c" class="javax.swing.JTextField" binding="quantityInStock">
                 <constraints>
                   <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="50"/>
@@ -178,7 +178,7 @@
                   <text value="Quantity In Stock"/>
                 </properties>
               </component>
-              <component id="7dabf" class="javax.swing.JTextField" binding="strengthOfDosage">
+              <component id="b0c75" class="javax.swing.JTextField" binding="strengthOfDosage">
                 <constraints>
                   <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="50"/>
@@ -193,7 +193,7 @@
           </grid>
         </children>
       </scrollpane>
-      <component id="49529" class="javax.swing.JLabel">
+      <component id="1e2d4" class="javax.swing.JLabel">
         <constraints>
           <grid row="5" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -201,7 +201,7 @@
           <text value="Copyright © 2023 Braine Lomoni. All rights reserved."/>
         </properties>
       </component>
-      <vspacer id="60b30">
+      <vspacer id="e7370">
         <constraints>
           <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
         </constraints>
