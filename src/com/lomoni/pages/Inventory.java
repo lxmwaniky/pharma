@@ -1,5 +1,6 @@
 package com.lomoni.pages;
 
+import com.lomoni.pages.utils.InputFieldFocusListener;
 import com.lomoni.pages.utils.TableFilter;
 import com.lomoni.services.InventoryService;
 
@@ -18,6 +19,10 @@ public class Inventory {
     private JTextField rowFilterTextField;
 
     public Inventory(){
+        //Implement the placeholder functionality
+        new InputFieldFocusListener(rowFilterTextField, "Search for medicine...");
+//        new InputFieldFocusListener(usernameFormattedTextField, "Username...");
+//        new InputFieldFocusListener(passwordPasswordField, "Password...");
         //Instantiate TableFilter - Set before the table model
         TableFilter tableFilter = new TableFilter(inventoryTable,rowFilterTextField);
 
@@ -27,11 +32,8 @@ public class Inventory {
         InventoryService inventoryService = new InventoryService();
         TableModel inventoryModel = new DefaultTableModel(inventoryService.getInventoryDisplayData(), inventoryService.getInventoryDisplayColumns());
 
-
-
         // Set the table model
         inventoryTable.setModel(inventoryModel);
-
 
     }
 
