@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19d791b9-e31e-432b-9f0f-9108897f0020" name="Changes" comment="feature : Final design on">
+    <list default="true" id="19d791b9-e31e-432b-9f0f-9108897f0020" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/lomoni/pages/utils/TableFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Inventory.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Inventory.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Inventory.java" afterDir="false" />
@@ -295,12 +296,18 @@
       <option name="project" value="LOCAL" />
       <updated>1697404825590</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="feature : Inventory service to handle data for the inventory table">
+      <option name="closed" value="true" />
+      <created>1697448429745</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1697448429745</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="chore : Initialized IntelliJ .java project" />
-    <MESSAGE value="feature : util class InputFieldFocusListener.java to hold placeholder for application" />
     <MESSAGE value="feature : Set up placeholder functionality for login screen inputs" />
     <MESSAGE value="refactor : `isEmpty()` is a more concise way and reduces chances of reducing an error" />
     <MESSAGE value="refactor : assign final keyword to prevent mutability of the variable once it's assigned to the constructor" />
@@ -324,6 +331,8 @@
     <MESSAGE value="chore : Dependancy update" />
     <MESSAGE value="chore : Documenting files as per lecturer's instructions" />
     <MESSAGE value="feature : Screen design for the Inventory Screen" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature : Screen design for the Inventory Screen" />
+    <MESSAGE value="feature : Final design on" />
+    <MESSAGE value="feature : Inventory service to handle data for the inventory table" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature : Inventory service to handle data for the inventory table" />
   </component>
 </project>

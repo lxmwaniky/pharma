@@ -1,5 +1,6 @@
 package com.lomoni.pages;
 
+import com.lomoni.pages.utils.TableFilter;
 import com.lomoni.services.InventoryService;
 
 import javax.swing.*;
@@ -14,16 +15,24 @@ public class Inventory {
     private JPasswordField passwordPasswordField;
     private JButton loginButton;
     private JScrollPane addNewItemScrollPane;
+    private JTextField rowFilterTextField;
 
     public Inventory(){
+        //Instantiate TableFilter - Set before the table model
+        TableFilter tableFilter = new TableFilter(inventoryTable,rowFilterTextField);
+
+        rowFilterTextField.addKeyListener(tableFilter);
 
         //Fetch inventory service with inventory data of columns and rows
         InventoryService inventoryService = new InventoryService();
         TableModel inventoryModel = new DefaultTableModel(inventoryService.getInventoryDisplayData(), inventoryService.getInventoryDisplayColumns());
 
-        // Display the columns
 
+
+        // Set the table model
         inventoryTable.setModel(inventoryModel);
+
+
     }
 
     public JPanel createMainPanel(){
