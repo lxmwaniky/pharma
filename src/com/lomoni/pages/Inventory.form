@@ -80,7 +80,7 @@
         </constraints>
         <properties>
           <focusable value="true"/>
-          <text value=""/>
+          <text value="Search..."/>
         </properties>
       </component>
       <component id="2cfd7" class="javax.swing.JLabel">

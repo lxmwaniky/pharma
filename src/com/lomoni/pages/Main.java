@@ -1,5 +1,9 @@
 package com.lomoni.pages;
 
+import com.lomoni.pages.utils.InputFieldFocusListener;
+import com.lomoni.pages.utils.TableFilter;
+import com.lomoni.services.InventoryService;
+
 import javax.swing.*;
 import static com.lomoni.pages.utils.ImplementLookAndFeel.setThemeAndFont;
 
@@ -35,7 +39,8 @@ public class Main{
          */
 
         //Setting up window
-        Inventory inventoryScreen = new Inventory();
+
+        Inventory inventoryScreen = new Inventory(new InventoryService(), new TableFilter());
         screen.setContentPane(inventoryScreen.createMainPanel());
         screen.setTitle("Pharma | Pharmacy POS");
         screen.setSize(screenWidth,screenHeight);
