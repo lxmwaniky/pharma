@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="19d791b9-e31e-432b-9f0f-9108897f0020" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Inventory.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Inventory.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Inventory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/utils/TableFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/utils/TableFilter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -320,11 +319,18 @@
       <option name="project" value="LOCAL" />
       <updated>1697450851743</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="fix : Implemented placeholder listeners">
+      <option name="closed" value="true" />
+      <created>1697468713223</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1697468713223</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="refactor : assign final keyword to prevent mutability of the variable once it's assigned to the constructor" />
     <MESSAGE value="refactor : define placeholder as constant to update PLACEHOLDER text in the future" />
     <MESSAGE value="refactor : handle null values in case they occur" />
     <MESSAGE value="refactor : extends FocusAdaptor instead of implementing FocusListener ( Just read online that it's a good practise since I only override methods I require and not implementing all the methods that come with the Interface )" />
@@ -349,6 +355,7 @@
     <MESSAGE value="feature : Inventory service to handle data for the inventory table" />
     <MESSAGE value="feature : Implemented table filter functionality" />
     <MESSAGE value="feature : Implemented placeholder listeners" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature : Implemented placeholder listeners" />
+    <MESSAGE value="fix : Implemented placeholder listeners" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix : Implemented placeholder listeners" />
   </component>
 </project>

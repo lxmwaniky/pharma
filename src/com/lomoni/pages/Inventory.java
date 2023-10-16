@@ -16,12 +16,14 @@ public class Inventory {
     private JTable inventoryTable;
     private JPanel inventoryPanel;
     private JPanel addNewItemPanel;
-    private JComboBox userRoleComboBox;
-    private JTextField usernameFormattedTextField;
-    private JPasswordField passwordPasswordField;
+    private JComboBox dosageFormComboBox;
     private JButton loginButton;
     private JScrollPane addNewItemScrollPane;
     private JTextField rowFilterTextField;
+    private JTextField medicineName;
+    private JTextField unitPriceOfMedicine;
+    private JTextField quantityInStock;
+    private JTextField strengthOfDosage;
 
     //Dependencies
 //    InventoryService inventoryService;
@@ -33,15 +35,19 @@ public class Inventory {
 
         //Implement the placeholder functionality
         InputFieldFocusListener rowFilterTextFieldPlaceholder = new InputFieldFocusListener(rowFilterTextField, "Search...");
-        InputFieldFocusListener usernameFormattedTextFieldPlaceholder = new InputFieldFocusListener(usernameFormattedTextField, "Username...");
-        InputFieldFocusListener passwordPasswordFieldPlaceholder = new InputFieldFocusListener(passwordPasswordField, "Password...");
+        InputFieldFocusListener medicineNamePlaceholder = new InputFieldFocusListener(medicineName, "Medicine Name");
+        InputFieldFocusListener unitPriceOfMedicinePlaceholder = new InputFieldFocusListener(unitPriceOfMedicine, "Unit Price");
+        InputFieldFocusListener strengthOfDosagePlaceholder = new InputFieldFocusListener(strengthOfDosage, "Strength ( e.g 500mg amoxicilin )");
+        InputFieldFocusListener quantityInStockPlaceholder = new InputFieldFocusListener(quantityInStock, "Quantity In Stock");
 
         rowFilterTextField.addFocusListener(rowFilterTextFieldPlaceholder);
         //Instantiate TableFilter - Set before the table model
         rowFilterTextField.addKeyListener(tableFilter);
 
-        usernameFormattedTextField.addFocusListener(usernameFormattedTextFieldPlaceholder);
-        passwordPasswordField.addFocusListener(passwordPasswordFieldPlaceholder);
+        medicineName.addFocusListener(medicineNamePlaceholder);
+        strengthOfDosage.addFocusListener(strengthOfDosagePlaceholder);
+        quantityInStock.addFocusListener(quantityInStockPlaceholder);
+        unitPriceOfMedicine.addFocusListener(unitPriceOfMedicinePlaceholder);
 
 
         //Fetch inventory service with inventory data of columns and rows
