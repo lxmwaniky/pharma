@@ -34,14 +34,18 @@ public class Main{
 
         /*
          * INVENTORY SCREEN
-         * Inventory inventoryScreen = new Inventory();
+         * Inventory inventoryScreen = new Inventory(new InventoryService(), new TableFilter());
          * screen.setContentPane(inventoryScreen.createMainPanel());
          */
 
+        /*
+         * //SELL SCREEN
+         * Sell sellScreen = new Sell();
+         * screen.setContentPane(sellScreen.createMainPanel());
+         */
         //Setting up window
-
-        Inventory inventoryScreen = new Inventory(new InventoryService(), new TableFilter());
-        screen.setContentPane(inventoryScreen.createMainPanel());
+        SellReceipt sellReceiptScreen = new SellReceipt();
+        screen.setContentPane(sellReceiptScreen.createMainPanel());
         screen.setTitle("Pharma | Pharmacy POS");
         screen.setSize(screenWidth,screenHeight);
         screen.setVisible(true);

@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19d791b9-e31e-432b-9f0f-9108897f0020" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Sell.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Sell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lomoni/pages/SellReceipt.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lomoni/pages/SellReceipt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Inventory.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Inventory.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Inventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -327,11 +330,18 @@
       <option name="project" value="LOCAL" />
       <updated>1697468713223</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="fix : Implemented form inputs">
+      <option name="closed" value="true" />
+      <created>1697470368542</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1697470368542</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="refactor : define placeholder as constant to update PLACEHOLDER text in the future" />
     <MESSAGE value="refactor : handle null values in case they occur" />
     <MESSAGE value="refactor : extends FocusAdaptor instead of implementing FocusListener ( Just read online that it's a good practise since I only override methods I require and not implementing all the methods that come with the Interface )" />
     <MESSAGE value="refactor : make `PLACEHOLDER` a param to make class more flexible and usable" />
@@ -356,6 +366,7 @@
     <MESSAGE value="feature : Implemented table filter functionality" />
     <MESSAGE value="feature : Implemented placeholder listeners" />
     <MESSAGE value="fix : Implemented placeholder listeners" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix : Implemented placeholder listeners" />
+    <MESSAGE value="fix : Implemented form inputs" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix : Implemented form inputs" />
   </component>
 </project>
