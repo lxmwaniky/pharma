@@ -6,6 +6,8 @@ import com.lomoni.services.InventoryService;
 import com.lomoni.services.PrescriptionService;
 
 import javax.swing.*;
+import java.awt.*;
+
 import static com.lomoni.pages.utils.ImplementLookAndFeel.setThemeAndFont;
 
 /*
@@ -21,41 +23,50 @@ import static com.lomoni.pages.utils.ImplementLookAndFeel.setThemeAndFont;
 public class Main{
     private static final int screenWidth = 700;
     private static final int screenHeight = 600;
-    public static void main(String[] args) {
+    private static void setUpUI(){
+        //THEME
         setThemeAndFont();
 
         JFrame screen = new JFrame();
         screen.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
-        /*
-         * LOGIN SCREEN
-         * Login loginScreen = new Login();
-         * screen.setContentPane(loginScreen.createMainPanel());
-         */
+        //Create CardLayout object to switch between different panels on the same frame
+        CardLayout cardLayout = new CardLayout();
+        Container container = screen.getContentPane();
 
-        /*
-         * INVENTORY SCREEN
-         * Inventory inventoryScreen = new Inventory(new InventoryService(), new TableFilter());
-         * screen.setContentPane(inventoryScreen.createMainPanel());
-         */
+        //Add layout to frame
+        screen.setLayout(cardLayout);
+        //LOGIN SCREEN
+        Login loginScreen = new Login(cardLayout,container);
+        //INVENTORY SCREEN
+        TableFilter tableFilter = new TableFilter();
+        InventoryService inventoryService = new InventoryService();
+        Inventory inventoryScreen = new Inventory(inventoryService, tableFilter);
+        //SELL SCREEN
+        Sell sellScreen = new Sell();
+        //SELL RECEIPT SCREEN
+        SellReceipt sellReceiptScreen = new SellReceipt();
+        //PRESCRIPTION SCREEN
+        Prescription prescriptionScreen = new Prescription(new PrescriptionService(), tableFilter);
 
-        /*
-         * SELL SCREEN
-         * Sell sellScreen = new Sell();
-         * screen.setContentPane(sellScreen.createMainPanel());
-         */
 
-        /*
-         * SELL RECEIPT
-         * SellReceipt sellReceiptScreen = new SellReceipt();
-         * screen.setContentPane(sellReceiptScreen.createMainPanel());
-         */
 
-        //Setting up window
-        Prescription prescriptionScreen = new Prescription(new PrescriptionService(), new TableFilter());
-        screen.setContentPane(prescriptionScreen.createMainPanel());
+
+        container.add("login",loginScreen.createMainPanel());
+
+        container.add("inventory",inventoryScreen.createMainPanel());
+
+        container.add("sell-receipt", sellReceiptScreen.createMainPanel());
+
+        cardLayout.show(container,"sell-receipt");
+        container.setLayout(cardLayout);
+        screen.setContentPane(container);
         screen.setTitle("Pharma | Pharmacy POS");
         screen.setSize(screenWidth,screenHeight);
         screen.setVisible(true);
+    }
+    public static void main(String[] args) {
+        //UI SETUP LOGIC
+        setUpUI();
     }
 }

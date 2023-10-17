@@ -14,12 +14,13 @@ public class Prescription {
     private JScrollPane addNewItemScrollPane;
     private JPanel addNewItemPanel;
     private JButton submitButton;
-    private JTextField medicineName;
-    private JComboBox dosageFormComboBox;
+    private JTextField patientName;
+    private JComboBox medicineNameComboBox;
     private JTextField unitPriceOfMedicine;
-    private JTextField quantityInStock;
+    private JTextField frequency;
     private JTextField strengthOfDosage;
     private JPanel mainPanel;
+    private JLabel lbl_error_login;
 
     public Prescription(PrescriptionService prescriptionService, TableFilter tableFilter){
         tableFilter.setInventoryTable(prescriptionTable);
@@ -27,19 +28,17 @@ public class Prescription {
 
         //Implement the placeholder functionality
         InputFieldFocusListener rowFilterTextFieldPlaceholder = new InputFieldFocusListener(rowFilterTextField, "Search...");
-        InputFieldFocusListener medicineNamePlaceholder = new InputFieldFocusListener(medicineName, "Medicine Name");
-        InputFieldFocusListener unitPriceOfMedicinePlaceholder = new InputFieldFocusListener(unitPriceOfMedicine, "Unit Price");
-        InputFieldFocusListener strengthOfDosagePlaceholder = new InputFieldFocusListener(strengthOfDosage, "Strength ( e.g 500mg amoxicilin )");
-        InputFieldFocusListener quantityInStockPlaceholder = new InputFieldFocusListener(quantityInStock, "Quantity In Stock");
+        InputFieldFocusListener patientNamePlaceholder = new InputFieldFocusListener(patientName, "Patient Name");
+        InputFieldFocusListener dosagePlaceholder = new InputFieldFocusListener(strengthOfDosage, "Dosage ( e.g 500mg amoxicilin )");
+        InputFieldFocusListener frequencyPlaceholder = new InputFieldFocusListener(frequency, "Frequency ( e.g twice daily )");
 
         rowFilterTextField.addFocusListener(rowFilterTextFieldPlaceholder);
         //Instantiate TableFilter - Set before the table model
         rowFilterTextField.addKeyListener(tableFilter);
 
-        medicineName.addFocusListener(medicineNamePlaceholder);
-        strengthOfDosage.addFocusListener(strengthOfDosagePlaceholder);
-        quantityInStock.addFocusListener(quantityInStockPlaceholder);
-        unitPriceOfMedicine.addFocusListener(unitPriceOfMedicinePlaceholder);
+        patientName.addFocusListener(patientNamePlaceholder);
+        strengthOfDosage.addFocusListener(dosagePlaceholder);
+        frequency.addFocusListener(frequencyPlaceholder);
 
 
         //Fetch inventory service with inventory data of columns and rows

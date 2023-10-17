@@ -1,7 +1,10 @@
 package com.lomoni.pages;
+import com.lomoni.pages.utils.ButtonClicked;
 import com.lomoni.pages.utils.InputFieldFocusListener;
 
 import javax.swing.*;
+import java.awt.*;
+
 /*
  * Author : Briane Lomoni 168864 14/10/2023
  * Functionality :
@@ -20,9 +23,14 @@ public class Login{
 
 
     //Constructor
-    public Login(){
+    public Login(CardLayout cardLayout, Container container){
         //Can be run privately
         setFocusListeners();
+
+
+        //Button Action Listener
+        ButtonClicked buttonClickedListener = new ButtonClicked(cardLayout, container);
+        loginButton.addActionListener(buttonClickedListener);
     }
 
     //Set focus listeners

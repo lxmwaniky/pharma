@@ -3,23 +3,21 @@ package com.lomoni.services;
 public class PrescriptionService {
     //C0LUMNS
     private final String[] inventoryDisplayColumns = new String[]{
-            "Medicine name",
-            "Quantity",
-            "Price"
+            "Medicine Name",
+            "Patient Name",
+            "Frequency",
+            "Dosage"
     };
 
     //DATA
     private final Object[][] inventoryDisplayData = new Object[][]{
-            {"Penicillin", "43", "907"},
-            {"Ibuprofen", "16", "396"},
-            {"Amoxicillin", "44", "854"},
-            {"Penicillin", "86", "831"},
-            {"Ibuprofen", "69", "735"},
-            {"Amoxicillin", "62", "307"},
-            {"Amoxicillin", "42", "541"},
-            {"Amoxicillin", "30", "208"},
-            {"Ibuprofen", "100", "589"},
-            {"Amoxicillin", "50", "738"}
+            {"Amoxicillin", "John Doe", "3 times a day", "500mg"},
+            {"Penicillin", "Jane Doe", "4 times a day", "250mg"},
+            {"Ibuprofen", "Mary Smith", "Every 4-6 hours as needed", "200mg"},
+            {"Metformin", "David Jones", "2 times a day", "500mg"},
+            {"Simvastatin", "Peter Williams", "Once a day", "40mg"},
+            {"Lisinopril", "Susan Miller", "Once a day", "10mg"},
+            {"Loratadine", "Robert Brown", "Once a day", "10mg"}
     };
 
     //Getter functions
