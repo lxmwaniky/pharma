@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19d791b9-e31e-432b-9f0f-9108897f0020" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/lomoni/components/inventory/logger/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lomoni/pages/utils/ButtonClicked.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lomoni/pages/utils/InputChanged.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lomoni/services/LoginService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pharma.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pharma.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Prescription.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Prescription.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Prescription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Prescription.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/SellReceipt.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/SellReceipt.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lomoni/services/PrescriptionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/services/PrescriptionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/utils/ButtonClicked.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/utils/ButtonClicked.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -368,11 +364,18 @@
       <option name="project" value="LOCAL" />
       <updated>1697473376360</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="feature : Some more configurations.">
+      <option name="closed" value="true" />
+      <created>1697547552031</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1697547552031</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="refactor : make `PLACEHOLDER` a param to make class more flexible and usable" />
     <MESSAGE value="refactor : store trimmed text in a variable to avoid calling .getText() each time I focus on the input" />
     <MESSAGE value="fix : trimmed check only stores value at initial call. Value needs to be refreshed when focus is lost" />
     <MESSAGE value="chore : Implemented placeholder functionality on Password input field" />
@@ -397,6 +400,7 @@
     <MESSAGE value="fix : Implemented form inputs" />
     <MESSAGE value="fix : Implemented Sell Functionality for Pharmacist" />
     <MESSAGE value="fix : Implemented Prescribe Functionality for Doctor" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix : Implemented Prescribe Functionality for Doctor" />
+    <MESSAGE value="feature : Some more configurations." />
+    <option name="LAST_COMMIT_MESSAGE" value="feature : Some more configurations." />
   </component>
 </project>

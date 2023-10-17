@@ -29,8 +29,12 @@ public class Login{
 
 
         //Button Action Listener
-        ButtonClicked buttonClickedListener = new ButtonClicked(cardLayout, container);
+        ButtonClicked buttonClickedListener = new ButtonClicked(cardLayout, container, usernameFormattedTextField.getText(), passwordPasswordField.getPassword(), userRoleComboBox.getActionCommand());
         loginButton.addActionListener(buttonClickedListener);
+
+
+        //Inputs Action Listener
+
     }
 
     //Set focus listeners
@@ -42,7 +46,26 @@ public class Login{
         passwordPasswordField.addFocusListener(passwordFieldListener);
     }
 
+    //Set cardLayout and Container
+
+
     public JPanel createMainPanel(){
         return mainPanel;
+    }
+
+    public JTextField getUsernameFormattedTextField() {
+        return usernameFormattedTextField;
+    }
+
+    public JButton getLoginButton() {
+        return loginButton;
+    }
+
+    public JComboBox getUserRoleComboBox() {
+        return userRoleComboBox;
+    }
+
+    public JPasswordField getPasswordPasswordField() {
+        return passwordPasswordField;
     }
 }

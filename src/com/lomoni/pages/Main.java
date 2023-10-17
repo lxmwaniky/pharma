@@ -37,7 +37,7 @@ public class Main{
         //Add layout to frame
         screen.setLayout(cardLayout);
         //LOGIN SCREEN
-        Login loginScreen = new Login(cardLayout,container);
+        Login loginScreen = new Login(cardLayout, container);
         //INVENTORY SCREEN
         TableFilter tableFilter = new TableFilter();
         InventoryService inventoryService = new InventoryService();
@@ -58,7 +58,6 @@ public class Main{
 
         container.add("sell-receipt", sellReceiptScreen.createMainPanel());
 
-        cardLayout.show(container,"sell-receipt");
         container.setLayout(cardLayout);
         screen.setContentPane(container);
         screen.setTitle("Pharma | Pharmacy POS");
