@@ -12,18 +12,16 @@ public class ButtonClicked implements ActionListener {
 
 
 
-    private final String userName;
-    private final char[] passWord;
-    private final String userType;
+    private String userName;
+    private char[] passWord;
+    private String userType;
 
     //Logger
     private static final Logger eventsLogger = LogManager.getLogger(ButtonClicked.class.getName());
-    public ButtonClicked(CardLayout cardLayout, Container container, String userName, char[] passWord, String userType) {
+    public ButtonClicked(CardLayout cardLayout, Container container, String userName) {
         this.cardLayout = cardLayout;
         this.container = container;
         this.userName = userName;
-        this.passWord = passWord;
-        this.userType = userType;
     }
     @Override
     public void actionPerformed(ActionEvent e) {

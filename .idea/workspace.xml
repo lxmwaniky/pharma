@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19d791b9-e31e-432b-9f0f-9108897f0020" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/lomoni/pages/utils/InputChanged.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lomoni/services/LoginService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/utils/ButtonClicked.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/utils/ButtonClicked.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/utils/InputChanged.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/utils/InputChanged.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/services/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/services/LoginService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,20 +38,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Briane's/IdeaProjects/pharma/lib/apache-log4j-2.12.4-bin/log4j-core-2.12.4.jar&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.intentionPowerPack&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Briane's/IdeaProjects/pharma/lib/apache-log4j-2.12.4-bin/log4j-core-2.12.4.jar",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Briane's\IdeaProjects\pharma\src\com\lomoni\components\inventory" />
@@ -372,7 +371,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697547552031</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="feature : Some more configurations.">
+      <option name="closed" value="true" />
+      <created>1697559138425</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1697559138425</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

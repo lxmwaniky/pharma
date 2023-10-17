@@ -1,6 +1,24 @@
 package com.lomoni.pages.utils;
 
-import java.awt.event.ActionListener;
+import javax.swing.*;
+import java.awt.event.*;
 
-public class InputChanged implements ActionListener {
+public class InputChanged extends FocusAdapter {
+
+    private final JTextField inputField;
+
+    private String inputText;
+
+    public InputChanged(JTextField inputField) {
+        this.inputField  = inputField;
+
+    }
+    @Override
+    public void focusLost(FocusEvent e) {
+        inputText = inputField.getText();
+    }
+    public String getInputText() {
+        return inputText;
+    }
 }
+
