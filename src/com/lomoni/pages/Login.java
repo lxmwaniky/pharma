@@ -87,9 +87,7 @@ public class Login{
         loginButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                // Perform other actions using the inputText variable
-                Object userType = userRoleComboBox.getSelectedItem();
-                loginService = new LoginService(userNameValue, new String(passWordValue), userType);
+                handleLoginAction();
             }
         });
     }
@@ -103,7 +101,12 @@ public class Login{
         passwordPasswordField.addFocusListener(passwordFieldListener);
     }
 
-    //Set cardLayout and Container
+    //Login Action
+    private void handleLoginAction(){
+        // Perform other actions using the inputText variable
+        Object userType = userRoleComboBox.getSelectedItem();
+        loginService = new LoginService(userNameValue, new String(passWordValue), userType);
+    }
 
 
     public JPanel createMainPanel(){
