@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19d791b9-e31e-432b-9f0f-9108897f0020" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lomoni/services/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/services/LoginService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -388,13 +386,27 @@
       <option name="project" value="LOCAL" />
       <updated>1697652564859</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="refactor : Swap `FocusListener` for `DocumentListener` to get input vaues when focus of input is lost">
+      <option name="closed" value="true" />
+      <created>1697653294640</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1697653294640</updated>
+    </task>
+    <task id="LOCAL-00038" summary="refactor : Separate method for handling login action">
+      <option name="closed" value="true" />
+      <created>1697653351482</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1697653351482</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="refactor : store trimmed text in a variable to avoid calling .getText() each time I focus on the input" />
-    <MESSAGE value="fix : trimmed check only stores value at initial call. Value needs to be refreshed when focus is lost" />
     <MESSAGE value="chore : Implemented placeholder functionality on Password input field" />
     <MESSAGE value="chore : Removed debugger code" />
     <MESSAGE value="refactor : `Login` shouldn't extend JFrame. Should be a standable class handling login logic" />
@@ -418,6 +430,8 @@
     <MESSAGE value="fix : Implemented Sell Functionality for Pharmacist" />
     <MESSAGE value="fix : Implemented Prescribe Functionality for Doctor" />
     <MESSAGE value="feature : Some more configurations." />
-    <option name="LAST_COMMIT_MESSAGE" value="feature : Some more configurations." />
+    <MESSAGE value="refactor : Swap `FocusListener` for `DocumentListener` to get input vaues when focus of input is lost" />
+    <MESSAGE value="refactor : Separate method for handling login action" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor : Separate method for handling login action" />
   </component>
 </project>

@@ -1,5 +1,5 @@
 package com.lomoni.pages;
-import com.lomoni.pages.utils.ButtonClicked;
+
 import com.lomoni.pages.utils.InputChanged;
 import com.lomoni.pages.utils.InputFieldFocusListener;
 import com.lomoni.services.LoginService;
@@ -10,9 +10,6 @@ import javax.swing.event.DocumentListener;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.event.FocusEvent;
-import java.awt.event.FocusListener;
-import java.util.Arrays;
 
 /*
  * Author : Briane Lomoni 168864 14/10/2023
@@ -36,13 +33,11 @@ public class Login{
 
     //Constructor
     public Login(CardLayout cardLayout, Container container){
-        //Can be run privately
+        //Add PLACEHOLDERS to inputs
         setFocusListeners();
 
-
-        //Inputs Action Listener
+        //Add document listeners to grab input data on change.
         //USERNAME
-        InputChanged userNameInputListener = new InputChanged(usernameFormattedTextField);
         usernameFormattedTextField.getDocument().addDocumentListener(new DocumentListener() {
             @Override
             public void insertUpdate(DocumentEvent e) {
@@ -61,7 +56,6 @@ public class Login{
         });
 
         //PASSWORD
-        InputChanged passWordInputListener = new InputChanged(passwordPasswordField);
         passwordPasswordField.getDocument().addDocumentListener(new DocumentListener() {
             @Override
             public void insertUpdate(DocumentEvent e) {
@@ -79,17 +73,8 @@ public class Login{
             }
         });
 
-        //USER TYPE
-//        InputChanged userRoleListener = new InputChanged(userRoleComboBox);
-
-
-        //Button Action Listener
-        loginButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                handleLoginAction();
-            }
-        });
+        //Add action ( click ) listener to button
+        loginButton.addActionListener(e -> handleLoginAction());
     }
 
     //Set focus listeners
