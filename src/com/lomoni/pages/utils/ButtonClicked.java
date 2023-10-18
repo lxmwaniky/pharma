@@ -1,5 +1,6 @@
 package com.lomoni.pages.utils;
 
+
 import org.apache.logging.log4j.*;
 
 import java.awt.*;
@@ -9,9 +10,6 @@ import java.awt.event.ActionListener;
 public class ButtonClicked implements ActionListener {
     private final CardLayout cardLayout;
     private final Container container;
-
-
-
     private String userName;
     private char[] passWord;
     private String userType;

@@ -1,12 +1,12 @@
 package com.lomoni.services;
 
-abstract class LoginService {
+public class LoginService {
     private final String userName;
     private final String passWord;
-    private final String userType;
+    private final Object userType;
 
 
-    public LoginService(String userName, String passWord, String userType) {
+    public LoginService(String userName, String passWord, Object userType) {
         this.userName = userName;
         this.passWord = passWord;
         this.userType = userType;
@@ -20,7 +20,7 @@ abstract class LoginService {
         return passWord;
     }
 
-    public String getUserType() {
+    public Object getUserType() {
         return userType;
     }
 }
