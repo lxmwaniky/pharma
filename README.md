@@ -37,4 +37,15 @@ Pharma is a school project and is not copyrighted. You can use, modify, and dist
 Pharma is licensed under the MIT License.
 
 ### Screenshots
+> ### Login Screen
 <img width="514" alt="image" src="https://github.com/code-briomar/pharma/assets/82029545/c8531c46-f68c-469a-a19e-14ac99251264">
+
+> ### Inventory Screen
+<img width="526" alt="image" src="https://github.com/code-briomar/pharma/assets/82029545/353b06d3-e9f4-409b-bf6c-cfbb1f65a958">
+
+> ### Prescription Screen
+<img width="740" alt="image" src="https://github.com/code-briomar/pharma/assets/82029545/c8bf8e24-c6ab-46aa-a2a4-9231842aef9b">
+
+
+> ### Transaction Receipt Screen
+<img width="524" alt="image" src="https://github.com/code-briomar/pharma/assets/82029545/87fe3d90-06d9-4c95-9b32-bfed910b1988">
