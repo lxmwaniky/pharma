@@ -10,6 +10,7 @@ public class LoginService {
         this.userName = userName;
         this.passWord = passWord;
         this.userType = userType;
+
     }
 
     public String getUserName() {

@@ -5,6 +5,8 @@ import com.lomoni.pages.utils.InputFieldFocusListener;
 import com.lomoni.services.LoginService;
 
 import javax.swing.*;
+import javax.swing.event.DocumentEvent;
+import javax.swing.event.DocumentListener;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -41,28 +43,38 @@ public class Login{
         //Inputs Action Listener
         //USERNAME
         InputChanged userNameInputListener = new InputChanged(usernameFormattedTextField);
-        usernameFormattedTextField.addFocusListener(new FocusListener() {
+        usernameFormattedTextField.getDocument().addDocumentListener(new DocumentListener() {
             @Override
-            public void focusGained(FocusEvent e) {
-                // Nothing to do when focus is gained
+            public void insertUpdate(DocumentEvent e) {
+                userNameValue = usernameFormattedTextField.getText(); // Update the input text when focus is lost
             }
 
             @Override
-            public void focusLost(FocusEvent e) {
+            public void removeUpdate(DocumentEvent e) {
+                userNameValue = usernameFormattedTextField.getText(); // Update the input text when focus is lost
+            }
+
+            @Override
+            public void changedUpdate(DocumentEvent e) {
                 userNameValue = usernameFormattedTextField.getText(); // Update the input text when focus is lost
             }
         });
 
         //PASSWORD
         InputChanged passWordInputListener = new InputChanged(passwordPasswordField);
-        passwordPasswordField.addFocusListener(new FocusListener() {
+        passwordPasswordField.getDocument().addDocumentListener(new DocumentListener() {
             @Override
-            public void focusGained(FocusEvent e) {
-                //Nothing to do when focus is gained
+            public void insertUpdate(DocumentEvent e) {
+                passWordValue = passwordPasswordField.getPassword();
             }
 
             @Override
-            public void focusLost(FocusEvent e) {
+            public void removeUpdate(DocumentEvent e) {
+                passWordValue = passwordPasswordField.getPassword();
+            }
+
+            @Override
+            public void changedUpdate(DocumentEvent e) {
                 passWordValue = passwordPasswordField.getPassword();
             }
         });

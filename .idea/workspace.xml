@@ -5,82 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19d791b9-e31e-432b-9f0f-9108897f0020" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/NOTICE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/RELEASE-NOTES.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-1.2-api-2.12.4-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-1.2-api-2.12.4-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-1.2-api-2.12.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-api-2.12.4-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-api-2.12.4-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-api-2.12.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-appserver-2.12.4-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-appserver-2.12.4-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-appserver-2.12.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-cassandra-2.12.4-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-cassandra-2.12.4-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-cassandra-2.12.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-core-2.12.4-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-core-2.12.4-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-core-2.12.4-tests.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-core-2.12.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-couchdb-2.12.4-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-couchdb-2.12.4-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-couchdb-2.12.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-docker-2.12.4-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-docker-2.12.4-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-docker-2.12.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-flume-ng-2.12.4-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-flume-ng-2.12.4-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-flume-ng-2.12.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-iostreams-2.12.4-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-iostreams-2.12.4-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-iostreams-2.12.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-jcl-2.12.4-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-jcl-2.12.4-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-jcl-2.12.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-jdbc-dbcp2-2.12.4-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-jdbc-dbcp2-2.12.4-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-jdbc-dbcp2-2.12.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-jmx-gui-2.12.4-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-jmx-gui-2.12.4-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-jmx-gui-2.12.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-jpa-2.12.4-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-jpa-2.12.4-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-jpa-2.12.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-jul-2.12.4-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-jul-2.12.4-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-jul-2.12.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-liquibase-2.12.4-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-liquibase-2.12.4-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-liquibase-2.12.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-mongodb2-2.12.4-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-mongodb2-2.12.4-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-mongodb2-2.12.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-mongodb3-2.12.4-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-mongodb3-2.12.4-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-mongodb3-2.12.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-slf4j-impl-2.12.4-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-slf4j-impl-2.12.4-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-slf4j-impl-2.12.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-slf4j18-impl-2.12.4-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-slf4j18-impl-2.12.4-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-slf4j18-impl-2.12.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-spring-cloud-config-client-2.12.4-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-spring-cloud-config-client-2.12.4-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-spring-cloud-config-client-2.12.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-taglib-2.12.4-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-taglib-2.12.4-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-taglib-2.12.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-to-slf4j-2.12.4-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-to-slf4j-2.12.4-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-to-slf4j-2.12.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-web-2.12.4-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-web-2.12.4-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apache-log4j-2.12.4-bin/log4j-web-2.12.4.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/utils/ButtonClicked.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/utils/ButtonClicked.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/lomoni/services/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/services/LoginService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,21 +38,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Briane's/IdeaProjects/pharma/lib/apache-log4j-2.12.4-bin/log4j-core-2.12.4.jar",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.scopes"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Briane's/IdeaProjects/pharma/lib/apache-log4j-2.12.4-bin/log4j-core-2.12.4.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.scopes&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Briane's\IdeaProjects\pharma\src\com\lomoni\components\inventory" />
@@ -454,7 +380,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697559138425</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="feature : Some more configurations.">
+      <option name="closed" value="true" />
+      <created>1697652564859</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1697652564859</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
