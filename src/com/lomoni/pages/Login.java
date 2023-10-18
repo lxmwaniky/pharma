@@ -1,15 +1,11 @@
 package com.lomoni.pages;
 
-import com.lomoni.pages.utils.InputChanged;
 import com.lomoni.pages.utils.InputFieldFocusListener;
 import com.lomoni.services.LoginService;
 
 import javax.swing.*;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
-import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 /*
  * Author : Briane Lomoni 168864 14/10/2023
@@ -29,13 +25,10 @@ public class Login {
     private JPanel mainPanel;
     private JLabel lbl_error_login;
 
-    private LoginService loginService;
-
     //Constructor
-    public Login(CardLayout cardLayout, Container container) {
+    public Login() {
         //Add PLACEHOLDERS to inputs
         setFocusListeners();
-
         //Add document listeners to grab input data on change.
         //USERNAME
         usernameFormattedTextField.getDocument().addDocumentListener(new DocumentListener() {
@@ -89,7 +82,7 @@ public class Login {
     //Login Action
     private void handleLoginAction() {
         Object userType = userRoleComboBox.getSelectedItem();
-        loginService = new LoginService(userNameValue, new String(passWordValue), userType);
+        new LoginService(userNameValue, new String(passWordValue), userType);
     }
 
 

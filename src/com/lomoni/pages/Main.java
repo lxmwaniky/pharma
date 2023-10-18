@@ -37,7 +37,7 @@ public class Main{
         //Add layout to frame
         screen.setLayout(cardLayout);
         //LOGIN SCREEN
-        Login loginScreen = new Login(cardLayout, container);
+        Login loginScreen = new Login();
         //INVENTORY SCREEN
         TableFilter tableFilter = new TableFilter();
         InventoryService inventoryService = new InventoryService();
