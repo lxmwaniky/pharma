@@ -19,7 +19,7 @@ import java.awt.event.ActionListener;
  * - Handle focus events to clear and set placeholder text in input fields
  *
  */
-public class Login{
+public class Login {
     private JTextField usernameFormattedTextField;
     private String userNameValue;
     private JButton loginButton;
@@ -32,7 +32,7 @@ public class Login{
     private LoginService loginService;
 
     //Constructor
-    public Login(CardLayout cardLayout, Container container){
+    public Login(CardLayout cardLayout, Container container) {
         //Add PLACEHOLDERS to inputs
         setFocusListeners();
 
@@ -77,8 +77,8 @@ public class Login{
         loginButton.addActionListener(e -> handleLoginAction());
     }
 
-    //Set focus listeners
-    private void setFocusListeners(){
+    //Focus Listeners on Button
+    private void setFocusListeners() {
         final InputFieldFocusListener usernameFieldListener = new InputFieldFocusListener(usernameFormattedTextField, "Username...");
         usernameFormattedTextField.addFocusListener(usernameFieldListener);
 
@@ -87,26 +87,13 @@ public class Login{
     }
 
     //Login Action
-    private void handleLoginAction(){
-        // Perform other actions using the inputText variable
+    private void handleLoginAction() {
         Object userType = userRoleComboBox.getSelectedItem();
         loginService = new LoginService(userNameValue, new String(passWordValue), userType);
     }
 
 
-    public JPanel createMainPanel(){
+    public JPanel createMainPanel() {
         return mainPanel;
-    }
-
-    public JTextField getUsernameFormattedTextField() {
-        return usernameFormattedTextField;
-    }
-
-    public JComboBox getUserRoleComboBox() {
-        return userRoleComboBox;
-    }
-
-    public JPasswordField getPasswordPasswordField() {
-        return passwordPasswordField;
     }
 }
