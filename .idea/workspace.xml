@@ -25,6 +25,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -410,13 +413,27 @@
       <option name="project" value="LOCAL" />
       <updated>1697653821289</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="refactor : Remove unused generated getter functions">
+      <option name="closed" value="true" />
+      <created>1697653949429</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1697653949429</updated>
+    </task>
+    <task id="LOCAL-00041" summary="refactor : Remove unused code">
+      <option name="closed" value="true" />
+      <created>1697654156693</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1697654156693</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="chore : Removed debugger code" />
-    <MESSAGE value="refactor : `Login` shouldn't extend JFrame. Should be a standable class handling login logic" />
     <MESSAGE value="refactor : define constants for screen size" />
     <MESSAGE value="refactor : Encapsulate logic for adding focus listeners" />
     <MESSAGE value="refactor : Separate setting theme from Main class for maintenance" />
@@ -440,6 +457,8 @@
     <MESSAGE value="refactor : Swap `FocusListener` for `DocumentListener` to get input vaues when focus of input is lost" />
     <MESSAGE value="refactor : Separate method for handling login action" />
     <MESSAGE value="refactor : Replace loginButton event listener logic with lambda expression" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor : Replace loginButton event listener logic with lambda expression" />
+    <MESSAGE value="refactor : Remove unused generated getter functions" />
+    <MESSAGE value="refactor : Remove unused code" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor : Remove unused code" />
   </component>
 </project>
