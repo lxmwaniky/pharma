@@ -13,6 +13,7 @@ import javax.swing.event.DocumentListener;
  * - Login form with input fields for Username, Password, User role
  * - Set Focus Listeners on Username and Password fields
  * - Handle focus events to clear and set placeholder text in input fields
+ * - Handle login action when login button is clicked
  *
  */
 public class Login {
