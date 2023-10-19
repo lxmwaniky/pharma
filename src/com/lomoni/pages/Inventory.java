@@ -25,15 +25,24 @@ public class Inventory {
     private JTextField quantityInStock;
     private JTextField strengthOfDosage;
 
-    //Dependencies
-//    InventoryService inventoryService;
-
-
     public Inventory(InventoryService inventoryService, TableFilter tableFilter){
+        setTableFilter(tableFilter);
+        setInventoryServiceData(inventoryService);
+        setPlaceholderFunctionality();
+    }
+
+    private void setTableFilter(TableFilter tableFilter){
         tableFilter.setInventoryTable(inventoryTable);
         tableFilter.setFilterTextInput(rowFilterTextField);
+        rowFilterTextField.addKeyListener(tableFilter);
+    }
 
-        //Implement the placeholder functionality
+    private void setInventoryServiceData(InventoryService inventoryService){
+        TableModel inventoryModel = new DefaultTableModel(inventoryService.getInventoryDisplayData(), inventoryService.getInventoryDisplayColumns());
+        inventoryTable.setModel(inventoryModel);
+    }
+
+    private void setPlaceholderFunctionality(){
         InputFieldFocusListener rowFilterTextFieldPlaceholder = new InputFieldFocusListener(rowFilterTextField, "Search...");
         InputFieldFocusListener medicineNamePlaceholder = new InputFieldFocusListener(medicineName, "Medicine Name");
         InputFieldFocusListener unitPriceOfMedicinePlaceholder = new InputFieldFocusListener(unitPriceOfMedicine, "Unit Price");
@@ -41,23 +50,13 @@ public class Inventory {
         InputFieldFocusListener quantityInStockPlaceholder = new InputFieldFocusListener(quantityInStock, "Quantity In Stock");
 
         rowFilterTextField.addFocusListener(rowFilterTextFieldPlaceholder);
-        //Instantiate TableFilter - Set before the table model
-        rowFilterTextField.addKeyListener(tableFilter);
+
 
         medicineName.addFocusListener(medicineNamePlaceholder);
         strengthOfDosage.addFocusListener(strengthOfDosagePlaceholder);
         quantityInStock.addFocusListener(quantityInStockPlaceholder);
         unitPriceOfMedicine.addFocusListener(unitPriceOfMedicinePlaceholder);
-
-
-        //Fetch inventory service with inventory data of columns and rows
-        TableModel inventoryModel = new DefaultTableModel(inventoryService.getInventoryDisplayData(), inventoryService.getInventoryDisplayColumns());
-
-        // Set the table model
-        inventoryTable.setModel(inventoryModel);
-
     }
-
     public JPanel createMainPanel(){
         return inventoryPanel;
     }

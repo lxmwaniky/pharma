@@ -56,8 +56,11 @@ public class Main{
 
         container.add("inventory",inventoryScreen.createMainPanel());
 
+        container.add("prescription",prescriptionScreen.createMainPanel());
+
         container.add("sell-receipt", sellReceiptScreen.createMainPanel());
 
+        cardLayout.show(container, "prescription");
         container.setLayout(cardLayout);
         screen.setContentPane(container);
         screen.setTitle("Pharma | Pharmacy POS");
