@@ -50,8 +50,6 @@ public class Inventory {
         InputFieldFocusListener quantityInStockPlaceholder = new InputFieldFocusListener(quantityInStock, "Quantity In Stock");
 
         rowFilterTextField.addFocusListener(rowFilterTextFieldPlaceholder);
-
-
         medicineName.addFocusListener(medicineNamePlaceholder);
         strengthOfDosage.addFocusListener(strengthOfDosagePlaceholder);
         quantityInStock.addFocusListener(quantityInStockPlaceholder);

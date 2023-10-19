@@ -48,9 +48,6 @@ public class Main{
         //PRESCRIPTION SCREEN
         Prescription prescriptionScreen = new Prescription(new PrescriptionService(), tableFilter);
 
-
-
-
         container.add("login",loginScreen.createMainPanel());
 
         container.add("inventory",inventoryScreen.createMainPanel());
@@ -59,7 +56,7 @@ public class Main{
 
         container.add("sell-receipt", sellReceiptScreen.createMainPanel());
 
-        cardLayout.show(container, "prescription");
+        cardLayout.show(container, "sell-receipt");
         container.setLayout(cardLayout);
         screen.setContentPane(container);
         screen.setTitle("Pharma | Pharmacy POS");

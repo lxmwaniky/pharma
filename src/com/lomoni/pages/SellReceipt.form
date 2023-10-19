@@ -94,7 +94,7 @@
               <orientation value="1"/>
             </properties>
           </component>
-          <component id="59d05" class="javax.swing.JLabel">
+          <component id="59d05" class="javax.swing.JLabel" binding="medicineSoldValue">
             <constraints>
               <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
@@ -120,7 +120,7 @@
               <orientation value="1"/>
             </properties>
           </component>
-          <component id="59b53" class="javax.swing.JLabel">
+          <component id="59b53" class="javax.swing.JLabel" binding="dosageSoldValue">
             <constraints>
               <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
@@ -146,7 +146,7 @@
               <orientation value="1"/>
             </properties>
           </component>
-          <component id="5658" class="javax.swing.JLabel">
+          <component id="5658" class="javax.swing.JLabel" binding="quantitySoldValue">
             <constraints>
               <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
@@ -172,7 +172,7 @@
               <orientation value="1"/>
             </properties>
           </component>
-          <component id="25d63" class="javax.swing.JLabel">
+          <component id="25d63" class="javax.swing.JLabel" binding="prescriptionIDSoldValue">
             <constraints>
               <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
@@ -198,7 +198,7 @@
               <orientation value="1"/>
             </properties>
           </component>
-          <component id="cf474" class="javax.swing.JLabel">
+          <component id="cf474" class="javax.swing.JLabel" binding="dateOfDispensingValue">
             <constraints>
               <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
@@ -224,7 +224,7 @@
               <orientation value="1"/>
             </properties>
           </component>
-          <component id="f77b0" class="javax.swing.JLabel">
+          <component id="f77b0" class="javax.swing.JLabel" binding="totalCostValue">
             <constraints>
               <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>

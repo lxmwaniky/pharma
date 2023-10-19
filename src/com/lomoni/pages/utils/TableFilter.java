@@ -5,8 +5,6 @@ import javax.swing.table.TableRowSorter;
 import java.awt.event.*;
 
 public class TableFilter implements KeyListener {
-
-
     private JTable inventoryTable;
 
     private JTextField filterTextInput;
