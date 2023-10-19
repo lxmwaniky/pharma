@@ -23,30 +23,33 @@ public class Prescription {
     private JLabel lbl_error_login;
 
     public Prescription(PrescriptionService prescriptionService, TableFilter tableFilter){
+        setTableFilter(tableFilter);
+        setPrescriptionServiceData(prescriptionService);
+        setPlaceholderFunctionality();
+    }
+
+    private void setTableFilter(TableFilter tableFilter){
         tableFilter.setInventoryTable(prescriptionTable);
         tableFilter.setFilterTextInput(rowFilterTextField);
+        rowFilterTextField.addKeyListener(tableFilter);
+    }
 
-        //Implement the placeholder functionality
+    private void setPrescriptionServiceData(PrescriptionService prescriptionService){
+        TableModel inventoryModel = new DefaultTableModel(prescriptionService.getInventoryDisplayData(), prescriptionService.getInventoryDisplayColumns());
+        prescriptionTable.setModel(inventoryModel);
+    }
+
+    private void setPlaceholderFunctionality(){
         InputFieldFocusListener rowFilterTextFieldPlaceholder = new InputFieldFocusListener(rowFilterTextField, "Search...");
         InputFieldFocusListener patientNamePlaceholder = new InputFieldFocusListener(patientName, "Patient Name");
-        InputFieldFocusListener dosagePlaceholder = new InputFieldFocusListener(strengthOfDosage, "Dosage ( e.g 500mg amoxicilin )");
+        InputFieldFocusListener dosagePlaceholder = new InputFieldFocusListener(strengthOfDosage, "Dosage ( e.g 500mg amoxicillin )");
         InputFieldFocusListener frequencyPlaceholder = new InputFieldFocusListener(frequency, "Frequency ( e.g twice daily )");
-
         rowFilterTextField.addFocusListener(rowFilterTextFieldPlaceholder);
-        //Instantiate TableFilter - Set before the table model
-        rowFilterTextField.addKeyListener(tableFilter);
-
         patientName.addFocusListener(patientNamePlaceholder);
         strengthOfDosage.addFocusListener(dosagePlaceholder);
         frequency.addFocusListener(frequencyPlaceholder);
-
-
-        //Fetch inventory service with inventory data of columns and rows
-        TableModel inventoryModel = new DefaultTableModel(prescriptionService.getInventoryDisplayData(), prescriptionService.getInventoryDisplayColumns());
-
-        // Set the table model
-        prescriptionTable.setModel(inventoryModel);
     }
+
     public JPanel createMainPanel(){
         return mainPanel;
     }

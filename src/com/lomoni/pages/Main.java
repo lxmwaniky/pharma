@@ -1,6 +1,5 @@
 package com.lomoni.pages;
 
-import com.lomoni.pages.utils.InputFieldFocusListener;
 import com.lomoni.pages.utils.TableFilter;
 import com.lomoni.services.InventoryService;
 import com.lomoni.services.PrescriptionService;
@@ -21,7 +20,7 @@ import static com.lomoni.pages.utils.ImplementLookAndFeel.setThemeAndFont;
  */
 
 public class Main{
-    private static final int screenWidth = 700;
+    private static final int screenWidth = 1000;
     private static final int screenHeight = 600;
     private static void setUpUI(){
         //THEME

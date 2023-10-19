@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="19d791b9-e31e-432b-9f0f-9108897f0020" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Inventory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Prescription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Prescription.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/services/PrescriptionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/services/PrescriptionService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -455,12 +457,19 @@
       <option name="project" value="LOCAL" />
       <updated>1697654529093</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="refactor : Breaking down constructor functions into smaller methods each with a single responsibility.">
+      <option name="closed" value="true" />
+      <created>1697724560204</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1697724560204</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="refactor : Separate setting theme from Main class for maintenance" />
     <MESSAGE value="refactor : Initialize `InputFieldFocusListener` after the text fields have been set to prevent a null error" />
     <MESSAGE value="refactor : Improve encapsulation to prevent calling setFocusListeners() using a constructor to prevent errors when calling it outside the class" />
     <MESSAGE value="refactor : Removed unecessary setter methods" />
@@ -485,6 +494,7 @@
     <MESSAGE value="refactor : Remove unused code" />
     <MESSAGE value="docs : Functionality of the class" />
     <MESSAGE value="refactor : Unecessary class" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor : Unecessary class" />
+    <MESSAGE value="refactor : Breaking down constructor functions into smaller methods each with a single responsibility." />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor : Breaking down constructor functions into smaller methods each with a single responsibility." />
   </component>
 </project>
