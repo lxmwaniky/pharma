@@ -17,8 +17,8 @@ import java.util.Objects;
  * - Fatal
  * - Trace
  */
-public class LogManagerImplementation {
-    private Logger logger;
+abstract class LogManagerImplementation {
+    private static Logger logger;
 
     public LogManagerImplementation(String className){
         try {
@@ -32,27 +32,27 @@ public class LogManagerImplementation {
         }
     }
 
-    public void debugLog(String info, Exception exception){
+    public static void debugLog(String info, Exception exception){
         logger.debug(info, exception);
     }
 
-    public void infoLog(String info, Exception exception){
+    public static void infoLog(String info, Exception exception){
         logger.info(info, exception);
     }
 
-    public void warnLog(String info, Exception exception){
+    public static void warnLog(String info, Exception exception){
         logger.warn(info, exception);
     }
 
-    public void errorLog(String info, Exception exception){
+    public static void errorLog(String info, Exception exception){
         logger.error(info, exception);
     }
 
-    public void fatalLog(String info, Exception exception){
+    public static void fatalLog(String info, Exception exception){
         logger.fatal(info, exception);
     }
 
-    public void traceLog(String info, Exception exception){
+    public static void traceLog(String info, Exception exception){
         logger.trace(info, exception);
     }
 }

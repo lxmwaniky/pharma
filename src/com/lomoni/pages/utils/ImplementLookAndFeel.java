@@ -1,10 +1,11 @@
 package com.lomoni.pages.utils;
 
 import com.formdev.flatlaf.FlatIntelliJLaf;
-import org.apache.logging.log4j.Logger;
-
 import javax.swing.*;
 import java.awt.*;
+
+import static com.lomoni.pages.utils.LogManagerImplementation.fatalLog;
+
 /*
  * Author : Braine Lomoni 168864 14/10/2023
  * Functionality :
@@ -12,14 +13,13 @@ import java.awt.*;
  * - It then changes the default font to "Calibri Body" with a plain size and font size of 14px
  * - AT THE MOMENT it prints out an error that occurs and uses the system default theme
  */
-public abstract class ImplementLookAndFeel implements Logger {
+public abstract class ImplementLookAndFeel{
     public static void setThemeAndFont(){
         try{
             UIManager.setLookAndFeel(new FlatIntelliJLaf());
             UIManager.put("defaultFont", new Font("Calibri Body", Font.PLAIN, 14));
         } catch(Exception exception){
-
-            System.out.println("Failed to apply theme");
+            fatalLog("Failed to apply theme", exception);
         }
     }
 }
