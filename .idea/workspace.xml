@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19d791b9-e31e-432b-9f0f-9108897f0020" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/lomoni/services/SellService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lomoni/pages/utils/LogManagerImplementation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/SellReceipt.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/SellReceipt.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/SellReceipt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/SellReceipt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/components/inventory/InventoryTableModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/utils/ImplementLookAndFeel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/utils/ImplementLookAndFeel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -474,12 +473,19 @@
       <option name="project" value="LOCAL" />
       <updated>1697730647473</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="refactor : Setup sellService to handle data.">
+      <option name="closed" value="true" />
+      <created>1697734661557</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1697734661557</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="refactor : Initialize `InputFieldFocusListener` after the text fields have been set to prevent a null error" />
     <MESSAGE value="refactor : Improve encapsulation to prevent calling setFocusListeners() using a constructor to prevent errors when calling it outside the class" />
     <MESSAGE value="refactor : Removed unecessary setter methods" />
     <MESSAGE value="docs : Documentation for Login.java" />
@@ -504,6 +510,7 @@
     <MESSAGE value="docs : Functionality of the class" />
     <MESSAGE value="refactor : Unecessary class" />
     <MESSAGE value="refactor : Breaking down constructor functions into smaller methods each with a single responsibility." />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor : Breaking down constructor functions into smaller methods each with a single responsibility." />
+    <MESSAGE value="refactor : Setup sellService to handle data." />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor : Setup sellService to handle data." />
   </component>
 </project>
