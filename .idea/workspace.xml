@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19d791b9-e31e-432b-9f0f-9108897f0020" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/utils/ImplementLookAndFeel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/utils/ImplementLookAndFeel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/utils/LogManagerImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/utils/LogManagerImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/utils/TableFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/utils/TableFilter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,14 +101,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697268887105</updated>
-    </task>
-    <task id="LOCAL-00001" summary="chore : Initialized IntelliJ .java project">
-      <option name="closed" value="true" />
-      <created>1697269005643</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1697269005643</updated>
     </task>
     <task id="LOCAL-00002" summary="chore : Initialized IntelliJ .java project">
       <option name="closed" value="true" />
@@ -496,12 +486,19 @@
       <option name="project" value="LOCAL" />
       <updated>1697902061401</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="refactor : Replace duplicate methods with switch case statement.">
+      <option name="closed" value="true" />
+      <created>1697903241905</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1697903241905</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="docs : Documentation for Login.java" />
     <MESSAGE value="fix : Set the panel to be displayed" />
     <MESSAGE value="chore : Dependancy update" />
     <MESSAGE value="chore : Documenting files as per lecturer's instructions" />
@@ -526,6 +523,7 @@
     <MESSAGE value="refactor : Setup sellService to handle data." />
     <MESSAGE value="feature : Logger class to log messages at different lvls of severity" />
     <MESSAGE value="refactor : Implement Logger in app" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor : Implement Logger in app" />
+    <MESSAGE value="refactor : Replace duplicate methods with switch case statement." />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor : Replace duplicate methods with switch case statement." />
   </component>
 </project>
