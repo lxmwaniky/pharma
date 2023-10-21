@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19d791b9-e31e-432b-9f0f-9108897f0020" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/lomoni/pages/utils/HashPassword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Inventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/utils/LogManagerImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/utils/LogManagerImplementation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/utils/TableFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/utils/TableFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/services/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/services/LoginService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,22 +107,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697268887105</updated>
-    </task>
-    <task id="LOCAL-00003" summary="feature : util class InputFieldFocusListener.java to hold placeholder for application">
-      <option name="closed" value="true" />
-      <created>1697310847696</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1697310847696</updated>
-    </task>
-    <task id="LOCAL-00004" summary="feature : Set up placeholder functionality for login screen inputs">
-      <option name="closed" value="true" />
-      <created>1697311519365</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1697311519365</updated>
     </task>
     <task id="LOCAL-00005" summary="refactor : `isEmpty()` is a more concise way and reduces chances of reducing an error">
       <option name="closed" value="true" />
@@ -494,13 +484,27 @@
       <option name="project" value="LOCAL" />
       <updated>1697904127222</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="refactor : Call `filterTable` on keyReleased only to reduce unnecessary calls for performance.">
+      <option name="closed" value="true" />
+      <created>1697904215345</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1697904215345</updated>
+    </task>
+    <task id="LOCAL-00053" summary="refactor : Reuse the same `TableRowSorter` instance to improve efficiency of filtering operations.">
+      <option name="closed" value="true" />
+      <created>1697904350176</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1697904350176</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="chore : Dependancy update" />
-    <MESSAGE value="chore : Documenting files as per lecturer's instructions" />
     <MESSAGE value="feature : Screen design for the Inventory Screen" />
     <MESSAGE value="feature : Final design on" />
     <MESSAGE value="feature : Inventory service to handle data for the inventory table" />
@@ -524,6 +528,8 @@
     <MESSAGE value="refactor : Implement Logger in app" />
     <MESSAGE value="refactor : Replace duplicate methods with switch case statement." />
     <MESSAGE value="refactor : Some refactors." />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor : Some refactors." />
+    <MESSAGE value="refactor : Call `filterTable` on keyReleased only to reduce unnecessary calls for performance." />
+    <MESSAGE value="refactor : Reuse the same `TableRowSorter` instance to improve efficiency of filtering operations." />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor : Reuse the same `TableRowSorter` instance to improve efficiency of filtering operations." />
   </component>
 </project>

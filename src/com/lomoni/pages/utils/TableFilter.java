@@ -54,5 +54,6 @@ public class TableFilter implements KeyListener {
     @Override
     public void keyReleased(KeyEvent e) {
         filterTable(filterTextInput.getText());
+        Log("INFO","Filter text typed",null);
     }
 }

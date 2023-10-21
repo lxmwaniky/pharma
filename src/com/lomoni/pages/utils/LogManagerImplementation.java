@@ -17,7 +17,7 @@ import java.util.Objects;
  * - Fatal
  * - Trace
  */
-abstract class LogManagerImplementation {
+public abstract class LogManagerImplementation {
     private static Logger logger;
 
     public LogManagerImplementation(String className){

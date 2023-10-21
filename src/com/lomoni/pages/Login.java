@@ -7,6 +7,8 @@ import javax.swing.*;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 
+import static com.lomoni.pages.utils.LogManagerImplementation.Log;
+
 /*
  * Author : Briane Lomoni 168864 14/10/2023
  * Functionality :
@@ -16,7 +18,7 @@ import javax.swing.event.DocumentListener;
  * - Handle login action when login button is clicked
  *
  */
-public class Login {
+public class  Login {
     private JTextField usernameFormattedTextField;
     private String userNameValue;
     private JButton loginButton;
@@ -25,6 +27,7 @@ public class Login {
     private char[] passWordValue;
     private JPanel mainPanel;
     private JLabel lbl_error_login;
+
 
     //Constructor
     public Login() {
@@ -68,22 +71,37 @@ public class Login {
         });
 
         //Add action ( click ) listener to button
-        loginButton.addActionListener(e -> handleLoginAction());
+        loginButton.addActionListener(e -> {
+            handleLoginAction();
+            Log("INFO","Login Button Clicked",null);
+        });
     }
 
     //Focus Listeners on Button
     private void setFocusListeners() {
-        final InputFieldFocusListener usernameFieldListener = new InputFieldFocusListener(usernameFormattedTextField, "Username...");
-        usernameFormattedTextField.addFocusListener(usernameFieldListener);
+        try{
+            final InputFieldFocusListener usernameFieldListener = new InputFieldFocusListener(usernameFormattedTextField, "Username...");
+            usernameFormattedTextField.addFocusListener(usernameFieldListener);
 
-        final InputFieldFocusListener passwordFieldListener = new InputFieldFocusListener(passwordPasswordField, "Password...");
-        passwordPasswordField.addFocusListener(passwordFieldListener);
+            final InputFieldFocusListener passwordFieldListener = new InputFieldFocusListener(passwordPasswordField, "Password...");
+            passwordPasswordField.addFocusListener(passwordFieldListener);
+            Log("INFO","Input fields focus set",null);
+        }catch(Exception e){
+            Log("FATAL","Exception occurred while setting the input fields focus listeners : "+e.getMessage(),e);
+        }
+
     }
 
     //Login Action
     private void handleLoginAction() {
-        Object userType = userRoleComboBox.getSelectedItem();
-        new LoginService(userNameValue, new String(passWordValue), userType);
+        try{
+            Object userType = userRoleComboBox.getSelectedItem();
+            new LoginService(userNameValue, new String(passWordValue), userType);
+            Log("INFO","Login Action executed",null);
+        }catch(Exception e){
+            Log("FATAL","Exception occurred while carrying out the login action : "+e.getMessage(),e);
+        }
+
     }
 
 
