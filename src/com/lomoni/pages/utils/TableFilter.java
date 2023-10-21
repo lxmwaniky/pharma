@@ -16,11 +16,6 @@ public class TableFilter implements KeyListener {
 
     private JTextField filterTextInput;
 
-    //TABLE ROW SORTER
-    private TableRowSorter sorter;
-    public TableFilter(){
-        sorter = new TableRowSorter(inventoryTable.getModel());
-    }
     public void setInventoryTable(JTable inventoryTable) {
         this.inventoryTable = inventoryTable;
     }
@@ -30,6 +25,8 @@ public class TableFilter implements KeyListener {
     }
     private void filterTable(String filterText){
         try {
+            //TABLE ROW SORTER
+            TableRowSorter sorter = new TableRowSorter(inventoryTable.getModel());
             //ROW FILTER
             RowFilter rowFilter = RowFilter.regexFilter(filterText);
 
@@ -39,7 +36,7 @@ public class TableFilter implements KeyListener {
             //SET TABLE ROW SORTER ON THE TABLE
             inventoryTable.setRowSorter(sorter);
         } catch (Exception e){
-            Log("FATAL","Exception occurred while setting row filter on table: "+e.getMessage(),e);
+            Log("FATAL","Exception occurred while setting row filter on table: "+e.getMessage(),e,TableFilter.class.getName());
         }
     }
 
@@ -54,6 +51,6 @@ public class TableFilter implements KeyListener {
     @Override
     public void keyReleased(KeyEvent e) {
         filterTable(filterTextInput.getText());
-        Log("INFO","Filter text typed",null);
+        Log("INFO","Filter text typed",null,TableFilter.class.getName());
     }
 }

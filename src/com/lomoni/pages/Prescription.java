@@ -29,9 +29,9 @@ public class Prescription {
             setTableFilter(tableFilter);
             setPrescriptionServiceData(prescriptionService);
             setPlaceholderFunctionality();
-            Log("INFO","Table filter set on prescription data",null);
+            Log("INFO","Table filter set on prescription data",null,Prescription.class.getName());
         }catch (Exception e){
-            Log("FATAL","Exception while setting table filter on Prescription data",e);
+            Log("FATAL","Exception while setting table filter on Prescription data",e,Prescription.class.getName());
         }
 
     }
@@ -41,9 +41,9 @@ public class Prescription {
             tableFilter.setInventoryTable(prescriptionTable);
             tableFilter.setFilterTextInput(rowFilterTextField);
             rowFilterTextField.addKeyListener(tableFilter);
-            Log("INFO","Set table filter occured",null);
+            Log("INFO","Set table filter occured",null,Prescription.class.getName());
         }catch(Exception e){
-            Log("FATAL","Exception occurred while setting the table filter : "+e.getMessage(),e);
+            Log("FATAL","Exception occurred while setting the table filter : "+e.getMessage(),e,Prescription.class.getName());
         }
 
     }
@@ -52,9 +52,9 @@ public class Prescription {
         try{
             TableModel inventoryModel = new DefaultTableModel(prescriptionService.getInventoryDisplayData(), prescriptionService.getInventoryDisplayColumns());
             prescriptionTable.setModel(inventoryModel);
-            Log("INFO", "Prescription data set",null);
+            Log("INFO", "Prescription data set",null,Prescription.class.getName());
         }catch(Exception e){
-            Log("FATAL","Exception occurred while setting the prescription data : "+e.getMessage(),e);
+            Log("FATAL","Exception occurred while setting the prescription data : "+e.getMessage(),e,Prescription.class.getName());
         }
     }
 
@@ -68,9 +68,9 @@ public class Prescription {
             patientName.addFocusListener(patientNamePlaceholder);
             strengthOfDosage.addFocusListener(dosagePlaceholder);
             frequency.addFocusListener(frequencyPlaceholder);
-            Log("INFO", "Placeholders set",null);
+            Log("INFO", "Placeholders set",null,Prescription.class.getName());
         }catch(Exception e){
-            Log("FATAL","Exception occurred while setting placeholders : "+e.getMessage(),e);
+            Log("FATAL","Exception occurred while setting placeholders : "+e.getMessage(),e,Prescription.class.getName());
         }
 
     }

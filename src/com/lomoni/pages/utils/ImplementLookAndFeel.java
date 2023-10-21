@@ -22,7 +22,7 @@ public abstract class ImplementLookAndFeel{
             UIManager.setLookAndFeel(new FlatIntelliJLaf());
             UIManager.put("defaultFont", new Font("Calibri Body", Font.PLAIN, 14));
         } catch(Exception exception){
-            Log("FATAL","Failed to apply theme : "+ exception.getMessage(), exception);
+            Log("FATAL","Failed to apply theme : "+ exception.getMessage(), exception,ImplementLookAndFeel.class.getName());
         }
     }
 }

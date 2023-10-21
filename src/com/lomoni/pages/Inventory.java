@@ -34,7 +34,7 @@ public class Inventory {
             setInventoryServiceData(inventoryService);
             setPlaceholderFunctionality();
         } catch(Exception e){
-            Log("FATA","Exception occured while initializing Inventory : "+e.getMessage(), e);
+            Log("FATA","Exception occured while initializing Inventory : "+e.getMessage(), e, Inventory.class.getName());
         }
     }
 
@@ -44,7 +44,7 @@ public class Inventory {
             tableFilter.setFilterTextInput(rowFilterTextField);
             rowFilterTextField.addKeyListener(tableFilter);
         }catch(Exception e){
-            Log("FATAL","Exception occurred while setting the table filter : "+e.getMessage(),e);
+            Log("FATAL","Exception occurred while setting the table filter : "+e.getMessage(),e,Inventory.class.getName());
         }
 
     }
@@ -54,7 +54,7 @@ public class Inventory {
             TableModel inventoryModel = new DefaultTableModel(inventoryService.getInventoryDisplayData(), inventoryService.getInventoryDisplayColumns());
             inventoryTable.setModel(inventoryModel);
         }catch(Exception e){
-            Log("FATAL","Exception occurred while setting the inventory service data : "+e.getMessage(),e);
+            Log("FATAL","Exception occurred while setting the inventory service data : "+e.getMessage(),e,Inventory.class.getName());
         }
 
     }
@@ -73,7 +73,7 @@ public class Inventory {
             quantityInStock.addFocusListener(quantityInStockPlaceholder);
             unitPriceOfMedicine.addFocusListener(unitPriceOfMedicinePlaceholder);
         }catch(Exception e){
-            Log("FATAL","Exception occured while setting the placeholder functionality : "+e.getMessage(),e);
+            Log("FATAL","Exception occured while setting the placeholder functionality : "+e.getMessage(),e,Inventory.class.getName());
         }
     }
     public JPanel createMainPanel(){

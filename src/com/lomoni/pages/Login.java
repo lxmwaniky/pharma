@@ -1,11 +1,14 @@
 package com.lomoni.pages;
 
+import com.lomoni.pages.utils.ErrorDialog;
 import com.lomoni.pages.utils.InputFieldFocusListener;
 import com.lomoni.services.LoginService;
 
 import javax.swing.*;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
+
+import java.awt.*;
 
 import static com.lomoni.pages.utils.LogManagerImplementation.Log;
 
@@ -28,9 +31,19 @@ public class  Login {
     private JPanel mainPanel;
     private JLabel lbl_error_login;
 
+    private Container container;
+    private CardLayout cardLayout;
+
+    private ErrorDialog errorDialog;
 
     //Constructor
-    public Login() {
+    public Login(Container container, CardLayout cardLayout) {
+        //Set the layout and parent component
+        this.container = container;
+        this.cardLayout = cardLayout;
+
+        //Initialize error dialog
+        errorDialog = new ErrorDialog("Some error");
         //Add PLACEHOLDERS to inputs
         setFocusListeners();
         //Add document listeners to grab input data on change.
@@ -73,7 +86,8 @@ public class  Login {
         //Add action ( click ) listener to button
         loginButton.addActionListener(e -> {
             handleLoginAction();
-            Log("INFO","Login Button Clicked",null);
+            Log("INFO","Login Button Clicked",null,Login.class.getName());
+            errorDialog.display();
         });
     }
 
@@ -85,9 +99,9 @@ public class  Login {
 
             final InputFieldFocusListener passwordFieldListener = new InputFieldFocusListener(passwordPasswordField, "Password...");
             passwordPasswordField.addFocusListener(passwordFieldListener);
-            Log("INFO","Input fields focus set",null);
+            Log("INFO","Input fields focus set",null,Login.class.getName());
         }catch(Exception e){
-            Log("FATAL","Exception occurred while setting the input fields focus listeners : "+e.getMessage(),e);
+            Log("FATAL","Exception occurred while setting the input fields focus listeners : "+e.getMessage(),e,Inventory.class.getName());
         }
 
     }
@@ -97,9 +111,13 @@ public class  Login {
         try{
             Object userType = userRoleComboBox.getSelectedItem();
             LoginService loginService = new LoginService(userNameValue, new String(passWordValue), userType);
-            Log("INFO","Login Data Passed to Service",null);
+            Log("INFO","Login Data Passed to Service",null,Login.class.getName());
+            cardLayout.next(container);
+            Log("TRACE","Screen switched to Inventory",null,Login.class.getName());
+
+            //Call method that will create an error on the users end
         }catch(Exception e){
-            Log("FATAL","Exception occurred while carrying out the login action : "+e.getMessage(),e);
+            Log("FATAL","Exception occurred while carrying out the login action : "+e.getMessage(),e,Login.class.getName());
         }
 
     }

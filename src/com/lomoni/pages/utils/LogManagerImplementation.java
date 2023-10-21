@@ -20,19 +20,16 @@ import java.util.Objects;
 public abstract class LogManagerImplementation {
     private static Logger logger;
 
-    public LogManagerImplementation(String className){
+    public static void Log(String level, String info, Exception exception, String className){
         try {
             if (!className.isEmpty()) {
                 logger = LogManager.getLogger(className);
             } else {
                 Objects.requireNonNull(className, "className must not be null");
             }
-        } catch(Exception exception){
-            Log("FATAL","className must not be null", exception);
+        } catch(Exception e){
+            Log("FATAL","className must not be null", e,LogManagerImplementation.class.getName());
         }
-    }
-
-    public static void Log(String level, String info, Exception exception){
         switch(level){
             case "DEBUG":
                 logger.debug(info, exception);
