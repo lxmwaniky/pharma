@@ -96,8 +96,8 @@ public class  Login {
     private void handleLoginAction() {
         try{
             Object userType = userRoleComboBox.getSelectedItem();
-            new LoginService(userNameValue, new String(passWordValue), userType);
-            Log("INFO","Login Action executed",null);
+            LoginService loginService = new LoginService(userNameValue, new String(passWordValue), userType);
+            Log("INFO","Login Data Passed to Service",null);
         }catch(Exception e){
             Log("FATAL","Exception occurred while carrying out the login action : "+e.getMessage(),e);
         }
