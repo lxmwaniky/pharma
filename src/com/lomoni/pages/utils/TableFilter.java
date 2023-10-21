@@ -15,6 +15,12 @@ public class TableFilter implements KeyListener {
     private JTable inventoryTable;
 
     private JTextField filterTextInput;
+
+    //TABLE ROW SORTER
+    private TableRowSorter sorter;
+    public TableFilter(){
+        sorter = new TableRowSorter(inventoryTable.getModel());
+    }
     public void setInventoryTable(JTable inventoryTable) {
         this.inventoryTable = inventoryTable;
     }
@@ -24,9 +30,6 @@ public class TableFilter implements KeyListener {
     }
     private void filterTable(String filterText){
         try {
-            //TABLE ROW SORTER
-            TableRowSorter sorter = new TableRowSorter(inventoryTable.getModel());
-
             //ROW FILTER
             RowFilter rowFilter = RowFilter.regexFilter(filterText);
 
