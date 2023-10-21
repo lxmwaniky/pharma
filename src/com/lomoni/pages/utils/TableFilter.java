@@ -42,12 +42,10 @@ public class TableFilter implements KeyListener {
 
     @Override
     public void keyTyped(KeyEvent e) {
-        filterTable(filterTextInput.getText());
     }
 
     @Override
     public void keyPressed(KeyEvent e) {
-        filterTable(filterTextInput.getText());
     }
 
     @Override
