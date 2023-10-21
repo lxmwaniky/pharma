@@ -28,31 +28,33 @@ abstract class LogManagerImplementation {
                 Objects.requireNonNull(className, "className must not be null");
             }
         } catch(Exception exception){
-            fatalLog("className must not be null", exception);
+            Log("FATAL","className must not be null", exception);
         }
     }
 
-    public static void debugLog(String info, Exception exception){
-        logger.debug(info, exception);
-    }
-
-    public static void infoLog(String info, Exception exception){
-        logger.info(info, exception);
-    }
-
-    public static void warnLog(String info, Exception exception){
-        logger.warn(info, exception);
-    }
-
-    public static void errorLog(String info, Exception exception){
-        logger.error(info, exception);
-    }
-
-    public static void fatalLog(String info, Exception exception){
-        logger.fatal(info, exception);
-    }
-
-    public static void traceLog(String info, Exception exception){
-        logger.trace(info, exception);
+    public static void Log(String level, String info, Exception exception){
+        switch(level){
+            case "DEBUG":
+                logger.debug(info, exception);
+                break;
+            case "INFO":
+                logger.info(info, exception);
+                break;
+            case "WARN":
+                logger.warn(info, exception);
+                break;
+            case "ERROR":
+                logger.error(info, exception);
+                break;
+            case "FATAL":
+                logger.fatal(info, exception);
+                break;
+            case "TRACE":
+                logger.trace(info, exception);
+                break;
+            default:
+                logger.warn("Unrecognized severity level "+level);
+                break;
+        }
     }
 }

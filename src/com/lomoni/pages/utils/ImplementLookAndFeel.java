@@ -1,10 +1,13 @@
 package com.lomoni.pages.utils;
 
 import com.formdev.flatlaf.FlatIntelliJLaf;
+import org.apache.logging.log4j.Level;
+
 import javax.swing.*;
 import java.awt.*;
 
-import static com.lomoni.pages.utils.LogManagerImplementation.fatalLog;
+import static com.lomoni.pages.utils.LogManagerImplementation.Log;
+
 
 /*
  * Author : Braine Lomoni 168864 14/10/2023
@@ -19,7 +22,7 @@ public abstract class ImplementLookAndFeel{
             UIManager.setLookAndFeel(new FlatIntelliJLaf());
             UIManager.put("defaultFont", new Font("Calibri Body", Font.PLAIN, 14));
         } catch(Exception exception){
-            fatalLog("Failed to apply theme", exception);
+            Log("FATAL","Failed to apply theme", exception);
         }
     }
 }

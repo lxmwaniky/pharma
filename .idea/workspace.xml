@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19d791b9-e31e-432b-9f0f-9108897f0020" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/lomoni/pages/utils/LogManagerImplementation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lomoni/components/inventory/InventoryTableModel.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/utils/ImplementLookAndFeel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/utils/ImplementLookAndFeel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/utils/LogManagerImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/utils/LogManagerImplementation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -481,13 +480,27 @@
       <option name="project" value="LOCAL" />
       <updated>1697734661557</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="feature : Logger class to log messages at different lvls of severity">
+      <option name="closed" value="true" />
+      <created>1697901449393</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1697901449393</updated>
+    </task>
+    <task id="LOCAL-00049" summary="refactor : Implement Logger in app">
+      <option name="closed" value="true" />
+      <created>1697902061401</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1697902061401</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="refactor : Improve encapsulation to prevent calling setFocusListeners() using a constructor to prevent errors when calling it outside the class" />
-    <MESSAGE value="refactor : Removed unecessary setter methods" />
     <MESSAGE value="docs : Documentation for Login.java" />
     <MESSAGE value="fix : Set the panel to be displayed" />
     <MESSAGE value="chore : Dependancy update" />
@@ -511,6 +524,8 @@
     <MESSAGE value="refactor : Unecessary class" />
     <MESSAGE value="refactor : Breaking down constructor functions into smaller methods each with a single responsibility." />
     <MESSAGE value="refactor : Setup sellService to handle data." />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor : Setup sellService to handle data." />
+    <MESSAGE value="feature : Logger class to log messages at different lvls of severity" />
+    <MESSAGE value="refactor : Implement Logger in app" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor : Implement Logger in app" />
   </component>
 </project>
