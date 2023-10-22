@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19d791b9-e31e-432b-9f0f-9108897f0020" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/logs/pharma-log-2023-10-21.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lomoni/pages/utils/ErrorDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/pharma-log-2023-10-22.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lomoni/pages/utils/PharmaDialog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Inventory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Prescription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Prescription.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/utils/HashPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/utils/HashPassword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/utils/ImplementLookAndFeel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/utils/ImplementLookAndFeel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/utils/LogManagerImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/utils/LogManagerImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/utils/TableFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/utils/TableFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/utils/ErrorDialog.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,13 +51,14 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW&quot;: &quot;false&quot;,
     &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Briane's/IdeaProjects/pharma/lib/apache-log4j-2.12.4-bin/log4j-core-2.12.4.jar&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.scopes&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -111,14 +107,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697268887105</updated>
-    </task>
-    <task id="LOCAL-00008" summary="refactor : handle null values in case they occur">
-      <option name="closed" value="true" />
-      <created>1697311909461</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1697311909461</updated>
     </task>
     <task id="LOCAL-00009" summary="refactor : extends FocusAdaptor instead of implementing FocusListener ( Just read online that it's a good practise since I only override methods I require and not implementing all the methods that come with the Interface )">
       <option name="closed" value="true" />
@@ -504,12 +492,19 @@
       <option name="project" value="LOCAL" />
       <updated>1697910319015</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="feature : Refactor">
+      <option name="closed" value="true" />
+      <created>1697913084652</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1697913084652</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="feature : Implemented table filter functionality" />
     <MESSAGE value="feature : Implemented placeholder listeners" />
     <MESSAGE value="fix : Implemented placeholder listeners" />
     <MESSAGE value="fix : Implemented form inputs" />
@@ -534,6 +529,7 @@
     <MESSAGE value="feature : Abstract method to hash passwords" />
     <MESSAGE value="refactor : Method call on `LoginService`" />
     <MESSAGE value="feature : Logging class events" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature : Logging class events" />
+    <MESSAGE value="feature : Refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature : Refactor" />
   </component>
 </project>

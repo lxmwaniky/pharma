@@ -1,0 +1,196 @@
+15:16:53 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+15:16:53 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+15:16:54 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+15:16:54 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+15:16:54 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+15:16:54 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+15:16:54 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+15:16:54 [main] INFO  com.lomoni.pages.Main - Initialization complete
+15:16:56 [AWT-EventQueue-0] FATAL com.lomoni.pages.Login - Exception occurred while carrying out the login action : Cannot read the array length because "value" is null
+java.lang.NullPointerException: Cannot read the array length because "value" is null
+	at java.lang.String.<init>(String.java:277) ~[?:?]
+	at com.lomoni.pages.Login.handleLoginAction(Login.java:113) ~[pharma/:?]
+	at com.lomoni.pages.Login.lambda$new$0(Login.java:88) ~[pharma/:?]
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972) ~[?:?]
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2314) ~[?:?]
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:407) ~[?:?]
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262) ~[?:?]
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279) ~[?:?]
+	at java.awt.Component.processMouseEvent(Component.java:6620) ~[?:?]
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3398) ~[?:?]
+	at java.awt.Component.processEvent(Component.java:6385) ~[?:?]
+	at java.awt.Container.processEvent(Container.java:2266) ~[?:?]
+	at java.awt.Component.dispatchEventImpl(Component.java:4995) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2324) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4827) ~[?:?]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948) ~[?:?]
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575) ~[?:?]
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2310) ~[?:?]
+	at java.awt.Window.dispatchEventImpl(Window.java:2780) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4827) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:720) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:714) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:400) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:747) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:745) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:400) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87) [?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:744) [?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
+15:16:56 [AWT-EventQueue-0] INFO  com.lomoni.pages.Login - Login Button Clicked
+15:17:47 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+15:17:47 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+15:17:47 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+15:17:48 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+15:17:48 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+15:17:48 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+15:17:48 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+15:17:48 [main] INFO  com.lomoni.pages.Main - Initialization complete
+15:17:49 [AWT-EventQueue-0] FATAL com.lomoni.pages.Login - Exception occurred while carrying out the login action : Cannot read the array length because "value" is null
+java.lang.NullPointerException: Cannot read the array length because "value" is null
+	at java.lang.String.<init>(String.java:277) ~[?:?]
+	at com.lomoni.pages.Login.handleLoginAction(Login.java:114) ~[pharma/:?]
+	at com.lomoni.pages.Login.lambda$new$0(Login.java:89) ~[pharma/:?]
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972) ~[?:?]
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2314) ~[?:?]
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:407) ~[?:?]
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262) ~[?:?]
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279) ~[?:?]
+	at java.awt.Component.processMouseEvent(Component.java:6620) ~[?:?]
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3398) ~[?:?]
+	at java.awt.Component.processEvent(Component.java:6385) ~[?:?]
+	at java.awt.Container.processEvent(Container.java:2266) ~[?:?]
+	at java.awt.Component.dispatchEventImpl(Component.java:4995) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2324) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4827) ~[?:?]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948) ~[?:?]
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575) ~[?:?]
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2310) ~[?:?]
+	at java.awt.Window.dispatchEventImpl(Window.java:2780) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4827) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:720) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:714) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:400) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:747) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:745) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:400) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87) [?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:744) [?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
+15:17:49 [AWT-EventQueue-0] INFO  com.lomoni.pages.Login - Login Button Clicked
+15:21:46 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+15:21:46 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+15:21:46 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+15:21:46 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+15:21:46 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+15:21:46 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+15:21:46 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+15:21:47 [main] INFO  com.lomoni.pages.Main - Initialization complete
+15:21:48 [AWT-EventQueue-0] FATAL com.lomoni.pages.Login - Exception occurred while carrying out the login action : Cannot read the array length because "value" is null
+java.lang.NullPointerException: Cannot read the array length because "value" is null
+	at java.lang.String.<init>(String.java:277) ~[?:?]
+	at com.lomoni.pages.Login.handleLoginAction(Login.java:111) ~[pharma/:?]
+	at com.lomoni.pages.Login.lambda$new$0(Login.java:86) ~[pharma/:?]
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972) ~[?:?]
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2314) ~[?:?]
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:407) ~[?:?]
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262) ~[?:?]
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279) ~[?:?]
+	at java.awt.Component.processMouseEvent(Component.java:6620) ~[?:?]
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3398) ~[?:?]
+	at java.awt.Component.processEvent(Component.java:6385) ~[?:?]
+	at java.awt.Container.processEvent(Container.java:2266) ~[?:?]
+	at java.awt.Component.dispatchEventImpl(Component.java:4995) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2324) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4827) ~[?:?]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948) ~[?:?]
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575) ~[?:?]
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2310) ~[?:?]
+	at java.awt.Window.dispatchEventImpl(Window.java:2780) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4827) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:720) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:714) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:400) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:747) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:745) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:400) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87) [?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:744) [?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
+15:21:48 [AWT-EventQueue-0] INFO  com.lomoni.pages.Login - Login Button Clicked
+15:28:03 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+15:28:03 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+15:28:04 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+15:28:04 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+15:28:04 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+15:28:04 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+15:28:04 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+15:28:04 [main] INFO  com.lomoni.pages.Main - Initialization complete
+15:28:05 [AWT-EventQueue-0] FATAL com.lomoni.pages.Login - Exception occurred while carrying out the login action : Cannot read the array length because "value" is null
+java.lang.NullPointerException: Cannot read the array length because "value" is null
+	at java.lang.String.<init>(String.java:277) ~[?:?]
+	at com.lomoni.pages.Login.handleLoginAction(Login.java:110) ~[pharma/:?]
+	at com.lomoni.pages.Login.lambda$new$0(Login.java:85) ~[pharma/:?]
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972) ~[?:?]
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2314) ~[?:?]
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:407) ~[?:?]
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262) ~[?:?]
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279) ~[?:?]
+	at java.awt.Component.processMouseEvent(Component.java:6620) ~[?:?]
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3398) ~[?:?]
+	at java.awt.Component.processEvent(Component.java:6385) ~[?:?]
+	at java.awt.Container.processEvent(Container.java:2266) ~[?:?]
+	at java.awt.Component.dispatchEventImpl(Component.java:4995) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2324) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4827) ~[?:?]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948) ~[?:?]
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575) ~[?:?]
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2310) ~[?:?]
+	at java.awt.Window.dispatchEventImpl(Window.java:2780) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4827) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:720) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:714) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:400) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:747) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:745) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:400) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87) [?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:744) [?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
+15:28:05 [AWT-EventQueue-0] INFO  com.lomoni.pages.Login - Login Button Clicked

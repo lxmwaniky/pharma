@@ -1,6 +1,5 @@
 package com.lomoni.pages;
 
-import com.lomoni.pages.utils.ErrorDialog;
 import com.lomoni.pages.utils.InputFieldFocusListener;
 import com.lomoni.services.LoginService;
 
@@ -11,6 +10,7 @@ import javax.swing.event.DocumentListener;
 import java.awt.*;
 
 import static com.lomoni.pages.utils.LogManagerImplementation.Log;
+import static com.lomoni.pages.utils.PharmaDialog.showMessage;
 
 /*
  * Author : Briane Lomoni 168864 14/10/2023
@@ -34,7 +34,6 @@ public class  Login {
     private Container container;
     private CardLayout cardLayout;
 
-    private ErrorDialog errorDialog;
 
     //Constructor
     public Login(Container container, CardLayout cardLayout) {
@@ -42,8 +41,6 @@ public class  Login {
         this.container = container;
         this.cardLayout = cardLayout;
 
-        //Initialize error dialog
-        errorDialog = new ErrorDialog("Some error");
         //Add PLACEHOLDERS to inputs
         setFocusListeners();
         //Add document listeners to grab input data on change.
@@ -87,7 +84,7 @@ public class  Login {
         loginButton.addActionListener(e -> {
             handleLoginAction();
             Log("INFO","Login Button Clicked",null,Login.class.getName());
-            errorDialog.display();
+            showMessage(container,"Some message");
         });
     }
 
