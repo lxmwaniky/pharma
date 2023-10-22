@@ -84,7 +84,7 @@ public class  Login {
         loginButton.addActionListener(e -> {
             handleLoginAction();
             Log("INFO","Login Button Clicked",null,Login.class.getName());
-            showMessage(container,"Some message");
+            showMessage(container,"Sign In Successful!","Logged In",1);
         });
     }
 
@@ -111,15 +111,15 @@ public class  Login {
             Log("INFO","Login Data Passed to Service",null,Login.class.getName());
             cardLayout.next(container);
             Log("TRACE","Screen switched to Inventory",null,Login.class.getName());
-
-            //Call method that will create an error on the users end
         }catch(Exception e){
+            //Call method that will create an error on the users end
+            if(userNameValue.isEmpty() || new String(passWordValue).isEmpty()){
+                showMessage(container, "Fill all the inputs","Empty inputs!",0);
+            }
+
             Log("FATAL","Exception occurred while carrying out the login action : "+e.getMessage(),e,Login.class.getName());
         }
-
     }
-
-
     public JPanel createMainPanel() {
         return mainPanel;
     }
