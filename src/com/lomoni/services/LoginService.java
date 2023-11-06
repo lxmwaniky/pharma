@@ -19,9 +19,9 @@ public class LoginService {
     }
 
     //Get DB user data
-    private void getDBUserData(){
+    public void getDBUserData(){
         DBConnector dbConnector = new DBConnector();
-        dbConnector.getAllUsers();
+        System.out.println(dbConnector.getAllUsers());
     }
 
     public String getUserName() {

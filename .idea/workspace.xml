@@ -4,21 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19d791b9-e31e-432b-9f0f-9108897f0020" name="Changes" comment="feature : Dialog to show the client message when inputs are empty">
-      <change afterPath="$PROJECT_DIR$/logs/pharma-log-2023-10-28.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/pharma-log-2023-11-03.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lomoni/database/config/DBConnector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lomoni/database/sql/db_braine_lomoni_168864.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+    <list default="true" id="19d791b9-e31e-432b-9f0f-9108897f0020" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pharma.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pharma.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lomoni/database/config/db_braine_lomoni_168864.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/database/config/DBConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/database/config/DBConnector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Inventory.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Inventory.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Inventory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Prescription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Prescription.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/utils/TableFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/utils/TableFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lomoni/services/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/services/LoginService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,14 +105,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697268887105</updated>
-    </task>
-    <task id="LOCAL-00010" summary="refactor : make `PLACEHOLDER` a param to make class more flexible and usable">
-      <option name="closed" value="true" />
-      <created>1697312191744</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1697312191744</updated>
     </task>
     <task id="LOCAL-00011" summary="refactor : store trimmed text in a variable to avoid calling .getText() each time I focus on the input">
       <option name="closed" value="true" />
@@ -509,12 +490,19 @@
       <option name="project" value="LOCAL" />
       <updated>1697977856002</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="feature : DB Connecting">
+      <option name="closed" value="true" />
+      <created>1699261308699</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1699261308700</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="fix : Implemented form inputs" />
     <MESSAGE value="fix : Implemented Sell Functionality for Pharmacist" />
     <MESSAGE value="fix : Implemented Prescribe Functionality for Doctor" />
     <MESSAGE value="feature : Some more configurations." />
@@ -539,6 +527,7 @@
     <MESSAGE value="feature : Refactor" />
     <MESSAGE value="feature : Dialog to show the client messages" />
     <MESSAGE value="feature : Dialog to show the client message when inputs are empty" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature : Dialog to show the client message when inputs are empty" />
+    <MESSAGE value="feature : DB Connecting" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature : DB Connecting" />
   </component>
 </project>
