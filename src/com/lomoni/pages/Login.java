@@ -108,7 +108,7 @@ public class  Login {
         try{
             Object userType = userRoleComboBox.getSelectedItem();
             LoginService loginService = new LoginService(userNameValue, new String(passWordValue), userType);
-            loginService.getDBUserData();
+            loginService.authenticateUser();
             Log("INFO","Login Data Passed to Service",null,Login.class.getName());
             cardLayout.next(container);
             Log("TRACE","Screen switched to Inventory",null,Login.class.getName());
