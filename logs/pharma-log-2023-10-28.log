@@ -1,0 +1,1451 @@
+17:32:06 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+17:32:06 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+17:32:07 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+17:32:07 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+17:32:07 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+17:32:07 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+17:32:07 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+17:32:08 [main] INFO  com.lomoni.pages.Main - Initialization complete
+17:32:15 [AWT-EventQueue-0] INFO  com.lomoni.pages.Login - Login Data Passed to Service
+17:32:15 [AWT-EventQueue-0] TRACE com.lomoni.pages.Login - Screen switched to Inventory
+17:32:15 [AWT-EventQueue-0] INFO  com.lomoni.pages.Login - Login Button Clicked
+17:32:18 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+17:32:18 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+17:32:18 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+17:32:19 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+17:32:19 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+17:32:20 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+17:32:20 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+17:32:21 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+17:32:21 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+17:32:21 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+17:32:23 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+17:32:24 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+17:32:24 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+17:32:24 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+17:32:24 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+17:32:24 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+17:32:24 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+17:32:24 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+17:32:24 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+17:32:26 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+17:32:26 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+17:32:26 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+17:32:26 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+17:32:26 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+17:32:27 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+17:32:27 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+17:32:27 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+17:32:27 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+17:32:28 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+17:32:28 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+17:32:31 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+17:32:32 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+17:32:32 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+17:32:32 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+17:32:33 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+17:32:33 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+17:32:51 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+17:32:51 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+17:32:52 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+17:32:52 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+17:32:52 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+17:32:52 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+17:32:52 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+17:32:52 [main] INFO  com.lomoni.pages.Main - Initialization complete
+17:32:59 [AWT-EventQueue-0] INFO  com.lomoni.pages.Login - Login Data Passed to Service
+17:32:59 [AWT-EventQueue-0] TRACE com.lomoni.pages.Login - Screen switched to Inventory
+17:32:59 [AWT-EventQueue-0] INFO  com.lomoni.pages.Login - Login Button Clicked
+17:33:01 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+17:33:01 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+17:33:02 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+17:33:02 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+17:33:02 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+17:33:03 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+17:33:03 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+17:33:03 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+17:33:03 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+17:35:24 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+17:35:24 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+17:35:25 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+17:35:25 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+17:35:25 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+17:35:25 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+17:35:25 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+17:35:25 [main] INFO  com.lomoni.pages.Main - Initialization complete
+17:35:31 [AWT-EventQueue-0] INFO  com.lomoni.pages.Login - Login Data Passed to Service
+17:35:31 [AWT-EventQueue-0] TRACE com.lomoni.pages.Login - Screen switched to Inventory
+17:35:31 [AWT-EventQueue-0] INFO  com.lomoni.pages.Login - Login Button Clicked
+17:35:32 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text : Search...
+17:35:33 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text : Search...
+17:35:33 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text : Search...
+17:35:33 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text : Search...
+17:35:34 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text : Search...
+17:35:34 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text : Search...
+17:39:26 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+17:39:26 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+17:39:27 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+17:39:27 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+17:39:27 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+17:39:27 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+17:39:27 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+17:39:27 [main] INFO  com.lomoni.pages.Main - Initialization complete
+17:39:31 [AWT-EventQueue-0] INFO  com.lomoni.pages.Login - Login Data Passed to Service
+17:39:31 [AWT-EventQueue-0] TRACE com.lomoni.pages.Login - Screen switched to Inventory
+17:39:31 [AWT-EventQueue-0] INFO  com.lomoni.pages.Login - Login Button Clicked
+17:39:34 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text : d
+17:39:34 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text : k
+17:39:35 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text : e
+17:39:35 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text : d
+17:39:36 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text : k
+17:39:36 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text : e
+17:39:36 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text : k
+17:39:36 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text : e
+17:39:36 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text : o
+17:39:36 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text : e
+17:39:37 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text : f
+17:39:39 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text : j
+17:39:39 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text : d
+17:39:39 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text : e
+17:40:40 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+17:40:40 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+17:40:41 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+17:40:41 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+17:40:41 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+17:40:41 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+17:40:41 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+17:40:41 [main] INFO  com.lomoni.pages.Main - Initialization complete
+17:40:48 [AWT-EventQueue-0] INFO  com.lomoni.pages.Login - Login Data Passed to Service
+17:40:48 [AWT-EventQueue-0] TRACE com.lomoni.pages.Login - Screen switched to Inventory
+17:40:48 [AWT-EventQueue-0] INFO  com.lomoni.pages.Login - Login Button Clicked
+17:40:50 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text : l
+17:40:50 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text : ld
+17:40:51 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text : ldk
+17:40:51 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text : ldke
+17:40:52 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text : ldkee
+17:40:52 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text : ldkeef
+17:40:52 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text : ldkeefs
+17:40:52 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text : ldkeefsw
+17:40:52 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text : ldkeefswz
+17:40:53 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text : ldkeefswza
+17:40:53 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text : ldkeefswzaa
+17:40:53 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text : ldkeefswzaaw
+17:40:53 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text : ldkeefswzaawd
+17:40:53 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text : ldkeefswzaawde
+17:41:08 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text : ldkeefswzaawdek
+17:41:08 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text : ldkeefswzaawdekd
+17:41:08 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text : ldkeefswzaawdekde
+17:41:22 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text : ldkeefswzaawdekdee
+17:41:23 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text : ldkeefswzaawdekdeek
+17:41:23 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text : ldkeefswzaawdekdeekj
+17:41:50 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+17:41:50 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+17:41:50 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+17:41:51 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+17:41:51 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+17:41:51 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+17:41:51 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+17:41:51 [main] INFO  com.lomoni.pages.Main - Initialization complete
+17:41:59 [AWT-EventQueue-0] INFO  com.lomoni.pages.Login - Login Data Passed to Service
+17:41:59 [AWT-EventQueue-0] TRACE com.lomoni.pages.Login - Screen switched to Inventory
+17:41:59 [AWT-EventQueue-0] INFO  com.lomoni.pages.Login - Login Button Clicked
+17:42:09 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text : d
+17:42:09 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text : k
+17:42:10 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text : e
+17:42:18 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text : d
+17:42:18 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text : j
+17:42:18 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text : e
+17:42:18 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text : k
+17:44:19 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+17:44:19 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+17:44:20 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+17:44:20 [main] FATAL com.lomoni.pages.Main - Exception while initializing
+java.lang.NullPointerException: Cannot invoke "javax.swing.JTable.getModel()" because "this.inventoryTable" is null
+	at com.lomoni.pages.utils.TableFilter.<init>(TableFilter.java:22) ~[pharma/:?]
+	at com.lomoni.pages.Main.setUpUI(Main.java:45) [pharma/:?]
+	at com.lomoni.pages.Main.main(Main.java:77) [pharma/:?]
+17:44:26 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+17:44:26 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+17:44:27 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+17:44:27 [main] FATAL com.lomoni.pages.Main - Exception while initializing
+java.lang.NullPointerException: Cannot invoke "javax.swing.JTable.getModel()" because "this.inventoryTable" is null
+	at com.lomoni.pages.utils.TableFilter.<init>(TableFilter.java:22) ~[pharma/:?]
+	at com.lomoni.pages.Main.setUpUI(Main.java:45) [pharma/:?]
+	at com.lomoni.pages.Main.main(Main.java:77) [pharma/:?]
+17:47:53 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+17:47:54 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+17:47:54 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+17:47:54 [main] FATAL com.lomoni.pages.Main - Exception while initializing
+java.lang.NullPointerException: Cannot invoke "javax.swing.JTable.getModel()" because "this.inventoryTable" is null
+	at com.lomoni.pages.utils.TableFilter.<init>(TableFilter.java:24) ~[pharma/:?]
+	at com.lomoni.pages.Main.setUpUI(Main.java:45) [pharma/:?]
+	at com.lomoni.pages.Main.main(Main.java:77) [pharma/:?]
+17:53:41 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+17:53:41 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+17:53:42 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+17:53:42 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+17:53:42 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+17:53:42 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+17:53:42 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+17:53:42 [main] INFO  com.lomoni.pages.Main - Initialization complete
+17:54:04 [AWT-EventQueue-0] INFO  com.lomoni.pages.Login - Login Data Passed to Service
+17:54:04 [AWT-EventQueue-0] TRACE com.lomoni.pages.Login - Screen switched to Inventory
+17:54:04 [AWT-EventQueue-0] INFO  com.lomoni.pages.Login - Login Button Clicked
+17:54:10 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+17:54:10 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+17:54:10 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+17:54:11 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+17:54:11 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+17:54:11 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+17:54:12 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+17:54:12 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+17:56:30 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+17:56:30 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+17:56:31 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+17:56:31 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+17:56:31 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+17:56:31 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+17:56:31 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+17:56:31 [main] INFO  com.lomoni.pages.Main - Initialization complete
+17:56:36 [AWT-EventQueue-0] INFO  com.lomoni.pages.Login - Login Data Passed to Service
+17:56:36 [AWT-EventQueue-0] TRACE com.lomoni.pages.Login - Screen switched to Inventory
+17:56:36 [AWT-EventQueue-0] INFO  com.lomoni.pages.Login - Login Button Clicked
+17:56:46 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text :Search...
+17:56:46 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text :Search...
+17:56:46 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text :Search...
+17:56:46 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text :Search...
+18:01:04 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+18:01:04 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+18:01:04 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+18:01:04 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+18:01:04 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:01:04 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+18:01:04 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+18:01:05 [main] INFO  com.lomoni.pages.Main - Initialization complete
+18:01:07 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text :j
+18:01:07 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text :jk
+18:01:07 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text :jke
+18:01:07 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text :jk
+18:01:08 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text :j
+18:01:08 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text :
+18:01:08 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text :d
+18:01:08 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text :dj
+18:01:09 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text :dje
+18:01:09 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text :djeo
+18:01:09 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text :
+18:01:11 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text :k
+18:01:12 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text :
+18:01:12 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text :p
+18:01:12 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text :pr
+18:01:12 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text :pre
+18:01:19 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text :k
+18:01:19 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text :kk
+18:01:19 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text :kkep
+18:01:19 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text :kkep
+18:01:19 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text :kkepel
+18:01:20 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text :kkepel
+18:01:21 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text :
+18:01:57 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+18:01:57 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+18:01:58 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+18:01:58 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+18:01:58 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:01:58 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+18:01:58 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+18:01:58 [main] INFO  com.lomoni.pages.Main - Initialization complete
+18:02:00 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:02:00 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:02:01 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:02:01 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:02:02 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:02:02 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:02:02 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:02:02 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:02:02 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:02:03 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:02:03 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:02:04 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:02:06 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:02:06 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:02:07 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:02:07 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:02:07 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:02:07 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:02:08 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:02:08 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:02:09 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:02:10 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:02:11 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:02:11 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:02:11 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:02:11 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:02:12 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:02:12 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:02:12 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:02:13 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:02:13 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:02:15 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:02:15 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:02:15 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:02:15 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:02:15 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:02:16 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:02:16 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:02:17 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:02:17 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:02:18 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:02:18 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:02:19 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:02:19 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:02:19 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:02:19 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:02:19 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:02:20 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:03:34 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+18:03:34 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+18:03:35 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+18:03:35 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+18:03:35 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:03:35 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+18:03:35 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+18:03:35 [main] INFO  com.lomoni.pages.Main - Initialization complete
+18:03:36 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:03:37 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:03:37 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:03:37 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:03:38 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:03:38 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:03:38 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:03:38 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:03:38 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:03:39 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:03:39 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:03:39 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:06:45 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+18:06:45 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+18:06:46 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+18:06:46 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+18:06:46 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:06:46 [main] INFO  com.lomoni.services.InventoryService - Table filter set on prescription data
+18:06:46 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+18:06:46 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:06:46 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+18:06:46 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+18:06:46 [main] INFO  com.lomoni.pages.Main - Initialization complete
+18:06:47 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:06:47 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:06:47 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:06:48 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:06:48 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:06:49 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:06:49 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:06:49 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:06:49 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:06:49 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:06:49 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:06:49 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:06:50 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:06:50 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:06:50 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:06:50 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:06:51 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:06:51 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:09:11 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+18:09:11 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+18:09:12 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+18:09:12 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+18:09:12 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:09:12 [main] INFO  com.lomoni.services.InventoryService - Table filter set on prescription data
+18:09:12 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+18:09:12 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:09:12 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+18:09:12 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+18:09:12 [main] INFO  com.lomoni.pages.Main - Initialization complete
+18:09:14 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:09:15 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:09:15 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:09:15 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:09:16 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:09:16 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:09:17 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:09:17 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:09:17 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:09:18 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:09:18 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:09:18 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:09:18 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:09:19 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:09:19 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:09:19 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:09:19 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:09:20 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:09:20 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:09:20 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:09:20 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:10:05 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+18:10:05 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+18:10:05 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+18:10:05 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+18:10:05 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:10:05 [main] INFO  com.lomoni.services.InventoryService - Table filter set on prescription data
+18:10:05 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+18:10:05 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:10:05 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+18:10:05 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+18:10:05 [main] INFO  com.lomoni.pages.Main - Initialization complete
+18:10:07 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:10:07 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:10:07 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:10:08 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:10:08 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:10:08 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:10:08 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:10:08 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:10:09 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:10:09 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:10:09 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:10:09 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:10:09 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:10:09 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:10:10 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:10:10 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:10:10 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:10:10 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:10:11 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:10:11 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:10:11 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:10:11 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:10:11 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:10:12 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:10:12 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:10:12 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:10:12 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:10:13 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:10:13 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:10:13 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:10:14 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:10:14 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:10:15 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:10:16 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:10:16 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:10:16 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:10:16 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:10:17 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:10:17 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:10:21 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:10:21 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:10:22 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:10:22 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:10:23 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:10:24 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text typed
+18:11:11 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+18:11:11 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+18:11:11 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+18:11:11 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+18:11:11 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:11:11 [main] INFO  com.lomoni.services.InventoryService - Table filter set on prescription data
+18:11:11 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+18:11:11 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:11:11 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+18:11:11 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+18:11:12 [main] INFO  com.lomoni.pages.Main - Initialization complete
+18:11:15 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:11:15 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:11:15 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:11:16 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:11:16 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:11:16 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:11:16 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:11:17 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:11:17 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:11:17 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:11:17 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:11:42 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+18:11:42 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+18:11:42 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+18:11:42 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+18:11:42 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:11:42 [main] INFO  com.lomoni.services.InventoryService - Table filter set on prescription data
+18:11:42 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+18:11:42 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:11:42 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+18:11:42 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+18:11:43 [main] INFO  com.lomoni.pages.Main - Initialization complete
+18:11:44 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text k
+18:11:44 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:11:45 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text A
+18:11:45 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text A
+18:11:46 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Am
+18:11:46 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Amo
+18:11:47 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:11:57 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+18:11:57 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+18:11:57 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+18:11:57 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+18:11:57 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:11:57 [main] INFO  com.lomoni.services.InventoryService - Table filter set on prescription data
+18:11:57 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+18:11:57 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:11:57 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+18:11:57 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+18:11:58 [main] INFO  com.lomoni.pages.Main - Initialization complete
+18:12:01 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text p
+18:12:01 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:12:02 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text A
+18:12:02 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text A
+18:12:02 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Am
+18:13:08 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+18:13:08 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+18:13:08 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+18:13:08 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+18:13:08 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:13:08 [main] INFO  com.lomoni.services.InventoryService - Table filter set on prescription data
+18:13:08 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+18:13:08 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:13:08 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+18:13:08 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+18:13:09 [main] INFO  com.lomoni.pages.Main - Initialization complete
+18:13:10 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text l
+18:13:10 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:14:26 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+18:14:26 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+18:14:27 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+18:14:27 [main] INFO  com.lomoni.pages.Prescription - Set table filter occurred
+18:14:27 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:14:27 [main] INFO  com.lomoni.services.InventoryService - Table filter set on prescription data
+18:14:27 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+18:14:27 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:14:27 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+18:14:27 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+18:14:27 [main] INFO  com.lomoni.pages.Main - Initialization complete
+18:14:28 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:14:30 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:14:30 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:14:30 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:14:31 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:14:31 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:14:31 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:14:32 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:14:32 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:14:32 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:14:32 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:15:17 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+18:15:17 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+18:15:18 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+18:15:18 [main] INFO  com.lomoni.pages.Prescription - Set table filter occurred
+18:15:18 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:15:18 [main] INFO  com.lomoni.services.InventoryService - Table filter set on prescription data
+18:15:18 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+18:15:18 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:15:18 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+18:15:18 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+18:15:18 [main] INFO  com.lomoni.pages.Main - Initialization complete
+18:15:19 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:15:20 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:15:20 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:15:21 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:15:21 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:15:22 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:15:22 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:15:22 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:15:22 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:15:23 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:16:26 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+18:16:26 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+18:16:27 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+18:16:27 [main] INFO  com.lomoni.pages.Prescription - Set table filter occurred
+18:16:27 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:16:27 [main] INFO  com.lomoni.services.InventoryService - Table filter set on prescription data
+18:16:27 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+18:16:27 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:16:27 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+18:16:27 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+18:16:27 [main] INFO  com.lomoni.pages.Main - Initialization complete
+18:16:28 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:16:28 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:16:29 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:16:29 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:16:29 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:16:29 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:16:30 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:16:30 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:16:30 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:16:30 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:18:54 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+18:18:54 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+18:18:54 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+18:18:55 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+18:18:55 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:18:55 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+18:18:55 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+18:18:55 [main] INFO  com.lomoni.pages.Prescription - Set table filter occurred
+18:18:55 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:18:55 [main] INFO  com.lomoni.services.InventoryService - Table filter set on prescription data
+18:18:55 [main] INFO  com.lomoni.pages.Main - Initialization complete
+18:18:55 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text k
+18:18:56 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:18:56 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text e
+18:18:57 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:18:57 [AWT-EventQueue-0] FATAL com.lomoni.pages.utils.TableFilter - Exception occurred while setting row filter on table: Unclosed character class near index 0
+[
+^
+java.util.regex.PatternSyntaxException: Unclosed character class near index 0
+[
+^
+	at java.util.regex.Pattern.error(Pattern.java:2064) ~[?:?]
+	at java.util.regex.Pattern.clazz(Pattern.java:2728) ~[?:?]
+	at java.util.regex.Pattern.sequence(Pattern.java:2175) ~[?:?]
+	at java.util.regex.Pattern.expr(Pattern.java:2105) ~[?:?]
+	at java.util.regex.Pattern.compile(Pattern.java:1805) ~[?:?]
+	at java.util.regex.Pattern.<init>(Pattern.java:1452) ~[?:?]
+	at java.util.regex.Pattern.compile(Pattern.java:1091) ~[?:?]
+	at javax.swing.RowFilter.regexFilter(RowFilter.java:183) ~[?:?]
+	at com.lomoni.pages.utils.TableFilter.filterTable(TableFilter.java:31) ~[pharma/:?]
+	at com.lomoni.pages.utils.TableFilter.keyReleased(TableFilter.java:53) ~[pharma/:?]
+	at java.awt.Component.processKeyEvent(Component.java:6581) ~[?:?]
+	at javax.swing.JComponent.processKeyEvent(JComponent.java:2905) ~[?:?]
+	at java.awt.Component.processEvent(Component.java:6397) ~[?:?]
+	at java.awt.Container.processEvent(Container.java:2266) ~[?:?]
+	at java.awt.Component.dispatchEventImpl(Component.java:4995) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2324) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4827) ~[?:?]
+	at java.awt.KeyboardFocusManager.redispatchEvent(KeyboardFocusManager.java:1952) ~[?:?]
+	at java.awt.DefaultKeyboardFocusManager.dispatchKeyEvent(DefaultKeyboardFocusManager.java:883) ~[?:?]
+	at java.awt.DefaultKeyboardFocusManager.preDispatchKeyEvent(DefaultKeyboardFocusManager.java:1146) ~[?:?]
+	at java.awt.DefaultKeyboardFocusManager.typeAheadAssertions(DefaultKeyboardFocusManager.java:1020) ~[?:?]
+	at java.awt.DefaultKeyboardFocusManager.dispatchEvent(DefaultKeyboardFocusManager.java:848) ~[?:?]
+	at java.awt.Component.dispatchEventImpl(Component.java:4876) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2324) ~[?:?]
+	at java.awt.Window.dispatchEventImpl(Window.java:2780) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4827) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:720) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:714) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:400) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:747) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:745) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:400) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87) [?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:744) [?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
+18:18:57 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text [
+18:18:57 [AWT-EventQueue-0] FATAL com.lomoni.pages.utils.TableFilter - Exception occurred while setting row filter on table: Unclosed character class near index 1
+[e
+ ^
+java.util.regex.PatternSyntaxException: Unclosed character class near index 1
+[e
+ ^
+	at java.util.regex.Pattern.error(Pattern.java:2064) ~[?:?]
+	at java.util.regex.Pattern.clazz(Pattern.java:2728) ~[?:?]
+	at java.util.regex.Pattern.sequence(Pattern.java:2175) ~[?:?]
+	at java.util.regex.Pattern.expr(Pattern.java:2105) ~[?:?]
+	at java.util.regex.Pattern.compile(Pattern.java:1805) ~[?:?]
+	at java.util.regex.Pattern.<init>(Pattern.java:1452) ~[?:?]
+	at java.util.regex.Pattern.compile(Pattern.java:1091) ~[?:?]
+	at javax.swing.RowFilter.regexFilter(RowFilter.java:183) ~[?:?]
+	at com.lomoni.pages.utils.TableFilter.filterTable(TableFilter.java:31) ~[pharma/:?]
+	at com.lomoni.pages.utils.TableFilter.keyReleased(TableFilter.java:53) ~[pharma/:?]
+	at java.awt.Component.processKeyEvent(Component.java:6581) ~[?:?]
+	at javax.swing.JComponent.processKeyEvent(JComponent.java:2905) ~[?:?]
+	at java.awt.Component.processEvent(Component.java:6397) ~[?:?]
+	at java.awt.Container.processEvent(Container.java:2266) ~[?:?]
+	at java.awt.Component.dispatchEventImpl(Component.java:4995) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2324) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4827) ~[?:?]
+	at java.awt.KeyboardFocusManager.redispatchEvent(KeyboardFocusManager.java:1952) ~[?:?]
+	at java.awt.DefaultKeyboardFocusManager.dispatchKeyEvent(DefaultKeyboardFocusManager.java:883) ~[?:?]
+	at java.awt.DefaultKeyboardFocusManager.preDispatchKeyEvent(DefaultKeyboardFocusManager.java:1146) ~[?:?]
+	at java.awt.DefaultKeyboardFocusManager.typeAheadAssertions(DefaultKeyboardFocusManager.java:1020) ~[?:?]
+	at java.awt.DefaultKeyboardFocusManager.dispatchEvent(DefaultKeyboardFocusManager.java:848) ~[?:?]
+	at java.awt.Component.dispatchEventImpl(Component.java:4876) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2324) ~[?:?]
+	at java.awt.Window.dispatchEventImpl(Window.java:2780) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4827) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:720) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:714) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:400) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:747) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:745) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:400) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87) [?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:744) [?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
+18:18:57 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text [e
+18:18:57 [AWT-EventQueue-0] FATAL com.lomoni.pages.utils.TableFilter - Exception occurred while setting row filter on table: Unclosed character class near index 2
+[em
+  ^
+java.util.regex.PatternSyntaxException: Unclosed character class near index 2
+[em
+  ^
+	at java.util.regex.Pattern.error(Pattern.java:2064) ~[?:?]
+	at java.util.regex.Pattern.clazz(Pattern.java:2728) ~[?:?]
+	at java.util.regex.Pattern.sequence(Pattern.java:2175) ~[?:?]
+	at java.util.regex.Pattern.expr(Pattern.java:2105) ~[?:?]
+	at java.util.regex.Pattern.compile(Pattern.java:1805) ~[?:?]
+	at java.util.regex.Pattern.<init>(Pattern.java:1452) ~[?:?]
+	at java.util.regex.Pattern.compile(Pattern.java:1091) ~[?:?]
+	at javax.swing.RowFilter.regexFilter(RowFilter.java:183) ~[?:?]
+	at com.lomoni.pages.utils.TableFilter.filterTable(TableFilter.java:31) ~[pharma/:?]
+	at com.lomoni.pages.utils.TableFilter.keyReleased(TableFilter.java:53) ~[pharma/:?]
+	at java.awt.Component.processKeyEvent(Component.java:6581) ~[?:?]
+	at javax.swing.JComponent.processKeyEvent(JComponent.java:2905) ~[?:?]
+	at java.awt.Component.processEvent(Component.java:6397) ~[?:?]
+	at java.awt.Container.processEvent(Container.java:2266) ~[?:?]
+	at java.awt.Component.dispatchEventImpl(Component.java:4995) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2324) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4827) ~[?:?]
+	at java.awt.KeyboardFocusManager.redispatchEvent(KeyboardFocusManager.java:1952) ~[?:?]
+	at java.awt.DefaultKeyboardFocusManager.dispatchKeyEvent(DefaultKeyboardFocusManager.java:883) ~[?:?]
+	at java.awt.DefaultKeyboardFocusManager.preDispatchKeyEvent(DefaultKeyboardFocusManager.java:1146) ~[?:?]
+	at java.awt.DefaultKeyboardFocusManager.typeAheadAssertions(DefaultKeyboardFocusManager.java:1020) ~[?:?]
+	at java.awt.DefaultKeyboardFocusManager.dispatchEvent(DefaultKeyboardFocusManager.java:848) ~[?:?]
+	at java.awt.Component.dispatchEventImpl(Component.java:4876) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2324) ~[?:?]
+	at java.awt.Window.dispatchEventImpl(Window.java:2780) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4827) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:720) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:714) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:400) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:747) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:745) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:400) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87) [?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:744) [?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
+18:18:57 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text [em
+18:18:58 [AWT-EventQueue-0] FATAL com.lomoni.pages.utils.TableFilter - Exception occurred while setting row filter on table: Unclosed character class near index 1
+[e
+ ^
+java.util.regex.PatternSyntaxException: Unclosed character class near index 1
+[e
+ ^
+	at java.util.regex.Pattern.error(Pattern.java:2064) ~[?:?]
+	at java.util.regex.Pattern.clazz(Pattern.java:2728) ~[?:?]
+	at java.util.regex.Pattern.sequence(Pattern.java:2175) ~[?:?]
+	at java.util.regex.Pattern.expr(Pattern.java:2105) ~[?:?]
+	at java.util.regex.Pattern.compile(Pattern.java:1805) ~[?:?]
+	at java.util.regex.Pattern.<init>(Pattern.java:1452) ~[?:?]
+	at java.util.regex.Pattern.compile(Pattern.java:1091) ~[?:?]
+	at javax.swing.RowFilter.regexFilter(RowFilter.java:183) ~[?:?]
+	at com.lomoni.pages.utils.TableFilter.filterTable(TableFilter.java:31) ~[pharma/:?]
+	at com.lomoni.pages.utils.TableFilter.keyReleased(TableFilter.java:53) ~[pharma/:?]
+	at java.awt.Component.processKeyEvent(Component.java:6581) ~[?:?]
+	at javax.swing.JComponent.processKeyEvent(JComponent.java:2905) ~[?:?]
+	at java.awt.Component.processEvent(Component.java:6397) ~[?:?]
+	at java.awt.Container.processEvent(Container.java:2266) ~[?:?]
+	at java.awt.Component.dispatchEventImpl(Component.java:4995) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2324) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4827) ~[?:?]
+	at java.awt.KeyboardFocusManager.redispatchEvent(KeyboardFocusManager.java:1952) ~[?:?]
+	at java.awt.DefaultKeyboardFocusManager.dispatchKeyEvent(DefaultKeyboardFocusManager.java:883) ~[?:?]
+	at java.awt.DefaultKeyboardFocusManager.preDispatchKeyEvent(DefaultKeyboardFocusManager.java:1146) ~[?:?]
+	at java.awt.DefaultKeyboardFocusManager.typeAheadAssertions(DefaultKeyboardFocusManager.java:1020) ~[?:?]
+	at java.awt.DefaultKeyboardFocusManager.dispatchEvent(DefaultKeyboardFocusManager.java:848) ~[?:?]
+	at java.awt.Component.dispatchEventImpl(Component.java:4876) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2324) ~[?:?]
+	at java.awt.Window.dispatchEventImpl(Window.java:2780) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4827) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:720) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:714) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:400) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:747) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:745) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:400) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87) [?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:744) [?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
+18:18:58 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text [e
+18:18:58 [AWT-EventQueue-0] FATAL com.lomoni.pages.utils.TableFilter - Exception occurred while setting row filter on table: Unclosed character class near index 0
+[
+^
+java.util.regex.PatternSyntaxException: Unclosed character class near index 0
+[
+^
+	at java.util.regex.Pattern.error(Pattern.java:2064) ~[?:?]
+	at java.util.regex.Pattern.clazz(Pattern.java:2728) ~[?:?]
+	at java.util.regex.Pattern.sequence(Pattern.java:2175) ~[?:?]
+	at java.util.regex.Pattern.expr(Pattern.java:2105) ~[?:?]
+	at java.util.regex.Pattern.compile(Pattern.java:1805) ~[?:?]
+	at java.util.regex.Pattern.<init>(Pattern.java:1452) ~[?:?]
+	at java.util.regex.Pattern.compile(Pattern.java:1091) ~[?:?]
+	at javax.swing.RowFilter.regexFilter(RowFilter.java:183) ~[?:?]
+	at com.lomoni.pages.utils.TableFilter.filterTable(TableFilter.java:31) ~[pharma/:?]
+	at com.lomoni.pages.utils.TableFilter.keyReleased(TableFilter.java:53) ~[pharma/:?]
+	at java.awt.Component.processKeyEvent(Component.java:6581) ~[?:?]
+	at javax.swing.JComponent.processKeyEvent(JComponent.java:2905) ~[?:?]
+	at java.awt.Component.processEvent(Component.java:6397) ~[?:?]
+	at java.awt.Container.processEvent(Container.java:2266) ~[?:?]
+	at java.awt.Component.dispatchEventImpl(Component.java:4995) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2324) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4827) ~[?:?]
+	at java.awt.KeyboardFocusManager.redispatchEvent(KeyboardFocusManager.java:1952) ~[?:?]
+	at java.awt.DefaultKeyboardFocusManager.dispatchKeyEvent(DefaultKeyboardFocusManager.java:883) ~[?:?]
+	at java.awt.DefaultKeyboardFocusManager.preDispatchKeyEvent(DefaultKeyboardFocusManager.java:1146) ~[?:?]
+	at java.awt.DefaultKeyboardFocusManager.typeAheadAssertions(DefaultKeyboardFocusManager.java:1020) ~[?:?]
+	at java.awt.DefaultKeyboardFocusManager.dispatchEvent(DefaultKeyboardFocusManager.java:848) ~[?:?]
+	at java.awt.Component.dispatchEventImpl(Component.java:4876) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2324) ~[?:?]
+	at java.awt.Window.dispatchEventImpl(Window.java:2780) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4827) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:720) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:714) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:400) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:747) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:745) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:400) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87) [?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:744) [?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
+18:18:58 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text [
+18:18:58 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:18:58 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text p
+18:18:58 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text pe
+18:18:59 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text pen
+18:18:59 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text pe
+18:18:59 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text p
+18:19:00 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:19:00 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text P
+18:19:00 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text P
+18:19:00 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Pen
+18:19:00 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Pen
+18:19:01 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Peni
+18:19:01 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Penic
+18:19:37 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+18:19:37 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+18:19:37 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+18:19:37 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+18:19:37 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:19:37 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+18:19:37 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+18:19:37 [main] INFO  com.lomoni.pages.Prescription - Set table filter occurred
+18:19:37 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:19:37 [main] INFO  com.lomoni.services.InventoryService - Table filter set on prescription data
+18:19:37 [main] INFO  com.lomoni.pages.Main - Initialization complete
+18:19:40 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:19:40 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:19:40 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:19:41 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:19:41 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:19:41 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:19:41 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:19:42 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:19:42 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:19:42 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:19:42 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:19:42 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:19:43 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:21:55 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+18:21:55 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+18:21:56 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+18:21:56 [main] INFO  com.lomoni.pages.Prescription - Set table filter occurred
+18:21:56 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:21:56 [main] INFO  com.lomoni.services.InventoryService - Table filter set on prescription data
+18:21:56 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+18:21:56 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:21:56 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+18:21:56 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+18:21:56 [main] INFO  com.lomoni.pages.Main - Initialization complete
+18:21:59 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text k
+18:21:59 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:21:59 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:22:00 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text p
+18:22:00 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:22:27 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+18:22:27 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+18:22:28 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+18:22:28 [main] INFO  com.lomoni.pages.Prescription - Set table filter occurred
+18:22:28 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:22:28 [main] INFO  com.lomoni.services.InventoryService - Table filter set on prescription data
+18:22:28 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+18:22:28 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:22:28 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+18:22:28 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+18:22:28 [main] INFO  com.lomoni.pages.Main - Initialization complete
+18:22:29 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text p
+18:22:30 [AWT-EventQueue-0] FATAL com.lomoni.pages.utils.TableFilter - Exception occurred while setting row filter on table: Unescaped trailing backslash near index 1
+\
+java.util.regex.PatternSyntaxException: Unescaped trailing backslash near index 1
+\
+	at java.util.regex.Pattern.error(Pattern.java:2064) ~[?:?]
+	at java.util.regex.Pattern.compile(Pattern.java:1811) ~[?:?]
+	at java.util.regex.Pattern.<init>(Pattern.java:1452) ~[?:?]
+	at java.util.regex.Pattern.compile(Pattern.java:1091) ~[?:?]
+	at javax.swing.RowFilter.regexFilter(RowFilter.java:183) ~[?:?]
+	at com.lomoni.pages.utils.TableFilter.filterTable(TableFilter.java:31) ~[pharma/:?]
+	at com.lomoni.pages.utils.TableFilter.keyReleased(TableFilter.java:53) ~[pharma/:?]
+	at java.awt.Component.processKeyEvent(Component.java:6581) ~[?:?]
+	at javax.swing.JComponent.processKeyEvent(JComponent.java:2905) ~[?:?]
+	at java.awt.Component.processEvent(Component.java:6397) ~[?:?]
+	at java.awt.Container.processEvent(Container.java:2266) ~[?:?]
+	at java.awt.Component.dispatchEventImpl(Component.java:4995) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2324) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4827) ~[?:?]
+	at java.awt.KeyboardFocusManager.redispatchEvent(KeyboardFocusManager.java:1952) ~[?:?]
+	at java.awt.DefaultKeyboardFocusManager.dispatchKeyEvent(DefaultKeyboardFocusManager.java:883) ~[?:?]
+	at java.awt.DefaultKeyboardFocusManager.preDispatchKeyEvent(DefaultKeyboardFocusManager.java:1146) ~[?:?]
+	at java.awt.DefaultKeyboardFocusManager.typeAheadAssertions(DefaultKeyboardFocusManager.java:1020) ~[?:?]
+	at java.awt.DefaultKeyboardFocusManager.dispatchEvent(DefaultKeyboardFocusManager.java:848) ~[?:?]
+	at java.awt.Component.dispatchEventImpl(Component.java:4876) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2324) ~[?:?]
+	at java.awt.Window.dispatchEventImpl(Window.java:2780) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4827) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:720) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:714) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:400) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:747) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:745) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:400) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87) [?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:744) [?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
+18:22:30 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text \
+18:22:30 [AWT-EventQueue-0] FATAL com.lomoni.pages.utils.TableFilter - Exception occurred while setting row filter on table: Unescaped trailing backslash near index 1
+\
+java.util.regex.PatternSyntaxException: Unescaped trailing backslash near index 1
+\
+	at java.util.regex.Pattern.error(Pattern.java:2064) ~[?:?]
+	at java.util.regex.Pattern.compile(Pattern.java:1811) ~[?:?]
+	at java.util.regex.Pattern.<init>(Pattern.java:1452) ~[?:?]
+	at java.util.regex.Pattern.compile(Pattern.java:1091) ~[?:?]
+	at javax.swing.RowFilter.regexFilter(RowFilter.java:183) ~[?:?]
+	at com.lomoni.pages.utils.TableFilter.filterTable(TableFilter.java:31) ~[pharma/:?]
+	at com.lomoni.pages.utils.TableFilter.keyReleased(TableFilter.java:53) ~[pharma/:?]
+	at java.awt.Component.processKeyEvent(Component.java:6581) ~[?:?]
+	at javax.swing.JComponent.processKeyEvent(JComponent.java:2905) ~[?:?]
+	at java.awt.Component.processEvent(Component.java:6397) ~[?:?]
+	at java.awt.Container.processEvent(Container.java:2266) ~[?:?]
+	at java.awt.Component.dispatchEventImpl(Component.java:4995) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2324) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4827) ~[?:?]
+	at java.awt.KeyboardFocusManager.redispatchEvent(KeyboardFocusManager.java:1952) ~[?:?]
+	at java.awt.DefaultKeyboardFocusManager.dispatchKeyEvent(DefaultKeyboardFocusManager.java:883) ~[?:?]
+	at java.awt.DefaultKeyboardFocusManager.preDispatchKeyEvent(DefaultKeyboardFocusManager.java:1146) ~[?:?]
+	at java.awt.DefaultKeyboardFocusManager.typeAheadAssertions(DefaultKeyboardFocusManager.java:1020) ~[?:?]
+	at java.awt.DefaultKeyboardFocusManager.dispatchEvent(DefaultKeyboardFocusManager.java:848) ~[?:?]
+	at java.awt.Component.dispatchEventImpl(Component.java:4876) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2324) ~[?:?]
+	at java.awt.Window.dispatchEventImpl(Window.java:2780) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4827) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:720) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:714) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:400) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:747) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:745) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:400) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87) [?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:744) [?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
+18:22:30 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text \
+18:22:30 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:22:30 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:22:45 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+18:22:45 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+18:22:45 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+18:22:46 [main] INFO  com.lomoni.pages.Prescription - Set table filter occurred
+18:22:46 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:22:46 [main] INFO  com.lomoni.services.InventoryService - Table filter set on prescription data
+18:22:46 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+18:22:46 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:22:46 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+18:22:46 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+18:22:46 [main] INFO  com.lomoni.pages.Main - Initialization complete
+18:22:47 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:22:47 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:22:47 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:22:47 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:22:48 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:22:48 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:22:48 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:22:49 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:22:49 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:22:49 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:22:49 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:22:49 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:22:50 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:23:18 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+18:23:18 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+18:23:19 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+18:23:19 [main] INFO  com.lomoni.pages.Prescription - Set table filter occurred
+18:23:19 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:23:19 [main] INFO  com.lomoni.services.InventoryService - Table filter set on prescription data
+18:23:19 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+18:23:19 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:23:19 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+18:23:19 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+18:23:19 [main] INFO  com.lomoni.pages.Main - Initialization complete
+18:23:20 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:23:20 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:23:21 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:23:21 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:23:21 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:23:23 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:23:23 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:23:23 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:23:23 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:23:23 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:23:24 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:23:24 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:23:25 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:23:37 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+18:23:37 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+18:23:38 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+18:23:38 [main] INFO  com.lomoni.pages.Prescription - Set table filter occurred
+18:23:38 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:23:38 [main] INFO  com.lomoni.services.InventoryService - Table filter set on prescription data
+18:23:38 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+18:23:38 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:23:38 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+18:23:38 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+18:23:38 [main] INFO  com.lomoni.pages.Main - Initialization complete
+18:23:39 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:23:39 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:23:40 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:23:40 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:23:40 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:23:40 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:23:40 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:23:41 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:23:53 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+18:23:53 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+18:23:54 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+18:23:54 [main] INFO  com.lomoni.pages.Prescription - Set table filter occurred
+18:23:54 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:23:54 [main] INFO  com.lomoni.services.InventoryService - Table filter set on prescription data
+18:23:54 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+18:23:54 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:23:54 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+18:23:54 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+18:23:54 [main] INFO  com.lomoni.pages.Main - Initialization complete
+18:23:55 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:23:55 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:23:56 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:23:56 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:23:56 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:23:56 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:23:57 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:24:17 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+18:24:17 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+18:24:18 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+18:24:18 [main] INFO  com.lomoni.pages.Prescription - Set table filter occurred
+18:24:18 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:24:18 [main] INFO  com.lomoni.services.InventoryService - Table filter set on prescription data
+18:24:18 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+18:24:18 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:24:18 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+18:24:18 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+18:24:18 [main] INFO  com.lomoni.pages.Main - Initialization complete
+18:24:19 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:24:19 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:24:20 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:24:20 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:24:20 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:24:21 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:24:21 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:24:22 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:24:35 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+18:24:35 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+18:24:35 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+18:24:35 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+18:24:35 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:24:35 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+18:24:35 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+18:24:35 [main] INFO  com.lomoni.pages.Prescription - Set table filter occurred
+18:24:35 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:24:35 [main] INFO  com.lomoni.services.InventoryService - Table filter set on prescription data
+18:24:36 [main] INFO  com.lomoni.pages.Main - Initialization complete
+18:24:37 [AWT-EventQueue-0] FATAL com.lomoni.pages.utils.TableFilter - Exception occurred while setting row filter on table: Unclosed character class near index 0
+[
+^
+java.util.regex.PatternSyntaxException: Unclosed character class near index 0
+[
+^
+	at java.util.regex.Pattern.error(Pattern.java:2064) ~[?:?]
+	at java.util.regex.Pattern.clazz(Pattern.java:2728) ~[?:?]
+	at java.util.regex.Pattern.sequence(Pattern.java:2175) ~[?:?]
+	at java.util.regex.Pattern.expr(Pattern.java:2105) ~[?:?]
+	at java.util.regex.Pattern.compile(Pattern.java:1805) ~[?:?]
+	at java.util.regex.Pattern.<init>(Pattern.java:1452) ~[?:?]
+	at java.util.regex.Pattern.compile(Pattern.java:1091) ~[?:?]
+	at javax.swing.RowFilter.regexFilter(RowFilter.java:183) ~[?:?]
+	at com.lomoni.pages.utils.TableFilter.filterTable(TableFilter.java:31) ~[pharma/:?]
+	at com.lomoni.pages.utils.TableFilter.keyReleased(TableFilter.java:53) ~[pharma/:?]
+	at java.awt.Component.processKeyEvent(Component.java:6581) ~[?:?]
+	at javax.swing.JComponent.processKeyEvent(JComponent.java:2905) ~[?:?]
+	at java.awt.Component.processEvent(Component.java:6397) ~[?:?]
+	at java.awt.Container.processEvent(Container.java:2266) ~[?:?]
+	at java.awt.Component.dispatchEventImpl(Component.java:4995) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2324) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4827) ~[?:?]
+	at java.awt.KeyboardFocusManager.redispatchEvent(KeyboardFocusManager.java:1952) ~[?:?]
+	at java.awt.DefaultKeyboardFocusManager.dispatchKeyEvent(DefaultKeyboardFocusManager.java:883) ~[?:?]
+	at java.awt.DefaultKeyboardFocusManager.preDispatchKeyEvent(DefaultKeyboardFocusManager.java:1146) ~[?:?]
+	at java.awt.DefaultKeyboardFocusManager.typeAheadAssertions(DefaultKeyboardFocusManager.java:1020) ~[?:?]
+	at java.awt.DefaultKeyboardFocusManager.dispatchEvent(DefaultKeyboardFocusManager.java:848) ~[?:?]
+	at java.awt.Component.dispatchEventImpl(Component.java:4876) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2324) ~[?:?]
+	at java.awt.Window.dispatchEventImpl(Window.java:2780) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4827) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:720) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:714) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:400) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:747) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:745) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:400) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87) [?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:744) [?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
+18:24:37 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text [
+18:24:38 [AWT-EventQueue-0] FATAL com.lomoni.pages.utils.TableFilter - Exception occurred while setting row filter on table: Unclosed character class near index 1
+[p
+ ^
+java.util.regex.PatternSyntaxException: Unclosed character class near index 1
+[p
+ ^
+	at java.util.regex.Pattern.error(Pattern.java:2064) ~[?:?]
+	at java.util.regex.Pattern.clazz(Pattern.java:2728) ~[?:?]
+	at java.util.regex.Pattern.sequence(Pattern.java:2175) ~[?:?]
+	at java.util.regex.Pattern.expr(Pattern.java:2105) ~[?:?]
+	at java.util.regex.Pattern.compile(Pattern.java:1805) ~[?:?]
+	at java.util.regex.Pattern.<init>(Pattern.java:1452) ~[?:?]
+	at java.util.regex.Pattern.compile(Pattern.java:1091) ~[?:?]
+	at javax.swing.RowFilter.regexFilter(RowFilter.java:183) ~[?:?]
+	at com.lomoni.pages.utils.TableFilter.filterTable(TableFilter.java:31) ~[pharma/:?]
+	at com.lomoni.pages.utils.TableFilter.keyReleased(TableFilter.java:53) ~[pharma/:?]
+	at java.awt.Component.processKeyEvent(Component.java:6581) ~[?:?]
+	at javax.swing.JComponent.processKeyEvent(JComponent.java:2905) ~[?:?]
+	at java.awt.Component.processEvent(Component.java:6397) ~[?:?]
+	at java.awt.Container.processEvent(Container.java:2266) ~[?:?]
+	at java.awt.Component.dispatchEventImpl(Component.java:4995) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2324) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4827) ~[?:?]
+	at java.awt.KeyboardFocusManager.redispatchEvent(KeyboardFocusManager.java:1952) ~[?:?]
+	at java.awt.DefaultKeyboardFocusManager.dispatchKeyEvent(DefaultKeyboardFocusManager.java:883) ~[?:?]
+	at java.awt.DefaultKeyboardFocusManager.preDispatchKeyEvent(DefaultKeyboardFocusManager.java:1146) ~[?:?]
+	at java.awt.DefaultKeyboardFocusManager.typeAheadAssertions(DefaultKeyboardFocusManager.java:1020) ~[?:?]
+	at java.awt.DefaultKeyboardFocusManager.dispatchEvent(DefaultKeyboardFocusManager.java:848) ~[?:?]
+	at java.awt.Component.dispatchEventImpl(Component.java:4876) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2324) ~[?:?]
+	at java.awt.Window.dispatchEventImpl(Window.java:2780) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4827) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:720) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:714) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:400) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:747) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:745) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:400) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87) [?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:744) [?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
+18:24:38 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text [p
+18:24:38 [AWT-EventQueue-0] FATAL com.lomoni.pages.utils.TableFilter - Exception occurred while setting row filter on table: Unclosed character class near index 0
+[
+^
+java.util.regex.PatternSyntaxException: Unclosed character class near index 0
+[
+^
+	at java.util.regex.Pattern.error(Pattern.java:2064) ~[?:?]
+	at java.util.regex.Pattern.clazz(Pattern.java:2728) ~[?:?]
+	at java.util.regex.Pattern.sequence(Pattern.java:2175) ~[?:?]
+	at java.util.regex.Pattern.expr(Pattern.java:2105) ~[?:?]
+	at java.util.regex.Pattern.compile(Pattern.java:1805) ~[?:?]
+	at java.util.regex.Pattern.<init>(Pattern.java:1452) ~[?:?]
+	at java.util.regex.Pattern.compile(Pattern.java:1091) ~[?:?]
+	at javax.swing.RowFilter.regexFilter(RowFilter.java:183) ~[?:?]
+	at com.lomoni.pages.utils.TableFilter.filterTable(TableFilter.java:31) ~[pharma/:?]
+	at com.lomoni.pages.utils.TableFilter.keyReleased(TableFilter.java:53) ~[pharma/:?]
+	at java.awt.Component.processKeyEvent(Component.java:6581) ~[?:?]
+	at javax.swing.JComponent.processKeyEvent(JComponent.java:2905) ~[?:?]
+	at java.awt.Component.processEvent(Component.java:6397) ~[?:?]
+	at java.awt.Container.processEvent(Container.java:2266) ~[?:?]
+	at java.awt.Component.dispatchEventImpl(Component.java:4995) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2324) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4827) ~[?:?]
+	at java.awt.KeyboardFocusManager.redispatchEvent(KeyboardFocusManager.java:1952) ~[?:?]
+	at java.awt.DefaultKeyboardFocusManager.dispatchKeyEvent(DefaultKeyboardFocusManager.java:883) ~[?:?]
+	at java.awt.DefaultKeyboardFocusManager.preDispatchKeyEvent(DefaultKeyboardFocusManager.java:1146) ~[?:?]
+	at java.awt.DefaultKeyboardFocusManager.typeAheadAssertions(DefaultKeyboardFocusManager.java:1020) ~[?:?]
+	at java.awt.DefaultKeyboardFocusManager.dispatchEvent(DefaultKeyboardFocusManager.java:848) ~[?:?]
+	at java.awt.Component.dispatchEventImpl(Component.java:4876) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2324) ~[?:?]
+	at java.awt.Window.dispatchEventImpl(Window.java:2780) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4827) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:720) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:714) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:400) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:747) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:745) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:400) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87) [?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:744) [?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
+18:24:38 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text [
+18:24:38 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:24:38 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text P
+18:24:38 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text P
+18:24:39 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Pe
+18:24:39 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Pen
+18:24:40 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Pe
+18:24:40 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text P
+18:24:40 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:24:40 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:24:41 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text I
+18:24:41 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text I
+18:24:41 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Ib
+18:24:42 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text I
+18:24:42 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:24:42 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:25:05 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+18:25:05 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+18:25:06 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+18:25:06 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+18:25:06 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:25:06 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+18:25:06 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+18:25:06 [main] INFO  com.lomoni.pages.Prescription - Set table filter occurred
+18:25:06 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:25:06 [main] INFO  com.lomoni.services.InventoryService - Table filter set on prescription data
+18:25:06 [main] INFO  com.lomoni.pages.Main - Initialization complete
+18:25:07 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:25:07 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:25:08 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:25:08 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:25:08 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:25:08 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:25:09 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:25:09 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:25:09 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:25:09 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:25:09 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:25:09 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:25:10 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:25:10 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:25:23 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+18:25:23 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+18:25:23 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+18:25:23 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+18:25:23 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:25:23 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+18:25:23 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+18:25:23 [main] INFO  com.lomoni.pages.Prescription - Set table filter occurred
+18:25:23 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:25:23 [main] INFO  com.lomoni.services.InventoryService - Table filter set on prescription data
+18:25:24 [main] INFO  com.lomoni.pages.Main - Initialization complete
+18:25:25 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:25:25 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:25:25 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:25:25 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:25:25 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:25:26 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:25:26 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:25:26 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:26:56 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+18:26:56 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+18:26:57 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+18:26:57 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+18:26:57 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+18:26:57 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:26:57 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+18:26:57 [main] INFO  com.lomoni.pages.Prescription - Set table filter occurred
+18:26:57 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:26:57 [main] INFO  com.lomoni.services.InventoryService - Table filter set on prescription data
+18:26:57 [main] INFO  com.lomoni.pages.Main - Initialization complete
+18:26:58 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:26:58 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:26:58 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:26:58 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:26:59 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:26:59 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:27:00 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:27:00 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:27:01 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:27:02 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:27:02 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:27:02 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:27:02 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:27:02 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:27:03 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:27:03 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:27:25 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+18:27:25 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+18:27:26 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+18:27:26 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+18:27:26 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:27:26 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+18:27:26 [main] INFO  com.lomoni.pages.Prescription - Set table filter occurred
+18:27:26 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:27:26 [main] INFO  com.lomoni.services.InventoryService - Table filter set on prescription data
+18:27:26 [main] INFO  com.lomoni.pages.Main - Initialization complete
+18:27:27 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:27:28 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:27:29 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:27:30 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:27:30 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:27:30 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:27:31 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:27:31 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:27:31 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:27:32 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:27:32 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:27:32 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:27:33 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:27:33 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:27:33 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:28:13 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+18:28:13 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+18:28:13 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+18:28:13 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+18:28:13 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:28:13 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+18:28:13 [main] INFO  com.lomoni.pages.Prescription - Set table filter occurred
+18:28:13 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:28:13 [main] INFO  com.lomoni.services.InventoryService - Table filter set on prescription data
+18:28:13 [main] INFO  com.lomoni.pages.Main - Initialization complete
+18:28:14 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:28:14 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:28:14 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:28:14 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:28:15 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:28:15 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:28:15 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:28:15 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:28:17 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:28:17 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:28:17 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:28:17 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:28:17 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:28:17 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:28:42 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+18:28:42 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+18:28:43 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+18:28:43 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+18:28:43 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+18:28:43 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:28:43 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+18:28:43 [main] INFO  com.lomoni.pages.Prescription - Set table filter occurred
+18:28:43 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:28:43 [main] INFO  com.lomoni.services.InventoryService - Table filter set on prescription data
+18:28:43 [main] INFO  com.lomoni.pages.Main - Initialization complete
+18:28:49 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:28:49 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:28:50 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:28:50 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:28:50 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:28:50 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:28:50 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:28:50 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:28:51 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:28:51 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:28:51 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:28:52 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:28:52 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:28:52 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:28:52 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:28:52 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:28:52 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:28:53 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:28:53 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:28:54 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:28:54 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:28:54 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:28:54 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:28:57 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text 
+18:29:19 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+18:29:19 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+18:29:20 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+18:29:20 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+18:29:20 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+18:29:20 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:29:20 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+18:29:20 [main] INFO  com.lomoni.pages.Prescription - Set table filter occurred
+18:29:20 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+18:29:20 [main] INFO  com.lomoni.services.InventoryService - Table filter set on prescription data
+18:29:20 [main] INFO  com.lomoni.pages.Main - Initialization complete
+18:29:22 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:29:22 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:29:22 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:29:22 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:29:23 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:29:23 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:29:23 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:29:23 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:29:24 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...
+18:29:24 [AWT-EventQueue-0] INFO  com.lomoni.pages.utils.TableFilter - Filter text Search...

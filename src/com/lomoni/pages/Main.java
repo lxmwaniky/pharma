@@ -1,5 +1,6 @@
 package com.lomoni.pages;
 
+import com.lomoni.database.config.DBConnector;
 import com.lomoni.pages.utils.TableFilter;
 import com.lomoni.services.InventoryService;
 import com.lomoni.services.PrescriptionService;
@@ -23,6 +24,7 @@ import static com.lomoni.pages.utils.LogManagerImplementation.Log;
 public class Main{
     private static final int screenWidth = 1000;
     private static final int screenHeight = 600;
+
     private static void setUpUI(){
         try{
             //THEME
@@ -35,22 +37,23 @@ public class Main{
             //Create CardLayout object to switch between different panels on the same frame
             CardLayout cardLayout = new CardLayout();
             Container container = screen.getContentPane();
+            Log("TRACE","cardLayout and container Objects initialized",null,Main.class.getName());
 
             //Add layout to frame
             screen.setLayout(cardLayout);
             Log("TRACE","Card Layout set to frame",null,Main.class.getName());
+
             //LOGIN SCREEN
             Login loginScreen = new Login(container,cardLayout);
-            //INVENTORY SCREEN
-            TableFilter tableFilter = new TableFilter();
-            InventoryService inventoryService = new InventoryService();
-            Inventory inventoryScreen = new Inventory(inventoryService, tableFilter);
             //SELL SCREEN
             Sell sellScreen = new Sell();
+            //PRESCRIPTION SCREEN
+            Prescription prescriptionScreen = new Prescription(new PrescriptionService(), new TableFilter());
+            //INVENTORY SCREEN
+            Inventory inventoryScreen = new Inventory(new InventoryService(), new TableFilter());
             //SELL RECEIPT SCREEN
             SellReceipt sellReceiptScreen = new SellReceipt();
-            //PRESCRIPTION SCREEN
-            Prescription prescriptionScreen = new Prescription(new PrescriptionService(), tableFilter);
+            Log("TRACE","Screens initialized",null,Main.class.getName());
 
             container.add("login",loginScreen.createMainPanel());
 
@@ -58,7 +61,10 @@ public class Main{
 
             container.add("prescription",prescriptionScreen.createMainPanel());
 
+            container.add("sell", sellScreen.createMainPanel());
+
             container.add("sell-receipt", sellReceiptScreen.createMainPanel());
+            Log("TRACE","Screen main panels added to the container",null,Main.class.getName());
 
             cardLayout.show(container,"login");
             container.setLayout(cardLayout);
@@ -72,8 +78,15 @@ public class Main{
         }
 
     }
+
+    private static void setUpDB(){
+        new DBConnector();
+    }
     public static void main(String[] args) {
-        //UI SETUP LOGIC
+        //UI SETUP
         setUpUI();
+
+        //DATABASE SETUP
+//        setUpDB();
     }
 }

@@ -3,6 +3,7 @@ package com.lomoni.pages;
 import com.lomoni.pages.utils.InputFieldFocusListener;
 import com.lomoni.pages.utils.TableFilter;
 import com.lomoni.services.InventoryService;
+import com.lomoni.services.PrescriptionService;
 
 import javax.swing.*;
 import javax.swing.table.*;
@@ -30,12 +31,14 @@ public class Inventory {
 
     public Inventory(InventoryService inventoryService, TableFilter tableFilter){
         try{
+            setPlaceholderFunctionality();
             setTableFilter(tableFilter);
             setInventoryServiceData(inventoryService);
-            setPlaceholderFunctionality();
-        } catch(Exception e){
-            Log("FATA","Exception occured while initializing Inventory : "+e.getMessage(), e, Inventory.class.getName());
+            Log("INFO","Table filter set on prescription data",null,InventoryService.class.getName());
+        }catch (Exception e){
+            Log("FATAL","Exception while setting table filter on Prescription data",e,Inventory.class.getName());
         }
+
     }
 
     private void setTableFilter(TableFilter tableFilter){
@@ -43,20 +46,21 @@ public class Inventory {
             tableFilter.setInventoryTable(inventoryTable);
             tableFilter.setFilterTextInput(rowFilterTextField);
             rowFilterTextField.addKeyListener(tableFilter);
+            Log("INFO","Set table filter occurred",null,Prescription.class.getName());
         }catch(Exception e){
-            Log("FATAL","Exception occurred while setting the table filter : "+e.getMessage(),e,Inventory.class.getName());
+            Log("FATAL","Exception occurred while setting the table filter : "+e.getMessage(),e,Prescription.class.getName());
         }
 
     }
 
-    private void setInventoryServiceData(InventoryService inventoryService){
+    private void setInventoryServiceData(InventoryService prescriptionService){
         try{
-            TableModel inventoryModel = new DefaultTableModel(inventoryService.getInventoryDisplayData(), inventoryService.getInventoryDisplayColumns());
+            TableModel inventoryModel = new DefaultTableModel(prescriptionService.getInventoryDisplayData(), prescriptionService.getInventoryDisplayColumns());
             inventoryTable.setModel(inventoryModel);
+            Log("INFO", "Prescription data set",null,Prescription.class.getName());
         }catch(Exception e){
-            Log("FATAL","Exception occurred while setting the inventory service data : "+e.getMessage(),e,Inventory.class.getName());
+            Log("FATAL","Exception occurred while setting the prescription data : "+e.getMessage(),e,Prescription.class.getName());
         }
-
     }
 
     private void setPlaceholderFunctionality(){
@@ -73,7 +77,7 @@ public class Inventory {
             quantityInStock.addFocusListener(quantityInStockPlaceholder);
             unitPriceOfMedicine.addFocusListener(unitPriceOfMedicinePlaceholder);
         }catch(Exception e){
-            Log("FATAL","Exception occured while setting the placeholder functionality : "+e.getMessage(),e,Inventory.class.getName());
+            Log("FATAL","Exception occurred while setting the placeholder functionality : "+e.getMessage(),e,Inventory.class.getName());
         }
     }
     public JPanel createMainPanel(){

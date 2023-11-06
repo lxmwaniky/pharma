@@ -19,7 +19,7 @@
         </properties>
         <border type="empty"/>
         <children>
-          <component id="84b97" class="javax.swing.JTable" binding="inventoryTable">
+          <component id="b77fc" class="javax.swing.JTable" binding="inventoryTable">
             <constraints/>
             <properties>
               <background color="-855310"/>
@@ -65,17 +65,6 @@
           <text value="Inventory"/>
           <verticalAlignment value="3"/>
           <verticalTextPosition value="3"/>
-        </properties>
-      </component>
-      <component id="7e1f4" class="javax.swing.JTextField" binding="rowFilterTextField">
-        <constraints>
-          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="50"/>
-          </grid>
-        </constraints>
-        <properties>
-          <focusable value="true"/>
-          <text value="Search..."/>
         </properties>
       </component>
       <component id="2cfd7" class="javax.swing.JLabel">
@@ -206,6 +195,17 @@
           <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
         </constraints>
       </vspacer>
+      <component id="c55b6" class="javax.swing.JTextField" binding="rowFilterTextField">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="true"/>
+          <text value="Search..."/>
+        </properties>
+      </component>
     </children>
   </grid>
 </form>

@@ -26,9 +26,9 @@ public class Prescription {
 
     public Prescription(PrescriptionService prescriptionService, TableFilter tableFilter){
         try{
+            setPlaceholderFunctionality();
             setTableFilter(tableFilter);
             setPrescriptionServiceData(prescriptionService);
-            setPlaceholderFunctionality();
             Log("INFO","Table filter set on prescription data",null,Prescription.class.getName());
         }catch (Exception e){
             Log("FATAL","Exception while setting table filter on Prescription data",e,Prescription.class.getName());

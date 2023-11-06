@@ -1,5 +1,7 @@
 package com.lomoni.services;
 
+import com.lomoni.database.config.DBConnector;
+
 import static com.lomoni.pages.utils.HashPassword.hashPass;
 
 public class LoginService {
@@ -14,6 +16,12 @@ public class LoginService {
         this.passWord = passWord;
         this.userType = userType;
         this.hashedPassword = hashPass(this.passWord);
+    }
+
+    //Get DB user data
+    private void getDBUserData(){
+        DBConnector dbConnector = new DBConnector();
+        dbConnector.getAllUsers();
     }
 
     public String getUserName() {

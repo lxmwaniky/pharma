@@ -1,0 +1,199 @@
+10:04:46 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+10:04:46 [main] TRACE com.lomoni.pages.Main - cardLayout and container Objects initialized
+10:04:46 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+10:04:46 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+10:04:46 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+10:04:46 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+10:04:46 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+10:04:46 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+10:04:46 [main] INFO  com.lomoni.pages.Prescription - Set table filter occurred
+10:04:46 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+10:04:46 [main] INFO  com.lomoni.services.InventoryService - Table filter set on prescription data
+10:04:46 [main] TRACE com.lomoni.pages.Main - Screens initialized
+10:04:46 [main] TRACE com.lomoni.pages.Main - Screen main panels added to the container
+10:04:46 [main] INFO  com.lomoni.pages.Main - Initialization complete
+10:05:42 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+10:05:42 [main] TRACE com.lomoni.pages.Main - cardLayout and container Objects initialized
+10:05:42 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+10:05:42 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+10:05:42 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+10:05:42 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+10:05:42 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+10:05:42 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+10:05:42 [main] INFO  com.lomoni.pages.Prescription - Set table filter occurred
+10:05:42 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+10:05:42 [main] INFO  com.lomoni.services.InventoryService - Table filter set on prescription data
+10:05:42 [main] TRACE com.lomoni.pages.Main - Screens initialized
+10:05:42 [main] TRACE com.lomoni.pages.Main - Screen main panels added to the container
+10:05:42 [main] INFO  com.lomoni.pages.Main - Initialization complete
+10:16:10 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+10:16:10 [main] TRACE com.lomoni.pages.Main - cardLayout and container Objects initialized
+10:16:10 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+10:16:10 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+10:16:10 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+10:16:10 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+10:16:10 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+10:16:10 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+10:16:10 [main] INFO  com.lomoni.pages.Prescription - Set table filter occurred
+10:16:10 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+10:16:10 [main] INFO  com.lomoni.services.InventoryService - Table filter set on prescription data
+10:16:10 [main] TRACE com.lomoni.pages.Main - Screens initialized
+10:16:10 [main] TRACE com.lomoni.pages.Main - Screen main panels added to the container
+10:16:10 [main] INFO  com.lomoni.pages.Main - Initialization complete
+10:58:55 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+10:58:55 [main] TRACE com.lomoni.pages.Main - cardLayout and container Objects initialized
+10:58:55 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+10:58:56 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+10:58:56 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+10:58:56 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+10:58:56 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+10:58:56 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+10:58:56 [main] INFO  com.lomoni.pages.Prescription - Set table filter occurred
+10:58:56 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+10:58:56 [main] INFO  com.lomoni.services.InventoryService - Table filter set on prescription data
+10:58:56 [main] TRACE com.lomoni.pages.Main - Screens initialized
+10:58:56 [main] TRACE com.lomoni.pages.Main - Screen main panels added to the container
+10:58:56 [main] INFO  com.lomoni.pages.Main - Initialization complete
+11:00:59 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+11:00:59 [main] TRACE com.lomoni.pages.Main - cardLayout and container Objects initialized
+11:00:59 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+11:01:00 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+11:01:00 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+11:01:00 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+11:01:00 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+11:01:00 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+11:01:00 [main] INFO  com.lomoni.pages.Prescription - Set table filter occurred
+11:01:00 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+11:01:00 [main] INFO  com.lomoni.services.InventoryService - Table filter set on prescription data
+11:01:00 [main] TRACE com.lomoni.pages.Main - Screens initialized
+11:01:00 [main] TRACE com.lomoni.pages.Main - Screen main panels added to the container
+11:01:00 [main] INFO  com.lomoni.pages.Main - Initialization complete
+11:03:59 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+11:03:59 [main] TRACE com.lomoni.pages.Main - cardLayout and container Objects initialized
+11:03:59 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+11:04:00 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+11:04:00 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+11:04:00 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+11:04:00 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+11:04:00 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+11:04:00 [main] INFO  com.lomoni.pages.Prescription - Set table filter occurred
+11:04:00 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+11:04:00 [main] INFO  com.lomoni.services.InventoryService - Table filter set on prescription data
+11:04:00 [main] TRACE com.lomoni.pages.Main - Screens initialized
+11:04:00 [main] TRACE com.lomoni.pages.Main - Screen main panels added to the container
+11:04:00 [main] INFO  com.lomoni.pages.Main - Initialization complete
+11:06:54 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+11:06:54 [main] TRACE com.lomoni.pages.Main - cardLayout and container Objects initialized
+11:06:54 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+11:06:54 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+11:06:54 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+11:06:54 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+11:06:54 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+11:06:54 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+11:06:54 [main] INFO  com.lomoni.pages.Prescription - Set table filter occurred
+11:06:54 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+11:06:54 [main] INFO  com.lomoni.services.InventoryService - Table filter set on prescription data
+11:06:54 [main] TRACE com.lomoni.pages.Main - Screens initialized
+11:06:54 [main] TRACE com.lomoni.pages.Main - Screen main panels added to the container
+11:06:55 [main] INFO  com.lomoni.pages.Main - Initialization complete
+11:07:23 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+11:07:23 [main] TRACE com.lomoni.pages.Main - cardLayout and container Objects initialized
+11:07:23 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+11:07:24 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+11:07:24 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+11:07:24 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+11:07:24 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+11:07:24 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+11:07:24 [main] INFO  com.lomoni.pages.Prescription - Set table filter occurred
+11:07:24 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+11:07:24 [main] INFO  com.lomoni.services.InventoryService - Table filter set on prescription data
+11:07:24 [main] TRACE com.lomoni.pages.Main - Screens initialized
+11:07:24 [main] TRACE com.lomoni.pages.Main - Screen main panels added to the container
+11:07:24 [main] INFO  com.lomoni.pages.Main - Initialization complete
+11:15:00 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+11:15:00 [main] TRACE com.lomoni.pages.Main - cardLayout and container Objects initialized
+11:15:00 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+11:15:00 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+11:15:00 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+11:15:00 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+11:15:00 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+11:15:00 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+11:15:00 [main] INFO  com.lomoni.pages.Prescription - Set table filter occurred
+11:15:00 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+11:15:00 [main] INFO  com.lomoni.services.InventoryService - Table filter set on prescription data
+11:15:00 [main] TRACE com.lomoni.pages.Main - Screens initialized
+11:15:00 [main] TRACE com.lomoni.pages.Main - Screen main panels added to the container
+11:15:00 [main] INFO  com.lomoni.pages.Main - Initialization complete
+11:43:54 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+11:43:54 [main] TRACE com.lomoni.pages.Main - cardLayout and container Objects initialized
+11:43:54 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+11:43:54 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+11:43:54 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+11:43:54 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+11:43:54 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+11:43:54 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+11:43:54 [main] INFO  com.lomoni.pages.Prescription - Set table filter occurred
+11:43:54 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+11:43:54 [main] INFO  com.lomoni.services.InventoryService - Table filter set on prescription data
+11:43:54 [main] TRACE com.lomoni.pages.Main - Screens initialized
+11:43:54 [main] TRACE com.lomoni.pages.Main - Screen main panels added to the container
+11:43:54 [main] INFO  com.lomoni.pages.Main - Initialization complete
+11:53:12 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+11:53:12 [main] TRACE com.lomoni.pages.Main - cardLayout and container Objects initialized
+11:53:12 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+11:53:12 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+11:53:12 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+11:53:12 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+11:53:12 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+11:53:12 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+11:53:12 [main] INFO  com.lomoni.pages.Prescription - Set table filter occurred
+11:53:12 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+11:53:12 [main] INFO  com.lomoni.services.InventoryService - Table filter set on prescription data
+11:53:12 [main] TRACE com.lomoni.pages.Main - Screens initialized
+11:53:12 [main] TRACE com.lomoni.pages.Main - Screen main panels added to the container
+11:53:12 [main] INFO  com.lomoni.pages.Main - Initialization complete
+11:55:01 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+11:55:01 [main] TRACE com.lomoni.pages.Main - cardLayout and container Objects initialized
+11:55:01 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+11:55:01 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+11:55:01 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+11:55:01 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+11:55:01 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+11:55:01 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+11:55:01 [main] INFO  com.lomoni.pages.Prescription - Set table filter occurred
+11:55:01 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+11:55:01 [main] INFO  com.lomoni.services.InventoryService - Table filter set on prescription data
+11:55:01 [main] TRACE com.lomoni.pages.Main - Screens initialized
+11:55:01 [main] TRACE com.lomoni.pages.Main - Screen main panels added to the container
+11:55:02 [main] INFO  com.lomoni.pages.Main - Initialization complete
+11:55:25 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+11:55:25 [main] TRACE com.lomoni.pages.Main - cardLayout and container Objects initialized
+11:55:25 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+11:55:26 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+11:55:26 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+11:55:26 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+11:55:26 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+11:55:26 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+11:55:26 [main] INFO  com.lomoni.pages.Prescription - Set table filter occurred
+11:55:26 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+11:55:26 [main] INFO  com.lomoni.services.InventoryService - Table filter set on prescription data
+11:55:26 [main] TRACE com.lomoni.pages.Main - Screens initialized
+11:55:26 [main] TRACE com.lomoni.pages.Main - Screen main panels added to the container
+11:55:26 [main] INFO  com.lomoni.pages.Main - Initialization complete
+12:12:55 [main] TRACE com.lomoni.pages.Main - Default close operation set to EXIT_ON_CLOSE
+12:12:55 [main] TRACE com.lomoni.pages.Main - cardLayout and container Objects initialized
+12:12:55 [main] TRACE com.lomoni.pages.Main - Card Layout set to frame
+12:12:56 [main] INFO  com.lomoni.pages.Login - Input fields focus set
+12:12:56 [main] INFO  com.lomoni.pages.Prescription - Placeholders set
+12:12:56 [main] INFO  com.lomoni.pages.Prescription - Set table filter occured
+12:12:56 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+12:12:56 [main] INFO  com.lomoni.pages.Prescription - Table filter set on prescription data
+12:12:56 [main] INFO  com.lomoni.pages.Prescription - Set table filter occurred
+12:12:56 [main] INFO  com.lomoni.pages.Prescription - Prescription data set
+12:12:56 [main] INFO  com.lomoni.services.InventoryService - Table filter set on prescription data
+12:12:56 [main] TRACE com.lomoni.pages.Main - Screens initialized
+12:12:56 [main] TRACE com.lomoni.pages.Main - Screen main panels added to the container
+12:12:56 [main] INFO  com.lomoni.pages.Main - Initialization complete
+12:13:11 [AWT-EventQueue-0] INFO  com.lomoni.pages.Login - Login Data Passed to Service
+12:13:11 [AWT-EventQueue-0] TRACE com.lomoni.pages.Login - Screen switched to Inventory
+12:13:11 [AWT-EventQueue-0] INFO  com.lomoni.pages.Login - Login Button Clicked
