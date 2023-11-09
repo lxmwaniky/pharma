@@ -46,10 +46,9 @@ public class LoginService {
                     if(db_userType.equals(userType)){
                         Log("TRACE","User successfully authenticated",null,LoginService.class.getName());
                         return true;
-                    }
-                }
-            }
-
+                    } else return false;
+                } else return false;
+            } else return false;
         }
 
         }catch(Exception exception){

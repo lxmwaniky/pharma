@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19d791b9-e31e-432b-9f0f-9108897f0020" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Login.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Login.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/lomoni/services/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/services/LoginService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,14 +105,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697268887105</updated>
-    </task>
-    <task id="LOCAL-00015" summary="refactor : `Login` shouldn't extend JFrame. Should be a standable class handling login logic">
-      <option name="closed" value="true" />
-      <created>1697314859657</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1697314859657</updated>
     </task>
     <task id="LOCAL-00016" summary="refactor : define constants for screen size">
       <option name="closed" value="true" />
@@ -497,12 +490,19 @@
       <option name="project" value="LOCAL" />
       <updated>1699528709139</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="refactor : Making the authenticate method better">
+      <option name="closed" value="true" />
+      <created>1699529889244</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1699529889244</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="refactor : Separate method for handling login action" />
     <MESSAGE value="refactor : Replace loginButton event listener logic with lambda expression" />
     <MESSAGE value="refactor : Remove unused generated getter functions" />
     <MESSAGE value="refactor : Remove unused code" />
@@ -527,6 +527,7 @@
     <MESSAGE value="feature : Authentication system" />
     <MESSAGE value="feature : Authentication system complete" />
     <MESSAGE value="refactor : Switch from `Object.equals` to `.equals` for string comparison for better readability." />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor : Switch from `Object.equals` to `.equals` for string comparison for better readability." />
+    <MESSAGE value="refactor : Making the authenticate method better" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor : Making the authenticate method better" />
   </component>
 </project>

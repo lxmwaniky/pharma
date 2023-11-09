@@ -31,6 +31,7 @@ public class  Login {
     private char[] passWordValue;
     private JPanel mainPanel;
     private JLabel lbl_error_login;
+    private JPanel error_panel;
 
     private Container container;
     private CardLayout cardLayout;
@@ -112,9 +113,10 @@ public class  Login {
             if(loginService.authenticateUser()) {
                 showMessage(container,"Sign In Successful!","Logged In",1);
                 Log("INFO", "Login Data Passed to Service", null, Login.class.getName());
-                cardLayout.next(container);
+//                cardLayout.next(container);
                 Log("TRACE", "Screen switched to Inventory", null, Login.class.getName());
             } else {
+                error_panel.setVisible(true);
                 if(Objects.equals(userType, "Select user type")){
                     showMessage(container,"Select a user type","User type not selected",0);
                 }
@@ -124,7 +126,6 @@ public class  Login {
             if(userNameValue.isEmpty() || new String(passWordValue).isEmpty()){
                 showMessage(container, "Fill all the inputs","Empty inputs!",0);
             }
-
             Log("FATAL","Exception occurred while carrying out the login action : "+e.getMessage(),e,Login.class.getName());
         }
     }
