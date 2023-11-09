@@ -2,6 +2,7 @@ package com.lomoni.database.config;
 
 import com.mysql.cj.jdbc.Driver;
 
+import java.awt.*;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -42,18 +43,28 @@ public class DBConnector {
     }
     
     public HashMap getAllUsers(){
-        HashMap<String,String> userList = new HashMap<String, String>();
+        HashMap<String,List> usersObject = new HashMap<String, List>();
         try {
             result = statement.executeQuery("SELECT * FROM "+usersTable);
             while (result.next()) {
-//                userList.put("user_id", (String) result.getObject(1));
-                userList.put("user_name",(String) result.getObject(2));
-                userList.put("user_password",(String) result.getObject(3));
-                userList.put("user_type",(String)result.getObject(4));
+                List<String> userList = new ArrayList<>();
+                int user_id = result.getInt("user_id");
+                String user_name = result.getString("user_name");
+                String user_password = result.getString("user_password");
+                String user_type = result.getString("user_type");
+                //0-Username
+                //1-Password
+                //2-UserType
+                userList.add(user_name);
+                userList.add(user_password);
+                userList.add(user_type);
+
+                usersObject.put("user_"+user_id, userList);
             }
+
         }catch (SQLException exception){
             Log("FATAL","SQL Exception : "+ exception.getMessage(),exception,DBConnector.class.getName());
         }
-        return userList;
+        return usersObject;
     }
 }

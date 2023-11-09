@@ -8,6 +8,7 @@ import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 
 import java.awt.*;
+import java.util.Objects;
 
 import static com.lomoni.pages.utils.LogManagerImplementation.Log;
 import static com.lomoni.pages.utils.PharmaDialog.showMessage;
@@ -84,7 +85,6 @@ public class  Login {
         loginButton.addActionListener(e -> {
             handleLoginAction();
             Log("INFO","Login Button Clicked",null,Login.class.getName());
-            showMessage(container,"Sign In Successful!","Logged In",1);
         });
     }
 
@@ -106,12 +106,19 @@ public class  Login {
     //Login Action
     private void handleLoginAction() {
         try{
-            Object userType = userRoleComboBox.getSelectedItem();
+            String userType = (String) userRoleComboBox.getSelectedItem();
             LoginService loginService = new LoginService(userNameValue, new String(passWordValue), userType);
-            loginService.authenticateUser();
-            Log("INFO","Login Data Passed to Service",null,Login.class.getName());
-            cardLayout.next(container);
-            Log("TRACE","Screen switched to Inventory",null,Login.class.getName());
+
+            if(loginService.authenticateUser()) {
+                showMessage(container,"Sign In Successful!","Logged In",1);
+                Log("INFO", "Login Data Passed to Service", null, Login.class.getName());
+                cardLayout.next(container);
+                Log("TRACE", "Screen switched to Inventory", null, Login.class.getName());
+            } else {
+                if(Objects.equals(userType, "Select user type")){
+                    showMessage(container,"Select a user type","User type not selected",0);
+                }
+            }
         }catch(Exception e){
             //Call method that will create an error on the users end
             if(userNameValue.isEmpty() || new String(passWordValue).isEmpty()){

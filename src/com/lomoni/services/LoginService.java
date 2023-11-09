@@ -2,24 +2,20 @@ package com.lomoni.services;
 
 import com.lomoni.database.config.DBConnector;
 
-import java.util.Arrays;
-import java.util.HashMap;
+import java.util.*;
 
-import static com.lomoni.pages.utils.HashPassword.hashPass;
 import static com.lomoni.pages.utils.LogManagerImplementation.Log;
 
 public class LoginService {
     private final String userName;
     private final String passWord;
-    private final Object userType;
-    private final byte[] hashedPassword;
+    private final String userType;
 
 
-    public LoginService(String userName, String passWord, Object userType) {
+    public LoginService(String userName, String passWord, String userType) {
         this.userName = userName;
         this.passWord = passWord;
         this.userType = userType;
-        this.hashedPassword = hashPass(this.passWord);
     }
 
     //Get DB user data
@@ -34,20 +30,32 @@ public class LoginService {
         return userObject;
     }
 
-    public void authenticateUser(){
+    public boolean authenticateUser(){
+        try{
         HashMap userObject = getDBUserData();
-        String db_userName = (String) userObject.get("user_name");
-        String db_passWord = (String) userObject.get("user_password");
-        String db_userType = (String) userObject.get("user_type");
-        System.out.println("USer Input :"+this.userName+this.hashedPassword+this.userType);
-        System.out.println("DB :"+db_userName+db_passWord+db_userType);
 
-        if(db_userName == this.userName){
-            if(db_passWord == this.passWord){
-                System.out.println("User Exists");
+        for(Object i : userObject.keySet()){
+            ArrayList userList = new ArrayList<>();
+            userList = (ArrayList) userObject.get(i);
+            String db_userName = (String) userList.get(0);
+            String db_passWord = (String) userList.get(1);
+            String db_userType = (String) userList.get(2);
+
+            if(Objects.equals(db_userName, this.userName)){
+                if(Objects.equals(db_passWord, this.passWord)){
+                    if(Objects.equals(db_userType,this.userType)){
+                        Log("TRACE","User successfully authenticated",null,LoginService.class.getName());
+                        return true;
+                    }
+                }
             }
+
         }
 
+        }catch(Exception exception){
+            Log("FATAL","Exception while authenticating user : "+exception.getMessage(),exception,LoginService.class.getName());
+        }
+        return false;
     }
     public String getUserName() {
         return userName;
@@ -55,10 +63,6 @@ public class LoginService {
 
     public String getPassWord() {
         return passWord;
-    }
-
-    public byte[] getHashedPassword() {
-        return hashedPassword;
     }
 
     public Object getUserType() {

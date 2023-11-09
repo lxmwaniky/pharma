@@ -60,9 +60,9 @@
               <foreground color="-16711422"/>
               <inheritsPopupMenu value="false"/>
               <model>
-                <item value="Doc 1"/>
-                <item value="Doc 2"/>
-                <item value="Pharma 1"/>
+                <item value="Select a user type"/>
+                <item value="doctor"/>
+                <item value="pharmacist"/>
               </model>
               <opaque value="false"/>
               <popupVisible value="false"/>
