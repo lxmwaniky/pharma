@@ -33,7 +33,7 @@ public class LoginService {
     public boolean authenticateUser(){
         try{
         HashMap userObject = getDBUserData();
-
+        boolean matchFound = false;
         for(Object i : userObject.keySet()){
             ArrayList userList = new ArrayList<>();
             userList = (ArrayList) userObject.get(i);
@@ -45,12 +45,16 @@ public class LoginService {
                 if(db_passWord.equals(passWord)){
                     if(db_userType.equals(userType)){
                         Log("TRACE","User successfully authenticated",null,LoginService.class.getName());
+                        matchFound = true;
                         return true;
-                    } else return false;
-                } else return false;
-            } else return false;
+                    } else {return false;}
+                } else {return false;}
+            }
         }
 
+        if(!matchFound){
+            return false;
+        }
         }catch(Exception exception){
             Log("FATAL","Exception while authenticating user : "+exception.getMessage(),exception,LoginService.class.getName());
         }

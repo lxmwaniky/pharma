@@ -139,7 +139,7 @@
             <properties>
               <background color="-949887"/>
               <foreground color="-197889"/>
-              <text value="Username or Password Incorrect"/>
+              <text value="User name, User type or Password  is Incorrect"/>
             </properties>
           </component>
         </children>

@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19d791b9-e31e-432b-9f0f-9108897f0020" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Login.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Login.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/lomoni/services/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/services/LoginService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,14 +107,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697268887105</updated>
-    </task>
-    <task id="LOCAL-00016" summary="refactor : define constants for screen size">
-      <option name="closed" value="true" />
-      <created>1697315203083</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1697315203083</updated>
     </task>
     <task id="LOCAL-00017" summary="refactor : Encapsulate logic for adding focus listeners">
       <option name="closed" value="true" />
@@ -498,12 +492,19 @@
       <option name="project" value="LOCAL" />
       <updated>1699529889244</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="feature : Modal to notify user when credentials are incorrect">
+      <option name="closed" value="true" />
+      <created>1699530256355</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1699530256355</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="refactor : Replace loginButton event listener logic with lambda expression" />
     <MESSAGE value="refactor : Remove unused generated getter functions" />
     <MESSAGE value="refactor : Remove unused code" />
     <MESSAGE value="docs : Functionality of the class" />
@@ -528,6 +529,7 @@
     <MESSAGE value="feature : Authentication system complete" />
     <MESSAGE value="refactor : Switch from `Object.equals` to `.equals` for string comparison for better readability." />
     <MESSAGE value="refactor : Making the authenticate method better" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor : Making the authenticate method better" />
+    <MESSAGE value="feature : Modal to notify user when credentials are incorrect" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature : Modal to notify user when credentials are incorrect" />
   </component>
 </project>

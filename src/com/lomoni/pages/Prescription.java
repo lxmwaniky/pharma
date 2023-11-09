@@ -72,7 +72,6 @@ public class Prescription {
         }catch(Exception e){
             Log("FATAL","Exception occurred while setting placeholders : "+e.getMessage(),e,Prescription.class.getName());
         }
-
     }
 
     public JPanel createMainPanel(){

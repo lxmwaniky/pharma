@@ -84,8 +84,8 @@ public class  Login {
 
         //Add action ( click ) listener to button
         loginButton.addActionListener(e -> {
-            handleLoginAction();
             Log("INFO","Login Button Clicked",null,Login.class.getName());
+            handleLoginAction();
         });
     }
 
@@ -113,13 +113,11 @@ public class  Login {
             if(loginService.authenticateUser()) {
                 showMessage(container,"Sign In Successful!","Logged In",1);
                 Log("INFO", "Login Data Passed to Service", null, Login.class.getName());
-//                cardLayout.next(container);
                 Log("TRACE", "Screen switched to Inventory", null, Login.class.getName());
+//                cardLayout.next(container);
+                error_panel.setVisible(false);
             } else {
                 error_panel.setVisible(true);
-                if(Objects.equals(userType, "Select user type")){
-                    showMessage(container,"Select a user type","User type not selected",0);
-                }
             }
         }catch(Exception e){
             //Call method that will create an error on the users end
