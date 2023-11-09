@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19d791b9-e31e-432b-9f0f-9108897f0020" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lomoni/database/config/DBConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/database/config/DBConnector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Login.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Login.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/utils/HashPassword.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/lomoni/services/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/services/LoginService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,22 +41,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW": "false",
-    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Briane's/IdeaProjects/school_code/lib/mysql-connector-j-8.2.0.jar",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW&quot;: &quot;false&quot;,
+    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Briane's/IdeaProjects/school_code/lib/mysql-connector-j-8.2.0.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Briane's\IdeaProjects\pharma\src\com\lomoni\components\inventory" />
@@ -109,22 +104,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697268887105</updated>
-    </task>
-    <task id="LOCAL-00013" summary="chore : Implemented placeholder functionality on Password input field">
-      <option name="closed" value="true" />
-      <created>1697312918253</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1697312918253</updated>
-    </task>
-    <task id="LOCAL-00014" summary="chore : Removed debugger code">
-      <option name="closed" value="true" />
-      <created>1697313012693</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1697313012693</updated>
     </task>
     <task id="LOCAL-00015" summary="refactor : `Login` shouldn't extend JFrame. Should be a standable class handling login logic">
       <option name="closed" value="true" />
@@ -502,13 +481,27 @@
       <option name="project" value="LOCAL" />
       <updated>1699264762597</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="feature : Authentication system complete">
+      <option name="closed" value="true" />
+      <created>1699528552823</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1699528552824</updated>
+    </task>
+    <task id="LOCAL-00063" summary="refactor : Switch from `Object.equals` to `.equals` for string comparison for better readability.">
+      <option name="closed" value="true" />
+      <created>1699528709139</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1699528709139</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="feature : Some more configurations." />
-    <MESSAGE value="refactor : Swap `FocusListener` for `DocumentListener` to get input vaues when focus of input is lost" />
     <MESSAGE value="refactor : Separate method for handling login action" />
     <MESSAGE value="refactor : Replace loginButton event listener logic with lambda expression" />
     <MESSAGE value="refactor : Remove unused generated getter functions" />
@@ -532,6 +525,8 @@
     <MESSAGE value="feature : DB Connecting" />
     <MESSAGE value="feature : Retrieving all users and passing the data to the service" />
     <MESSAGE value="feature : Authentication system" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature : Authentication system" />
+    <MESSAGE value="feature : Authentication system complete" />
+    <MESSAGE value="refactor : Switch from `Object.equals` to `.equals` for string comparison for better readability." />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor : Switch from `Object.equals` to `.equals` for string comparison for better readability." />
   </component>
 </project>

@@ -20,7 +20,7 @@ public class LoginService {
 
     //Get DB user data
     private HashMap getDBUserData(){
-        HashMap<String,String> userObject = null;
+        HashMap userObject = null;
         try{
             DBConnector dbConnector = new DBConnector();
             userObject = dbConnector.getAllUsers();
