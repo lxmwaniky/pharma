@@ -41,9 +41,9 @@ public class LoginService {
             String db_passWord = (String) userList.get(1);
             String db_userType = (String) userList.get(2);
 
-            if(Objects.equals(db_userName, this.userName)){
-                if(Objects.equals(db_passWord, this.passWord)){
-                    if(Objects.equals(db_userType,this.userType)){
+            if(db_userName.equals(userName)){
+                if(db_passWord.equals(passWord)){
+                    if(db_userType.equals(userType)){
                         Log("TRACE","User successfully authenticated",null,LoginService.class.getName());
                         return true;
                     }
