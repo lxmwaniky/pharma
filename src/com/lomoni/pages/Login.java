@@ -113,8 +113,17 @@ public class  Login {
             if(loginService.authenticateUser()) {
                 showMessage(container,"Sign In Successful!","Logged In",1);
                 Log("INFO", "Login Data Passed to Service", null, Login.class.getName());
-                Log("TRACE", "Screen switched to Inventory", null, Login.class.getName());
-//                cardLayout.next(container);
+
+                //Switch screen based on the user type
+                if(loginService.getUserType().equals("pharmacist")){
+                    Log("TRACE", "Screen switched to Inventory", null, Login.class.getName());
+                    cardLayout.show(container,"inventory");
+                }else if(loginService.getUserType().equals("doctor")) {
+                    Log("TRACE", "Screen switched to Prescription", null, Login.class.getName());
+                    cardLayout.show(container, "prescription");
+                }
+
+                //Remove the error panel
                 error_panel.setVisible(false);
             } else {
                 error_panel.setVisible(true);

@@ -43,5 +43,25 @@ CREATE TABLE Offices(
     PRIMARY KEY (OfficeNo)
 );
 
+-- Class Questions
+SELECT Orders.OrderNo, Orders.Quantity, Orders.Amt, Orders.Cust, Customers.Company, Customers.CreditLimit
+FROM Orders LEFT JOIN Customers
+ON Orders.Cust = Customers.CustNo;
+
+
+SELECT Orders.Amt, SalesRep.Name, Customers.Company
+FROM (Orders LEFT JOIN ( SalesRep LEFT JOIN Customers ON SalesRep.repNo = Customers.CustRep)
+ON Orders.Cust = Customers.CustNo)
+WHERE Amt > 25000;
+
+SELECT Customers.Company, Orders.OrderNo
+FROM Customers LEFT JOIN Orders
+ON Customers.CustNo = Orders.Cust;
+ 
+SELECT Offices.OfficeNo, Offices.City, Offices.Region, SalesRep.Name
+FROM Offices LEFT JOIN SalesRep
+ON Offices.OfficeNo = SalesRep.RepOffice;
+
+SELECT * FROM Customers FULL JOIN Orders;
 
  

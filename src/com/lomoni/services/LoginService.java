@@ -68,7 +68,7 @@ public class LoginService {
         return passWord;
     }
 
-    public Object getUserType() {
+    public String getUserType() {
         return userType;
     }
 }
