@@ -6,13 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="19d791b9-e31e-432b-9f0f-9108897f0020" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/pharma-log-2023-10-21.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/pharma-log-2023-10-22.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/pharma-log-2023-10-28.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/pharma-log-2023-11-03.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/database/config/DBConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/database/config/DBConnector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/lomoni/database/sql/db_braine_lomoni_168864_lab_4.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/database/sql/db_braine_lomoni_168864_lab_4.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lomoni/services/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/services/LoginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Inventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/services/InventoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/services/InventoryService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,14 +107,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697268887105</updated>
-    </task>
-    <task id="LOCAL-00018" summary="refactor : Separate setting theme from Main class for maintenance">
-      <option name="closed" value="true" />
-      <created>1697315948470</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1697315948470</updated>
     </task>
     <task id="LOCAL-00019" summary="refactor : Initialize `InputFieldFocusListener` after the text fields have been set to prevent a null error">
       <option name="closed" value="true" />
@@ -503,12 +492,19 @@
       <option name="project" value="LOCAL" />
       <updated>1699531649569</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="feature : Switch screen based on user type">
+      <option name="closed" value="true" />
+      <created>1699604248119</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1699604248119</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="refactor : Remove unused code" />
     <MESSAGE value="docs : Functionality of the class" />
     <MESSAGE value="refactor : Unecessary class" />
     <MESSAGE value="refactor : Breaking down constructor functions into smaller methods each with a single responsibility." />
@@ -533,6 +529,7 @@
     <MESSAGE value="refactor : Making the authenticate method better" />
     <MESSAGE value="feature : Modal to notify user when credentials are incorrect" />
     <MESSAGE value="refactor : Features of login" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor : Features of login" />
+    <MESSAGE value="feature : Switch screen based on user type" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature : Switch screen based on user type" />
   </component>
 </project>

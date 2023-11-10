@@ -59,7 +59,7 @@ FROM Customers LEFT JOIN Orders
 ON Customers.CustNo = Orders.Cust;
  
 SELECT Offices.OfficeNo, Offices.City, Offices.Region, SalesRep.Name
-FROM Offices LEFT JOIN SalesRep
+FROM Offices LEFT JOIN SalesReptbl_medicines
 ON Offices.OfficeNo = SalesRep.RepOffice;
 
 SELECT * FROM Customers FULL JOIN Orders;

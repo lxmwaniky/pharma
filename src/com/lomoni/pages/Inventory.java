@@ -34,6 +34,8 @@ public class Inventory {
             setPlaceholderFunctionality();
             setTableFilter(tableFilter);
             setInventoryServiceData(inventoryService);
+
+            inventoryService.getMedicineNames();
             Log("INFO","Table filter set on prescription data",null,InventoryService.class.getName());
         }catch (Exception e){
             Log("FATAL","Exception while setting table filter on Prescription data",e,Inventory.class.getName());
