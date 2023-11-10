@@ -2,6 +2,8 @@ package com.lomoni.services;
 
 import com.lomoni.database.config.DBConnector;
 
+import java.util.List;
+
 public class InventoryService {
     //C0LUMNS
     private final String[] inventoryDisplayColumns = new String[]{
@@ -32,10 +34,5 @@ public class InventoryService {
 
     public Object[][] getInventoryDisplayData() {
         return inventoryDisplayData;
-    }
-
-    public void getMedicineNames(){
-        DBConnector dbConnector = new DBConnector();
-        System.out.println(dbConnector.getMedicineNames());
     }
 }

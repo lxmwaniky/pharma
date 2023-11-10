@@ -71,26 +71,19 @@ public class DBConnector {
 
 
     //InventoryService methods
-    public HashMap getMedicineNames(){
-        HashMap<String,List> medicineNames = new HashMap<>();
+    public List<String> getMedicineNames(){
+        List<String> medicinesList = new ArrayList<>();
         try{
             result = statement.executeQuery("SELECT * FROM "+medicinesTable);
             while(result.next()){
-                List<String> medicinesList = new ArrayList<>();
                 int medicine_id = result.getInt("medicine_id");
                 String medicine_name = result.getString("medicine_name");
-
-                //0 - Medicine ID
-                //1 - Medicine Names
-                medicinesList.add(String.valueOf(medicine_id));
                 medicinesList.add(medicine_name);
-
-                medicineNames.put("medicine_"+medicine_id, medicinesList);
             }
             statement.close();
         }catch(Exception exception){
             Log("FATAL","SQL Exception : "+exception.getMessage(),exception,DBConnector.class.getName());
         }
-        return medicineNames;
+        return medicinesList;
     }
 }

@@ -3,10 +3,16 @@ package com.lomoni.pages;
 import com.lomoni.pages.utils.InputFieldFocusListener;
 import com.lomoni.pages.utils.TableFilter;
 import com.lomoni.services.InventoryService;
-import com.lomoni.services.PrescriptionService;
 
 import javax.swing.*;
+import javax.swing.event.ListDataListener;
 import javax.swing.table.*;
+import javax.swing.DefaultComboBoxModel;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Vector;
 
 import static com.lomoni.pages.utils.LogManagerImplementation.Log;
 
@@ -24,18 +30,17 @@ public class Inventory {
     private JButton loginButton;
     private JScrollPane addNewItemScrollPane;
     private JTextField rowFilterTextField;
-    private JTextField medicineName;
+    private JTextField medicineName2;
     private JTextField unitPriceOfMedicine;
     private JTextField quantityInStock;
     private JTextField strengthOfDosage;
+
 
     public Inventory(InventoryService inventoryService, TableFilter tableFilter){
         try{
             setPlaceholderFunctionality();
             setTableFilter(tableFilter);
             setInventoryServiceData(inventoryService);
-
-            inventoryService.getMedicineNames();
             Log("INFO","Table filter set on prescription data",null,InventoryService.class.getName());
         }catch (Exception e){
             Log("FATAL","Exception while setting table filter on Prescription data",e,Inventory.class.getName());
@@ -68,13 +73,13 @@ public class Inventory {
     private void setPlaceholderFunctionality(){
         try{
             InputFieldFocusListener rowFilterTextFieldPlaceholder = new InputFieldFocusListener(rowFilterTextField, "Search...");
-            InputFieldFocusListener medicineNamePlaceholder = new InputFieldFocusListener(medicineName, "Medicine Name");
+            InputFieldFocusListener medicineNamePlaceholder = new InputFieldFocusListener(medicineName2, "Medicine Name");
             InputFieldFocusListener unitPriceOfMedicinePlaceholder = new InputFieldFocusListener(unitPriceOfMedicine, "Unit Price");
             InputFieldFocusListener strengthOfDosagePlaceholder = new InputFieldFocusListener(strengthOfDosage, "Strength ( e.g 500mg amoxicilin )");
             InputFieldFocusListener quantityInStockPlaceholder = new InputFieldFocusListener(quantityInStock, "Quantity In Stock");
 
             rowFilterTextField.addFocusListener(rowFilterTextFieldPlaceholder);
-            medicineName.addFocusListener(medicineNamePlaceholder);
+            medicineName2.addFocusListener(medicineNamePlaceholder);
             strengthOfDosage.addFocusListener(strengthOfDosagePlaceholder);
             quantityInStock.addFocusListener(quantityInStockPlaceholder);
             unitPriceOfMedicine.addFocusListener(unitPriceOfMedicinePlaceholder);

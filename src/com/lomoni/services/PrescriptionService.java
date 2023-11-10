@@ -1,6 +1,10 @@
 package com.lomoni.services;
 
 
+import com.lomoni.database.config.DBConnector;
+
+import java.util.List;
+
 public class PrescriptionService {
     //C0LUMNS
     private final String[] inventoryDisplayColumns = new String[]{
@@ -29,5 +33,10 @@ public class PrescriptionService {
 
     public Object[][] getInventoryDisplayData() {
         return inventoryDisplayData;
+    }
+
+    public List<String> getMedicineNames(){
+        DBConnector dbConnector = new DBConnector();
+        return dbConnector.getMedicineNames();
     }
 }

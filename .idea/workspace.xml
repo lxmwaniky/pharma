@@ -7,7 +7,7 @@
     <list default="true" id="19d791b9-e31e-432b-9f0f-9108897f0020" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/lomoni/database/config/DBConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/database/config/DBConnector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lomoni/database/sql/db_braine_lomoni_168864_lab_4.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/database/sql/db_braine_lomoni_168864_lab_4.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Inventory.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Inventory.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Inventory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/lomoni/services/InventoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/services/InventoryService.java" afterDir="false" />
     </list>
@@ -44,22 +44,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW&quot;: &quot;false&quot;,
-    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Briane's/IdeaProjects/school_code/lib/mysql-connector-j-8.2.0.jar&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW": "true",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Briane's/IdeaProjects/school_code/lib/mysql-connector-j-8.2.0.jar",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Briane's\IdeaProjects\pharma\src\com\lomoni\components\inventory" />
@@ -107,14 +107,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697268887105</updated>
-    </task>
-    <task id="LOCAL-00019" summary="refactor : Initialize `InputFieldFocusListener` after the text fields have been set to prevent a null error">
-      <option name="closed" value="true" />
-      <created>1697316138943</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1697316138943</updated>
     </task>
     <task id="LOCAL-00020" summary="refactor : Improve encapsulation to prevent calling setFocusListeners() using a constructor to prevent errors when calling it outside the class">
       <option name="closed" value="true" />
@@ -500,12 +492,19 @@
       <option name="project" value="LOCAL" />
       <updated>1699604248119</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="feature : Get medicine names from the database">
+      <option name="closed" value="true" />
+      <created>1699608123400</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1699608123400</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="docs : Functionality of the class" />
     <MESSAGE value="refactor : Unecessary class" />
     <MESSAGE value="refactor : Breaking down constructor functions into smaller methods each with a single responsibility." />
     <MESSAGE value="refactor : Setup sellService to handle data." />
@@ -530,6 +529,7 @@
     <MESSAGE value="feature : Modal to notify user when credentials are incorrect" />
     <MESSAGE value="refactor : Features of login" />
     <MESSAGE value="feature : Switch screen based on user type" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature : Switch screen based on user type" />
+    <MESSAGE value="feature : Get medicine names from the database" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature : Get medicine names from the database" />
   </component>
 </project>

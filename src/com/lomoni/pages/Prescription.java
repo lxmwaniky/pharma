@@ -8,6 +8,8 @@ import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableModel;
 
+import java.util.List;
+
 import static com.lomoni.pages.utils.LogManagerImplementation.Log;
 
 public class Prescription {
@@ -23,12 +25,21 @@ public class Prescription {
     private JTextField strengthOfDosage;
     private JPanel mainPanel;
     private JLabel lbl_error_login;
+    private JComboBox medicineName;
+    private ComboBoxModel<String> comboBoxModel;
 
     public Prescription(PrescriptionService prescriptionService, TableFilter tableFilter){
         try{
             setPlaceholderFunctionality();
             setTableFilter(tableFilter);
             setPrescriptionServiceData(prescriptionService);
+
+            //ComboBoxModel to add model items to the model
+            List<String> medicineNames = prescriptionService.getMedicineNames();
+            medicineNames.add(0,"Select a medicine");
+            comboBoxModel = new DefaultComboBoxModel(medicineNames.toArray());
+            medicineName.setModel(comboBoxModel);
+
             Log("INFO","Table filter set on prescription data",null,Prescription.class.getName());
         }catch (Exception e){
             Log("FATAL","Exception while setting table filter on Prescription data",e,Prescription.class.getName());
