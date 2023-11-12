@@ -48,7 +48,7 @@ public class Main{
             //SELL SCREEN
             Sell sellScreen = new Sell();
             //PRESCRIPTION SCREEN
-            Prescription prescriptionScreen = new Prescription(new PrescriptionService(), new TableFilter());
+            Prescription prescriptionScreen = new Prescription(new PrescriptionService(), new TableFilter(), container, cardLayout);
             //INVENTORY SCREEN
             Inventory inventoryScreen = new Inventory(new InventoryService(), new TableFilter(),container,cardLayout);
             //SELL RECEIPT SCREEN

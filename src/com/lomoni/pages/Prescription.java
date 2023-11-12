@@ -8,9 +8,11 @@ import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableModel;
 
+import java.awt.*;
 import java.util.List;
 
 import static com.lomoni.pages.utils.LogManagerImplementation.Log;
+import static com.lomoni.pages.utils.PharmaDialog.showMessage;
 
 public class Prescription {
     private JTable prescriptionTable;
@@ -26,10 +28,19 @@ public class Prescription {
     private JPanel mainPanel;
     private JLabel lbl_error_login;
     private JComboBox medicineName;
+    private JButton signOutButton;
     private ComboBoxModel<String> comboBoxModel;
 
-    public Prescription(PrescriptionService prescriptionService, TableFilter tableFilter){
+    private Container container;
+    private CardLayout cardLayout;
+
+    public Prescription(PrescriptionService prescriptionService, TableFilter tableFilter,Container container, CardLayout cardLayout){
         try{
+            this.container = container;
+            this.cardLayout = cardLayout;
+
+            //Event listeners
+            signOutButton.addActionListener(e->{setSignOutButton();});
             setPlaceholderFunctionality();
             setTableFilter(tableFilter);
             setPrescriptionServiceData(prescriptionService);
@@ -85,6 +96,15 @@ public class Prescription {
         }
     }
 
+    private void setSignOutButton(){
+        try{
+            Log("TRACE","User signed out successfully",null,Prescription.class.getName());
+            showMessage(container,"Signing out successful!","User doc signing out",1);
+            cardLayout.show(container,"login");
+        }catch (Exception exception){
+            Log("ERROR","Error signing user out"+exception.getMessage(),exception,Prescription.class.getName());
+        }
+    }
     public JPanel createMainPanel(){
         return mainPanel;
     }
