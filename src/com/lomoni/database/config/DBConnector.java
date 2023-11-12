@@ -87,12 +87,42 @@ public class DBConnector {
         return medicinesList;
     }
 
-    public void createNewMedicineRecord(String medicine_name, String dosage_form, String strength_of_dosage, String quantity_in_stock, String unit_price_text){
-        String sql_inventoryTable = "";
-        String sql_medicinesTable = "";
-        ResultSet result_medicinesTable = null;
-        ResultSet result_inventoryTable = null;
+    /*
+     * Functionality
+     * 1. Check if medicine already exists in the medicines table by executing a SQL query.
+     * 2. If medicine exists, update the quantity in stock and unit price in the inventory table.
+     * 3. If update is successful, return 'A' to indicate that the stock was updated.
+     * 4. If update fails, log a fatal error message.
+     * 5. If the medicine doesn't exist, insert a new record into the medicines table and inventory table.
+     * 6. If insertion is successful, return 'B' to indicate that a new record was inserted.
+     * 7. If insertion fails, log a fatal error message
+     */
+    public char createNewMedicineRecord(String medicine_name, String dosage_form, String strength_of_dosage, String quantity_in_stock, String unit_price_text){
+        char stockUpdatedForMedicine = 'A';
+        char newRecordInserted = 'B';
+        char anErrorOccurred = 'C';
+
         //Prepare sql queries
+        try{
+            //Check if medicine exists
+            if (medicineExists(medicine_name)) {
+                //Update Quantity in Stock and Unit Price
+                Log("INFO","Medicine trying to be inserted already exists in the database",null,DBConnector.class.getName());
+                updateInventory(medicine_name, quantity_in_stock, unit_price_text);
+                return stockUpdatedForMedicine;
+            } else {
+                //Create new record in medicinesTable and InventoryTable
+                insertNewMedicine(medicine_name, quantity_in_stock, unit_price_text);
+                return newRecordInserted;
+            }
+        }catch(Exception exception){
+            Log("FATAL","Exception while handling medicine records data : "+exception.getMessage(),exception,DBConnector.class.getName());
+
+        }
+        return anErrorOccurred;
+    }
+
+    private boolean medicineExists(String medicine_name) {
         try{
             //Check if medicine exists
             String sql_medicineExists = "SELECT COUNT(*) FROM "+medicinesTable+" WHERE medicine_name = ?";
@@ -103,54 +133,76 @@ public class DBConnector {
             int medicineExistsCount = medicineExistsResult.getInt(1);
             medicineExistsStatement.close();
 
-            if (medicineExistsCount > 0) {
-                //Update Quantity in Stock and Unit Price
-                Log("INFO","Medicine trying to be inserted already exists in the database",null,DBConnector.class.getName());
-                sql_inventoryTable = "UPDATE "+inventoryTable+" SET medicine_quantity = ?, price = ? WHERE medicine_name = ?";
-                PreparedStatement updateInventoryTable = conn.prepareStatement(sql_inventoryTable);
-                updateInventoryTable.setInt(1, Integer.parseInt(quantity_in_stock));
-                updateInventoryTable.setDouble(2, Double.parseDouble(unit_price_text));
-                updateInventoryTable.setString(3, medicine_name);
-                int sql_inventoryTableSQLResult = updateInventoryTable.executeUpdate();
-                updateInventoryTable.close();
+            return medicineExistsCount > 0;
+        } catch(Exception exception){
+            Log("FATAL","Exception while checking if medicine exists : "+exception.getMessage(),exception,DBConnector.class.getName());
+        }
 
-                if(sql_inventoryTableSQLResult > 0){
-                    Log("INFO","Quantity in Stock and Unit price updated in the "+inventoryTable+" table",null,DBConnector.class.getName());
-                } else {
-                    Log("FATAL","Error occured while updating Quantity in Stock and Unit price in the "+inventoryTable+" table",null,DBConnector.class.getName());
-                }
+        return false;
+    }
+
+    private void updateInventory(String medicine_name, String quantity_in_stock, String unit_price_text){
+        try{
+            String sql_inventoryTable = "";
+            String sql_medicinesTable = "";
+            ResultSet result_medicinesTable = null;
+            ResultSet result_inventoryTable = null;
+            //Update Quantity in Stock and Unit Price
+            sql_inventoryTable = "UPDATE "+inventoryTable+" SET medicine_quantity = ?, price = ? WHERE medicine_name = ?";
+            PreparedStatement updateInventoryTable = conn.prepareStatement(sql_inventoryTable);
+            updateInventoryTable.setInt(1, Integer.parseInt(quantity_in_stock));
+            updateInventoryTable.setDouble(2, Double.parseDouble(unit_price_text));
+            updateInventoryTable.setString(3, medicine_name);
+            int sql_inventoryTableSQLResult = updateInventoryTable.executeUpdate();
+            updateInventoryTable.close();
+
+            if(sql_inventoryTableSQLResult > 0){
+                Log("INFO","Quantity in Stock and Unit price updated in the "+inventoryTable+" table",null,DBConnector.class.getName());
             } else {
-                //Create new record in medicinesTable and InventoryTable
-                sql_medicinesTable = "INSERT INTO "+medicinesTable+" (medicine_name) VALUES (?)";
-                PreparedStatement insertIntoMedicinesTable = conn.prepareStatement(sql_medicinesTable);
-                insertIntoMedicinesTable.setString(1, medicine_name);
-                int insertIntoMedicinesTableResult = insertIntoMedicinesTable.executeUpdate();
-                insertIntoMedicinesTable.close();
-
-                sql_inventoryTable = "INSERT INTO "+inventoryTable+" (medicine_name, medicine_quantity, price) VALUES (?, ?, ?)";
-                PreparedStatement insertIntoInventoryTable = conn.prepareStatement(sql_inventoryTable);
-                insertIntoInventoryTable.setString(1, medicine_name);
-                insertIntoInventoryTable.setInt(2, Integer.parseInt(quantity_in_stock));
-                insertIntoInventoryTable.setDouble(3, Double.parseDouble(unit_price_text));
-                int insertIntoInventoryTableResult = insertIntoInventoryTable.executeUpdate();
-                insertIntoInventoryTable.close();
-
-                if(insertIntoMedicinesTableResult > 0){
-                    Log("INFO","Insertion occurred into medicines table",null,DBConnector.class.getName());
-                } else {
-                    Log("FATAL","An Exception occurred while inserting data to the medicines table : ",null,DBConnector.class.getName());
-                }
-
-                if(insertIntoInventoryTableResult > 0){
-                    Log("INFO","Insertion occurred into the inventory table",null,DBConnector.class.getName());
-                } else {
-                    Log("FATAL","An Exception occurred while inserting data to the inventory table : ",null,DBConnector.class.getName());
-                }
+                Log("FATAL","Error occurred while updating Quantity in Stock and Unit price in the "+inventoryTable+" table",null,DBConnector.class.getName());
             }
-            statement.close();
-        }catch(Exception exception){
-            Log("FATAL","Exception while handling medicine records data : "+exception.getMessage(),exception,DBConnector.class.getName());
+        }catch(SQLException sqlException){
+           Log("FATAL","Error while updating the inventory table :"+sqlException.getMessage(),sqlException,DBConnector.class.getName());
+        }
 
+    }
+
+    private void insertNewMedicine(String medicine_name, String quantity_in_stock, String unit_price_text) {
+        try{
+            String sql_inventoryTable = "";
+            String sql_medicinesTable = "";
+            ResultSet result_medicinesTable = null;
+            ResultSet result_inventoryTable = null;
+            //Create new record in medicinesTable and InventoryTable
+            sql_medicinesTable = "INSERT INTO "+medicinesTable+" (medicine_name) VALUES (?)";
+            PreparedStatement insertIntoMedicinesTable = conn.prepareStatement(sql_medicinesTable);
+            insertIntoMedicinesTable.setString(1, medicine_name);
+            int insertIntoMedicinesTableResult = insertIntoMedicinesTable.executeUpdate();
+            insertIntoMedicinesTable.close();
+
+            sql_inventoryTable = "INSERT INTO "+inventoryTable+" (medicine_name, medicine_quantity, price) VALUES (?, ?, ?)";
+            PreparedStatement insertIntoInventoryTable = conn.prepareStatement(sql_inventoryTable);
+            insertIntoInventoryTable.setString(1, medicine_name);
+            insertIntoInventoryTable.setInt(2, Integer.parseInt(quantity_in_stock));
+            insertIntoInventoryTable.setDouble(3, Double.parseDouble(unit_price_text));
+            int insertIntoInventoryTableResult = insertIntoInventoryTable.executeUpdate();
+            insertIntoInventoryTable.close();
+
+            if(insertIntoMedicinesTableResult > 0){
+                Log("INFO","Insertion occurred into medicines table",null,DBConnector.class.getName());
+            } else {
+                Log("FATAL","An Exception occurred while inserting data to the medicines table : ",null,DBConnector.class.getName());
+            }
+
+            if(insertIntoInventoryTableResult > 0){
+                Log("INFO","Insertion occurred into the inventory table",null,DBConnector.class.getName());
+            } else {
+                Log("FATAL","An Exception occurred while inserting data to the inventory table : ",null,DBConnector.class.getName());
+            }
+
+            }
+        catch(SQLException sqlException){
+            Log("FATAL","Error while updating the inventory table :"+sqlException.getMessage(),sqlException,DBConnector.class.getName());
         }
     }
 }

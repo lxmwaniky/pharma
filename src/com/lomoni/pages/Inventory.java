@@ -121,7 +121,17 @@ public class Inventory {
             showMessage(container,"Fill in all inputs","Blank inputs",0);
         } else {
             Log("TRACE","User input data passed to the service",null,Inventory.class.getName());
-            inventoryService.handleInventoryFormData(medicine_name, dosage_form, strength_of_dosage, quantity_in_stock, unit_price_text);
+            char inventoryFormResult = inventoryService.handleInventoryFormData(medicine_name, dosage_form, strength_of_dosage, quantity_in_stock, unit_price_text);
+            String message = null;
+            if(inventoryFormResult == 'A'){
+                message = "Stock has been updated for "+medicine_name;
+            } else if(inventoryFormResult == 'B'){
+                message = "A new record has been created for "+medicine_name;
+            } else if(inventoryFormResult == 'C'){
+                message = "An error occurred :( Please try again";
+            }
+
+            showMessage(container,message,"You clicked the submit button...",1);
         }
     }
     public JPanel createMainPanel(){

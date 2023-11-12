@@ -7,9 +7,7 @@
     <list default="true" id="19d791b9-e31e-432b-9f0f-9108897f0020" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/lomoni/database/config/DBConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/database/config/DBConnector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Inventory.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Inventory.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Inventory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/lomoni/services/InventoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/services/InventoryService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,14 +106,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697268887105</updated>
-    </task>
-    <task id="LOCAL-00023" summary="fix : Set the panel to be displayed">
-      <option name="closed" value="true" />
-      <created>1697316952110</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1697316952110</updated>
     </task>
     <task id="LOCAL-00024" summary="chore : Dependancy update">
       <option name="closed" value="true" />
@@ -501,12 +491,19 @@
       <option name="project" value="LOCAL" />
       <updated>1699774310654</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="feature : CRUD DB methods to add a new item in the database or  update an existing item's stock">
+      <option name="closed" value="true" />
+      <created>1699817270709</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1699817270709</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="feature : Logger class to log messages at different lvls of severity" />
     <MESSAGE value="refactor : Implement Logger in app" />
     <MESSAGE value="refactor : Replace duplicate methods with switch case statement." />
     <MESSAGE value="refactor : Some refactors." />
@@ -531,6 +528,7 @@
     <MESSAGE value="feature : Combo Box on Prescription page to select medicine when doc is creating a new prescription." />
     <MESSAGE value="feature : Sign out button and functionality on Inventory Screen" />
     <MESSAGE value="feature : Sign out button and functionality on Prescription Screen" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature : Sign out button and functionality on Prescription Screen" />
+    <MESSAGE value="feature : CRUD DB methods to add a new item in the database or  update an existing item's stock" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature : CRUD DB methods to add a new item in the database or  update an existing item's stock" />
   </component>
 </project>
