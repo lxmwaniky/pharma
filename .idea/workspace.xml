@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19d791b9-e31e-432b-9f0f-9108897f0020" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/database/config/DBConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/database/config/DBConnector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Inventory.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Inventory.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Inventory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Prescription.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Prescription.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Prescription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Prescription.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/services/InventoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/services/InventoryService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,14 +108,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697268887105</updated>
-    </task>
-    <task id="LOCAL-00022" summary="docs : Documentation for Login.java">
-      <option name="closed" value="true" />
-      <created>1697316926718</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1697316926718</updated>
     </task>
     <task id="LOCAL-00023" summary="fix : Set the panel to be displayed">
       <option name="closed" value="true" />
@@ -498,12 +493,19 @@
       <option name="project" value="LOCAL" />
       <updated>1699772674405</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="feature : Sign out button and functionality on Prescription Screen">
+      <option name="closed" value="true" />
+      <created>1699774310654</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1699774310654</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="refactor : Setup sellService to handle data." />
     <MESSAGE value="feature : Logger class to log messages at different lvls of severity" />
     <MESSAGE value="refactor : Implement Logger in app" />
     <MESSAGE value="refactor : Replace duplicate methods with switch case statement." />
@@ -528,6 +530,7 @@
     <MESSAGE value="feature : Get medicine names from the database" />
     <MESSAGE value="feature : Combo Box on Prescription page to select medicine when doc is creating a new prescription." />
     <MESSAGE value="feature : Sign out button and functionality on Inventory Screen" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature : Sign out button and functionality on Inventory Screen" />
+    <MESSAGE value="feature : Sign out button and functionality on Prescription Screen" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature : Sign out button and functionality on Prescription Screen" />
   </component>
 </project>

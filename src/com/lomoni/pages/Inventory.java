@@ -8,6 +8,7 @@ import javax.swing.*;
 import javax.swing.table.*;
 
 import java.awt.*;
+import java.util.Objects;
 
 import static com.lomoni.pages.utils.LogManagerImplementation.Log;
 import static com.lomoni.pages.utils.PharmaDialog.showMessage;
@@ -23,25 +24,27 @@ public class Inventory {
     private JPanel inventoryPanel;
     private JPanel addNewItemPanel;
     private JComboBox dosageFormComboBox;
-    private JButton loginButton;
+    private JButton submitButton;
     private JScrollPane addNewItemScrollPane;
     private JTextField rowFilterTextField;
-    private JTextField medicineName2;
+    private JTextField medicineName;
     private JTextField unitPriceOfMedicine;
     private JTextField quantityInStock;
     private JTextField strengthOfDosage;
     private JButton signOutButton;
     private Container container;
     private CardLayout cardLayout;
+    private InventoryService inventoryService;
 
 
     public Inventory(InventoryService inventoryService, TableFilter tableFilter, Container container, CardLayout cardLayout){
         try{
             this.container = container;
             this.cardLayout = cardLayout;
-
+            this.inventoryService = inventoryService;
             //Set the event listeners
             signOutButton.addActionListener(e->{setSignOutButton();});
+            submitButton.addActionListener(e->{handleInventoryFormData();});
             setPlaceholderFunctionality();
             setTableFilter(tableFilter);
             setInventoryServiceData(inventoryService);
@@ -77,13 +80,13 @@ public class Inventory {
     private void setPlaceholderFunctionality(){
         try{
             InputFieldFocusListener rowFilterTextFieldPlaceholder = new InputFieldFocusListener(rowFilterTextField, "Search...");
-            InputFieldFocusListener medicineNamePlaceholder = new InputFieldFocusListener(medicineName2, "Medicine Name");
+            InputFieldFocusListener medicineNamePlaceholder = new InputFieldFocusListener(medicineName, "Medicine Name");
             InputFieldFocusListener unitPriceOfMedicinePlaceholder = new InputFieldFocusListener(unitPriceOfMedicine, "Unit Price");
             InputFieldFocusListener strengthOfDosagePlaceholder = new InputFieldFocusListener(strengthOfDosage, "Strength ( e.g 500mg amoxicilin )");
             InputFieldFocusListener quantityInStockPlaceholder = new InputFieldFocusListener(quantityInStock, "Quantity In Stock");
 
             rowFilterTextField.addFocusListener(rowFilterTextFieldPlaceholder);
-            medicineName2.addFocusListener(medicineNamePlaceholder);
+            medicineName.addFocusListener(medicineNamePlaceholder);
             strengthOfDosage.addFocusListener(strengthOfDosagePlaceholder);
             quantityInStock.addFocusListener(quantityInStockPlaceholder);
             unitPriceOfMedicine.addFocusListener(unitPriceOfMedicinePlaceholder);
@@ -104,7 +107,25 @@ public class Inventory {
         }
     }
 
+    //Inventory Add New Item Form
+    private void handleInventoryFormData(){
+        String medicine_name = medicineName.getText();
+        String dosage_form = (String) dosageFormComboBox.getSelectedItem();
+        String strength_of_dosage = strengthOfDosage.getText();
+        String quantity_in_stock = quantityInStock.getText();
+        String unit_price_text = unitPriceOfMedicine.getText();
+
+        if(medicine_name.equals("Medicine Name") || strength_of_dosage.equals("Strength ( e.g 500mg amoxicilin )") || quantity_in_stock.equals("Quantity In Stock") || unit_price_text.equals("Unit Price")){
+            // User needs to fill all inputs
+            Log("FATAL","User didn't fill all inputs",null,Inventory.class.getName());
+            showMessage(container,"Fill in all inputs","Blank inputs",0);
+        } else {
+            Log("TRACE","User input data passed to the service",null,Inventory.class.getName());
+            inventoryService.handleInventoryFormData(medicine_name, dosage_form, strength_of_dosage, quantity_in_stock, unit_price_text);
+        }
+    }
     public JPanel createMainPanel(){
         return inventoryPanel;
     }
 }
+
