@@ -50,7 +50,7 @@ public class Main{
             //PRESCRIPTION SCREEN
             Prescription prescriptionScreen = new Prescription(new PrescriptionService(), new TableFilter());
             //INVENTORY SCREEN
-            Inventory inventoryScreen = new Inventory(new InventoryService(), new TableFilter());
+            Inventory inventoryScreen = new Inventory(new InventoryService(), new TableFilter(),container,cardLayout);
             //SELL RECEIPT SCREEN
             SellReceipt sellReceiptScreen = new SellReceipt();
             Log("TRACE","Screens initialized",null,Main.class.getName());

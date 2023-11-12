@@ -5,16 +5,12 @@ import com.lomoni.pages.utils.TableFilter;
 import com.lomoni.services.InventoryService;
 
 import javax.swing.*;
-import javax.swing.event.ListDataListener;
 import javax.swing.table.*;
-import javax.swing.DefaultComboBoxModel;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Vector;
+import java.awt.*;
 
 import static com.lomoni.pages.utils.LogManagerImplementation.Log;
+import static com.lomoni.pages.utils.PharmaDialog.showMessage;
 
 /*
  * Author : Braine Lomoni 168864 16/10/2023
@@ -34,10 +30,18 @@ public class Inventory {
     private JTextField unitPriceOfMedicine;
     private JTextField quantityInStock;
     private JTextField strengthOfDosage;
+    private JButton signOutButton;
+    private Container container;
+    private CardLayout cardLayout;
 
 
-    public Inventory(InventoryService inventoryService, TableFilter tableFilter){
+    public Inventory(InventoryService inventoryService, TableFilter tableFilter, Container container, CardLayout cardLayout){
         try{
+            this.container = container;
+            this.cardLayout = cardLayout;
+
+            //Set the event listeners
+            signOutButton.addActionListener(e->{setSignOutButton();});
             setPlaceholderFunctionality();
             setTableFilter(tableFilter);
             setInventoryServiceData(inventoryService);
@@ -87,6 +91,19 @@ public class Inventory {
             Log("FATAL","Exception occurred while setting the placeholder functionality : "+e.getMessage(),e,Inventory.class.getName());
         }
     }
+
+    //Sign Out Functionality
+    private void setSignOutButton(){
+        try {
+            Log("TRACE", "User pharma signed out", null, Inventory.class.getName());
+            showMessage(container,"You have signed out!","User pharma is signing out...",1);
+            cardLayout.show(container, "login");
+        }catch (Exception exception){
+            Log("ERROR","Error when signOutButton is clicked"+exception.getMessage(),exception,Inventory.class.getName());
+            showMessage(container,"Sorry for the inconvenience, try signing out again","Error while signing out",0);
+        }
+    }
+
     public JPanel createMainPanel(){
         return inventoryPanel;
     }

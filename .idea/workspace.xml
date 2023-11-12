@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19d791b9-e31e-432b-9f0f-9108897f0020" name="Changes" comment="">
+    <list default="true" id="19d791b9-e31e-432b-9f0f-9108897f0020" name="Changes" comment="feature : Combo Box on Prescription page to select medicine when doc is creating a new prescription.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lomoni/database/config/DBConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/database/config/DBConnector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Inventory.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Inventory.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Inventory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lomoni/services/InventoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/services/InventoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +49,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW": "true",
+    "UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW": "false",
     "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/Briane's/IdeaProjects/school_code/lib/mysql-connector-j-8.2.0.jar",
@@ -107,14 +106,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697268887105</updated>
-    </task>
-    <task id="LOCAL-00020" summary="refactor : Improve encapsulation to prevent calling setFocusListeners() using a constructor to prevent errors when calling it outside the class">
-      <option name="closed" value="true" />
-      <created>1697316292586</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1697316292586</updated>
     </task>
     <task id="LOCAL-00021" summary="refactor : Removed unecessary setter methods">
       <option name="closed" value="true" />
@@ -500,12 +491,19 @@
       <option name="project" value="LOCAL" />
       <updated>1699608123400</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="feature : Combo Box on Prescription page to select medicine when doc is creating a new prescription.">
+      <option name="closed" value="true" />
+      <created>1699610299109</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1699610299109</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="refactor : Unecessary class" />
     <MESSAGE value="refactor : Breaking down constructor functions into smaller methods each with a single responsibility." />
     <MESSAGE value="refactor : Setup sellService to handle data." />
     <MESSAGE value="feature : Logger class to log messages at different lvls of severity" />
@@ -530,6 +528,7 @@
     <MESSAGE value="refactor : Features of login" />
     <MESSAGE value="feature : Switch screen based on user type" />
     <MESSAGE value="feature : Get medicine names from the database" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature : Get medicine names from the database" />
+    <MESSAGE value="feature : Combo Box on Prescription page to select medicine when doc is creating a new prescription." />
+    <option name="LAST_COMMIT_MESSAGE" value="feature : Combo Box on Prescription page to select medicine when doc is creating a new prescription." />
   </component>
 </project>
