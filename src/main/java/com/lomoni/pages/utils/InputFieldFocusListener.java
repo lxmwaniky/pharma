@@ -20,7 +20,6 @@ public class InputFieldFocusListener extends FocusAdapter {
         this.PLACEHOLDER = PLACEHOLDER;
         //Store trimmed text in a variable
         trimmedText = usernameFormattedTextField.getText().trim();
-        System.out.println(trimmedText);
     }
     @Override
     public void focusGained(FocusEvent e) {

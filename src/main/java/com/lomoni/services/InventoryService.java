@@ -56,7 +56,7 @@ public class InventoryService {
     public char handleInventoryFormData(String medicine_name, String dosage_form, String strength_of_dosage, String quantity_in_stock, String unit_price_text){
         try{
         DBConnector dbConnector = new DBConnector();
-        Log("TRACE","Inventory form of data has been passed to database access",null,InventoryService.class.getName());
+        Log("TRACE","Inventory form data has been passed to database access",null,InventoryService.class.getName());
         return dbConnector.createNewMedicineRecord(medicine_name, dosage_form, strength_of_dosage, quantity_in_stock, unit_price_text);
         }catch(Exception exception){
             Log("FATAL","Error while passing inventory form data to the database access",exception,InventoryService.class.getName());

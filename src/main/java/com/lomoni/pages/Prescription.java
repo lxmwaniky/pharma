@@ -20,27 +20,34 @@ public class Prescription {
     private JScrollPane addNewItemScrollPane;
     private JPanel addNewItemPanel;
     private JButton submitButton;
-    private JTextField patientName;
+    private JTextField patientBirthCertNo;
     private JComboBox medicineNameComboBox;
     private JTextField unitPriceOfMedicine;
     private JTextField frequency;
-    private JTextField strengthOfDosage;
+    private JTextField dosage;
     private JPanel mainPanel;
-    private JLabel lbl_error_login;
     private JComboBox medicineName;
     private JButton signOutButton;
     private ComboBoxModel<String> comboBoxModel;
 
     private Container container;
     private CardLayout cardLayout;
+    private PrescriptionService prescriptionService;
 
     public Prescription(PrescriptionService prescriptionService, TableFilter tableFilter,Container container, CardLayout cardLayout){
         try{
             this.container = container;
             this.cardLayout = cardLayout;
+            this.prescriptionService  = prescriptionService;
 
             //Event listeners
             signOutButton.addActionListener(e->{setSignOutButton();});
+            submitButton.addActionListener(e->{
+                handlePrescriptionFormData();
+                //Reload the data
+                setPrescriptionServiceData(prescriptionService);
+                clearInputsWhenSubmitButtonIsClicked();
+            });
             setPlaceholderFunctionality();
             setTableFilter(tableFilter);
             setPrescriptionServiceData(prescriptionService);
@@ -83,12 +90,12 @@ public class Prescription {
     private void setPlaceholderFunctionality(){
         try{
             InputFieldFocusListener rowFilterTextFieldPlaceholder = new InputFieldFocusListener(rowFilterTextField, "Search...");
-            InputFieldFocusListener patientNamePlaceholder = new InputFieldFocusListener(patientName, "Patient Name");
-            InputFieldFocusListener dosagePlaceholder = new InputFieldFocusListener(strengthOfDosage, "Strength ( e.g 500mg amoxicillin )");
+            InputFieldFocusListener patientBirthCertNoPlaceholder = new InputFieldFocusListener(patientBirthCertNo, "Patient Birth Certificate No.");
+            InputFieldFocusListener dosagePlaceholder = new InputFieldFocusListener(dosage, "Dosage ( e.g 500mg amoxicillin )");
             InputFieldFocusListener frequencyPlaceholder = new InputFieldFocusListener(frequency, "Frequency ( e.g twice daily )");
             rowFilterTextField.addFocusListener(rowFilterTextFieldPlaceholder);
-            patientName.addFocusListener(patientNamePlaceholder);
-            strengthOfDosage.addFocusListener(dosagePlaceholder);
+            patientBirthCertNo.addFocusListener(patientBirthCertNoPlaceholder);
+            dosage.addFocusListener(dosagePlaceholder);
             frequency.addFocusListener(frequencyPlaceholder);
             Log("INFO", "Placeholders set",null,Prescription.class.getName());
         }catch(Exception e){
@@ -103,6 +110,42 @@ public class Prescription {
             cardLayout.show(container,"login");
         }catch (Exception exception){
             Log("ERROR","Error signing user out"+exception.getMessage(),exception,Prescription.class.getName());
+        }
+    }
+
+    private void handlePrescriptionFormData(){
+        String medicine_name = (String) medicineName.getSelectedItem();
+        String patientBirthCert = patientBirthCertNo.getText();
+        String dosageValue  = dosage.getText();
+        String frequencyValue = frequency.getText();
+
+        if(patientBirthCert.equals("Patient Birth Certificate No.") || dosageValue.equals("Dosage ( e.g 500mg amoxicillin )") || frequencyValue.equals("Frequency ( e.g twice daily )")){
+            // User needs to fill all inputs
+            Log("FATAL","User didn't fill all inputs",null,Prescription.class.getName());
+            showMessage(container,"Fill in all inputs","Blank inputs",0);
+        } else {
+            Log("TRACE","User input data passed to the service",null,Prescription.class.getName());
+            char prescriptionFormResult = prescriptionService.handlePrescriptionFormData(medicine_name, patientBirthCert, dosageValue, frequencyValue);
+            String message = null;
+            if(prescriptionFormResult == 'A'){
+                message = "A new prescription has been created for "+patientBirthCert;
+            } else if(prescriptionFormResult == 'C'){
+                message = "An error occurred :( Please try again";
+            }
+
+            showMessage(container,message,"You clicked the submit button...",1);
+        }
+    }
+
+    private void clearInputsWhenSubmitButtonIsClicked(){
+        try{
+            //Set the values back to the default placeholders.
+            frequency.setText("Frequency ( e.g twice daily )");
+            dosage.setText("Dosage ( e.g 500mg amoxicillin )");
+            patientBirthCertNo.setText("Patient Birth Certificate No.");
+
+        }catch(Exception e){
+            Log("ERROR","Exception occurred while setting the placeholder functionality : "+e.getMessage(),e,Prescription.class.getName());
         }
     }
     public JPanel createMainPanel(){

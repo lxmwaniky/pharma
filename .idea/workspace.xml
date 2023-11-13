@@ -6,8 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="19d791b9-e31e-432b-9f0f-9108897f0020" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Inventory.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Inventory.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Inventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lomoni/database/config/DBConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/database/config/DBConnector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Prescription.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Prescription.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Prescription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Prescription.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/utils/InputFieldFocusListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/utils/InputFieldFocusListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lomoni/services/InventoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/services/InventoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lomoni/services/PrescriptionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/services/PrescriptionService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,14 +130,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697268887105</updated>
-    </task>
-    <task id="LOCAL-00030" summary="fix : Implemented placeholder listeners">
-      <option name="closed" value="true" />
-      <created>1697468713223</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1697468713223</updated>
     </task>
     <task id="LOCAL-00031" summary="fix : Implemented form inputs">
       <option name="closed" value="true" />
@@ -518,12 +515,19 @@
       <option name="project" value="LOCAL" />
       <updated>1699889247680</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="feature : Sell Button to send pharmacist to sell screen">
+      <option name="closed" value="true" />
+      <created>1699889710375</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1699889710375</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="refactor : Method call on `LoginService`" />
     <MESSAGE value="feature : Logging class events" />
     <MESSAGE value="feature : Refactor" />
     <MESSAGE value="feature : Dialog to show the client messages" />
@@ -548,6 +552,7 @@
     <MESSAGE value="feature : Method to fetch inventory rows from the db" />
     <MESSAGE value="feature : Display inventory data from the database" />
     <MESSAGE value="feature : Clear fields once submit button has been clicked" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature : Clear fields once submit button has been clicked" />
+    <MESSAGE value="feature : Sell Button to send pharmacist to sell screen" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature : Sell Button to send pharmacist to sell screen" />
   </component>
 </project>

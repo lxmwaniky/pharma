@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.lomoni.pages.Prescription">
-  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="7" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="6" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
-      <xy x="20" y="20" width="500" height="400"/>
+      <xy x="20" y="20" width="766" height="485"/>
     </constraints>
     <properties/>
     <border type="none"/>
@@ -103,7 +103,7 @@
         </properties>
         <border type="empty"/>
         <children>
-          <grid id="dc6a1" binding="addNewItemPanel" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+          <grid id="dc6a1" binding="addNewItemPanel" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
             <margin top="0" left="0" bottom="0" right="0"/>
             <constraints/>
             <properties/>
@@ -111,7 +111,7 @@
             <children>
               <component id="a65a7" class="javax.swing.JButton" binding="submitButton">
                 <constraints>
-                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="172" height="50"/>
                   </grid>
                 </constraints>
@@ -123,7 +123,7 @@
                   <text value="SUBMIT"/>
                 </properties>
               </component>
-              <component id="e17a" class="javax.swing.JTextField" binding="patientName">
+              <component id="e17a" class="javax.swing.JTextField" binding="patientBirthCertNo">
                 <constraints>
                   <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="50"/>
@@ -131,34 +131,12 @@
                 </constraints>
                 <properties>
                   <focusable value="true"/>
-                  <text value="Patient Name"/>
-                </properties>
-              </component>
-              <component id="e2854" class="javax.swing.JComboBox" binding="medicineNameComboBox">
-                <constraints>
-                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false">
-                    <preferred-size width="172" height="50"/>
-                  </grid>
-                </constraints>
-                <properties>
-                  <background color="-197889"/>
-                  <editable value="false"/>
-                  <focusTraversalPolicyProvider value="false"/>
-                  <font name="Inter"/>
-                  <foreground color="-13947600"/>
-                  <inheritsPopupMenu value="false"/>
-                  <model>
-                    <item value="Tablet"/>
-                    <item value="Capsule"/>
-                    <item value="Liquid"/>
-                  </model>
-                  <opaque value="false"/>
-                  <popupVisible value="false"/>
+                  <text value="Patient Birth Certificate No."/>
                 </properties>
               </component>
               <component id="9c26c" class="javax.swing.JTextField" binding="frequency">
                 <constraints>
-                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="50"/>
                   </grid>
                 </constraints>
@@ -167,15 +145,15 @@
                   <text value="Frequency ( e.g twice daily )"/>
                 </properties>
               </component>
-              <component id="b0c75" class="javax.swing.JTextField" binding="strengthOfDosage">
+              <component id="b0c75" class="javax.swing.JTextField" binding="dosage">
                 <constraints>
-                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="50"/>
                   </grid>
                 </constraints>
                 <properties>
                   <focusable value="true"/>
-                  <text value="Dosage ( e.g 500mg amoxicilin )"/>
+                  <text value="Dosage ( e.g 500mg amoxicillin )"/>
                 </properties>
               </component>
               <component id="3469b" class="javax.swing.JComboBox" binding="medicineName">
@@ -196,7 +174,7 @@
       </scrollpane>
       <component id="1e2d4" class="javax.swing.JLabel">
         <constraints>
-          <grid row="6" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="5" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <text value="Copyright © 2023 Braine Lomoni. All rights reserved."/>
@@ -204,34 +182,9 @@
       </component>
       <vspacer id="e7370">
         <constraints>
-          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
         </constraints>
       </vspacer>
-      <grid id="b0645" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
-        <margin top="0" left="0" bottom="0" right="0"/>
-        <constraints>
-          <grid row="4" column="2" row-span="1" col-span="4" vsize-policy="3" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false">
-            <preferred-size width="400" height="50"/>
-          </grid>
-        </constraints>
-        <properties>
-          <background color="-15773149"/>
-          <foreground color="-197889"/>
-        </properties>
-        <border type="none"/>
-        <children>
-          <component id="17829" class="javax.swing.JLabel" binding="lbl_error_login">
-            <constraints>
-              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-            </constraints>
-            <properties>
-              <background color="-949887"/>
-              <foreground color="-197889"/>
-              <text value="Success Message"/>
-            </properties>
-          </component>
-        </children>
-      </grid>
       <grid id="2ead2" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
         <margin top="0" left="0" bottom="0" right="0"/>
         <constraints>

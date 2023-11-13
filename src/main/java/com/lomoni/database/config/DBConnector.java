@@ -240,4 +240,72 @@ public class DBConnector {
         }
         return inventoryRowsObject;
     }
+
+    //PRESCRIPTION SERVICE FUNCTIONS
+    //Handle Prescription Form Data
+    public char createNewPrescriptionRecord(String medicine_name, String patientBirthCertNo, String frequency, String dosage){
+        char newRecordInserted = 'A';
+        char anErrorOccurred = 'C';
+
+        try{
+            //Create new prescription
+            insertNewPrescription(medicine_name,patientBirthCertNo,frequency,dosage);
+            return newRecordInserted;
+        }catch(Exception e){
+            Log("TRACE","Exception while handling prescription data : "+e.getMessage(),e,DBConnector.class.getName());
+        }
+        return anErrorOccurred;
+    }
+
+    private void insertNewPrescription(String medicine_name, String patientBirthCertNo, String frequency, String dosage){
+        try{
+            String sql_prescriptionTable = "";
+            ResultSet result_prescriptionTable = null;
+            //Create new record in Prescription Table
+
+            sql_prescriptionTable = "INSERT INTO "+prescriptionTable+" (medicine_name, patient_birth_certificate, frequency, dosage) VALUES (?, ?, ?, ?)";
+            PreparedStatement insertIntoPrescriptionTable = conn.prepareStatement(sql_prescriptionTable);
+            insertIntoPrescriptionTable.setString(1, medicine_name);
+            insertIntoPrescriptionTable.setString(2, patientBirthCertNo);
+            insertIntoPrescriptionTable.setString(3, frequency);
+            insertIntoPrescriptionTable.setString(4, dosage);
+            int insertIntoPrescriptionTableResult = insertIntoPrescriptionTable.executeUpdate();
+            insertIntoPrescriptionTable.close();
+
+
+            if(insertIntoPrescriptionTableResult > 0){
+                Log("INFO","Insertion occurred into the prescription table",null,DBConnector.class.getName());
+            } else {
+                Log("FATAL","An Exception occurred while inserting data to the prescription table : ",null,DBConnector.class.getName());
+            }
+
+        }catch(SQLException sqlException){
+            Log("FATAL","Error while updating the prescription table : "+sqlException,sqlException,DBConnector.class.getName());
+        }
+    }
+    //Fetch Prescription Data
+    public HashMap getPrescriptionRows(){
+        HashMap<String, List> prescriptionRowsObject = new HashMap<>();
+        try{
+            result = statement.executeQuery("SELECT prescription_id,medicine_name,patient_birth_certificate,frequency,dosage FROM "+prescriptionTable);
+            while(result.next()){
+                List<String> prescriptionRows = new ArrayList<>();
+                int prescription_id = result.getInt("prescription_id");
+                String medicine_name = result.getString("medicine_name");
+                int patient_birth_cert_no = result.getInt("patient_birth_certificate");
+                String frequency = result.getString("frequency");
+                String dosage = result.getString("dosage");
+                prescriptionRows.add(medicine_name);
+                prescriptionRows.add(String.valueOf(patient_birth_cert_no));
+                prescriptionRows.add(frequency);
+                prescriptionRows.add(dosage);
+
+                prescriptionRowsObject.put("prescription_item_"+prescription_id,prescriptionRows);
+            }
+            statement.close();
+        }catch(Exception exception){
+            Log("FATAL","SQL Exception : "+exception.getMessage(),exception,DBConnector.class.getName());
+        }
+        return prescriptionRowsObject;
+    }
 }
