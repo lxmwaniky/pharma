@@ -87,6 +87,7 @@ public class DBConnector {
     }
 
     /*
+     * INVENTORY FORM DATA
      * Functionality
      * 1. Check if medicine already exists in the medicines table by executing a SQL query.
      * 2. If medicine exists, update the quantity in stock and unit price in the inventory table.
@@ -207,5 +208,36 @@ public class DBConnector {
         catch(SQLException sqlException){
             Log("FATAL","Error while updating the inventory table :"+sqlException.getMessage(),sqlException,DBConnector.class.getName());
         }
+    }
+
+
+    /*
+     FETCH Inventory Data
+     */
+    public HashMap getInventoryRows(){
+        HashMap<String, List> inventoryRowsObject = new HashMap<>();
+        try{
+            result = statement.executeQuery("SELECT * FROM "+inventoryTable);
+            while(result.next()){
+                List<String> inventoryRows = new ArrayList<>();
+                int inventory_id = result.getInt("inventory_id");
+                String medicine_name = result.getString("medicine_name");
+                int quantity = result.getInt("medicine_quantity");
+                Double price = result.getDouble("price");
+                String dosageForm = result.getString("dosageForm");
+                String strengthOfDosage = result.getString("strengthOfDosage");
+                inventoryRows.add(medicine_name);
+                inventoryRows.add(String.valueOf(quantity));
+                inventoryRows.add(String.valueOf(price));
+                inventoryRows.add(dosageForm);
+                inventoryRows.add(strengthOfDosage);
+
+                inventoryRowsObject.put("inventory_item_"+inventory_id,inventoryRows);
+            }
+            statement.close();
+        }catch(Exception exception){
+            Log("FATAL","SQL Exception : "+exception.getMessage(),exception,DBConnector.class.getName());
+        }
+        return inventoryRowsObject;
     }
 }

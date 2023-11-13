@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19d791b9-e31e-432b-9f0f-9108897f0020" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lomoni/database/config/DBConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/database/config/DBConnector.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,14 +123,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697268887105</updated>
-    </task>
-    <task id="LOCAL-00026" summary="feature : Screen design for the Inventory Screen">
-      <option name="closed" value="true" />
-      <created>1697404825589</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1697404825590</updated>
     </task>
     <task id="LOCAL-00027" summary="feature : Inventory service to handle data for the inventory table">
       <option name="closed" value="true" />
@@ -517,12 +508,19 @@
       <option name="project" value="LOCAL" />
       <updated>1699870156237</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="feature : New items added to the database in inventory form.">
+      <option name="closed" value="true" />
+      <created>1699874442571</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1699874442571</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="refactor : Some refactors." />
     <MESSAGE value="refactor : Call `filterTable` on keyReleased only to reduce unnecessary calls for performance." />
     <MESSAGE value="refactor : Reuse the same `TableRowSorter` instance to improve efficiency of filtering operations." />
     <MESSAGE value="feature : Abstract method to hash passwords" />
@@ -547,6 +545,7 @@
     <MESSAGE value="feature : CRUD DB methods to add a new item in the database or  update an existing item's stock" />
     <MESSAGE value="chore : Added m" />
     <MESSAGE value="chore : Added maven as a project dependancy&#10;refactor: Codebase cleanup with no functional changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore : Added maven as a project dependancy&#10;refactor: Codebase cleanup with no functional changes" />
+    <MESSAGE value="feature : New items added to the database in inventory form." />
+    <option name="LAST_COMMIT_MESSAGE" value="feature : New items added to the database in inventory form." />
   </component>
 </project>
