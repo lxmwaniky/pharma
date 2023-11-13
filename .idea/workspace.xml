@@ -8,7 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Inventory.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Inventory.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Inventory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/utils/InputFieldFocusListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/utils/InputFieldFocusListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,14 +125,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697268887105</updated>
-    </task>
-    <task id="LOCAL-00029" summary="feature : Implemented placeholder listeners">
-      <option name="closed" value="true" />
-      <created>1697450851743</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1697450851743</updated>
     </task>
     <task id="LOCAL-00030" summary="fix : Implemented placeholder listeners">
       <option name="closed" value="true" />
@@ -519,12 +510,19 @@
       <option name="project" value="LOCAL" />
       <updated>1699878333309</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="feature : Clear fields once submit button has been clicked">
+      <option name="closed" value="true" />
+      <created>1699889247680</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1699889247680</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="feature : Abstract method to hash passwords" />
     <MESSAGE value="refactor : Method call on `LoginService`" />
     <MESSAGE value="feature : Logging class events" />
     <MESSAGE value="feature : Refactor" />
@@ -549,6 +547,7 @@
     <MESSAGE value="feature : New items added to the database in inventory form." />
     <MESSAGE value="feature : Method to fetch inventory rows from the db" />
     <MESSAGE value="feature : Display inventory data from the database" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature : Display inventory data from the database" />
+    <MESSAGE value="feature : Clear fields once submit button has been clicked" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature : Clear fields once submit button has been clicked" />
   </component>
 </project>

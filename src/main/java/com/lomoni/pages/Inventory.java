@@ -33,6 +33,7 @@ public class Inventory {
     private JTextField quantityInStock;
     private JTextField strengthOfDosage;
     private JButton signOutButton;
+    private JButton sellScreenButton;
     private Container container;
     private CardLayout cardLayout;
     private InventoryService inventoryService;
@@ -52,6 +53,9 @@ public class Inventory {
                 setInventoryServiceData(inventoryService);
                 clearInputsWhenSubmitButtonIsClicked();
             });
+            sellScreenButton.addActionListener((e->{
+                cardLayout.show(container,"sell");
+            }));
 
             setPlaceholderFunctionality();
             setTableFilter(tableFilter);
