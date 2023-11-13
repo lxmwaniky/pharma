@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="19d791b9-e31e-432b-9f0f-9108897f0020" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Inventory.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Inventory.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Inventory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lomoni/services/InventoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/services/InventoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/utils/InputFieldFocusListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/utils/InputFieldFocusListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,14 +126,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697268887105</updated>
-    </task>
-    <task id="LOCAL-00028" summary="feature : Implemented table filter functionality">
-      <option name="closed" value="true" />
-      <created>1697450472519</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1697450472519</updated>
     </task>
     <task id="LOCAL-00029" summary="feature : Implemented placeholder listeners">
       <option name="closed" value="true" />
@@ -518,12 +511,19 @@
       <option name="project" value="LOCAL" />
       <updated>1699875149965</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="feature : Display inventory data from the database">
+      <option name="closed" value="true" />
+      <created>1699878333309</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1699878333309</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="refactor : Reuse the same `TableRowSorter` instance to improve efficiency of filtering operations." />
     <MESSAGE value="feature : Abstract method to hash passwords" />
     <MESSAGE value="refactor : Method call on `LoginService`" />
     <MESSAGE value="feature : Logging class events" />
@@ -548,6 +548,7 @@
     <MESSAGE value="chore : Added maven as a project dependancy&#10;refactor: Codebase cleanup with no functional changes" />
     <MESSAGE value="feature : New items added to the database in inventory form." />
     <MESSAGE value="feature : Method to fetch inventory rows from the db" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature : Method to fetch inventory rows from the db" />
+    <MESSAGE value="feature : Display inventory data from the database" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature : Display inventory data from the database" />
   </component>
 </project>

@@ -84,7 +84,7 @@ public class Prescription {
         try{
             InputFieldFocusListener rowFilterTextFieldPlaceholder = new InputFieldFocusListener(rowFilterTextField, "Search...");
             InputFieldFocusListener patientNamePlaceholder = new InputFieldFocusListener(patientName, "Patient Name");
-            InputFieldFocusListener dosagePlaceholder = new InputFieldFocusListener(strengthOfDosage, "Dosage ( e.g 500mg amoxicillin )");
+            InputFieldFocusListener dosagePlaceholder = new InputFieldFocusListener(strengthOfDosage, "Strength ( e.g 500mg amoxicillin )");
             InputFieldFocusListener frequencyPlaceholder = new InputFieldFocusListener(frequency, "Frequency ( e.g twice daily )");
             rowFilterTextField.addFocusListener(rowFilterTextFieldPlaceholder);
             patientName.addFocusListener(patientNamePlaceholder);

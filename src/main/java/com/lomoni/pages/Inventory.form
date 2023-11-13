@@ -26,6 +26,7 @@
               <enabled value="false"/>
               <focusable value="false"/>
               <intercellSpacing width="1" height="10"/>
+              <preferredScrollableViewportSize width="650" height="400"/>
               <rowHeight value="40"/>
               <rowMargin value="10"/>
               <rowSelectionAllowed value="false"/>
@@ -175,7 +176,7 @@
                 </constraints>
                 <properties>
                   <focusable value="true"/>
-                  <text value="Strength ( e.g 500mg amoxicilin )"/>
+                  <text value="Strength ( e.g 500mg amoxicillin )"/>
                 </properties>
               </component>
             </children>

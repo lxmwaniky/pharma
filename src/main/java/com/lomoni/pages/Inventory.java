@@ -46,7 +46,13 @@ public class Inventory {
 
             //Set the event listeners
             signOutButton.addActionListener(e->{setSignOutButton();});
-            submitButton.addActionListener(e->{handleInventoryFormData();});
+            submitButton.addActionListener(e->{
+                handleInventoryFormData();
+                //Reload the data
+                setInventoryServiceData(inventoryService);
+                clearInputsWhenSubmitButtonIsClicked();
+            });
+
             setPlaceholderFunctionality();
             setTableFilter(tableFilter);
             setInventoryServiceData(inventoryService);
@@ -71,7 +77,7 @@ public class Inventory {
 
     private void setInventoryServiceData(InventoryService inventoryService){
         try{
-            inventoryService.getInventoryDisplayData();
+
             TableModel inventoryModel = new DefaultTableModel(inventoryService.getInventoryDisplayData(), inventoryService.getInventoryDisplayColumns());
             inventoryTable.setModel(inventoryModel);
             Log("INFO", "Prescription data set",null,Prescription.class.getName());
@@ -85,7 +91,7 @@ public class Inventory {
             InputFieldFocusListener rowFilterTextFieldPlaceholder = new InputFieldFocusListener(rowFilterTextField, "Search...");
             InputFieldFocusListener medicineNamePlaceholder = new InputFieldFocusListener(medicineName, "Medicine Name");
             InputFieldFocusListener unitPriceOfMedicinePlaceholder = new InputFieldFocusListener(unitPriceOfMedicine, "Unit Price");
-            InputFieldFocusListener strengthOfDosagePlaceholder = new InputFieldFocusListener(strengthOfDosage, "Strength ( e.g 500mg amoxicilin )");
+            InputFieldFocusListener strengthOfDosagePlaceholder = new InputFieldFocusListener(strengthOfDosage, "Strength ( e.g 500mg amoxicillin )");
             InputFieldFocusListener quantityInStockPlaceholder = new InputFieldFocusListener(quantityInStock, "Quantity In Stock");
 
             rowFilterTextField.addFocusListener(rowFilterTextFieldPlaceholder);
@@ -95,6 +101,19 @@ public class Inventory {
             unitPriceOfMedicine.addFocusListener(unitPriceOfMedicinePlaceholder);
         }catch(Exception e){
             Log("FATAL","Exception occurred while setting the placeholder functionality : "+e.getMessage(),e,Inventory.class.getName());
+        }
+    }
+
+    private void clearInputsWhenSubmitButtonIsClicked(){
+        try{
+            //Set the values back to the default placeholders.
+            medicineName.setText("Medicine Name");
+            strengthOfDosage.setText("Strength( e.g 500mg amoxicillin )");
+            quantityInStock.setText("Quantity In Stock");
+            unitPriceOfMedicine.setText("Unit Price");
+
+        }catch(Exception e){
+            Log("ERROR","Exception occurred while setting the placeholder functionality : "+e.getMessage(),e,Inventory.class.getName());
         }
     }
 
@@ -118,7 +137,7 @@ public class Inventory {
         String quantity_in_stock = quantityInStock.getText();
         String unit_price_text = unitPriceOfMedicine.getText();
 
-        if(medicine_name.equals("Medicine Name") || strength_of_dosage.equals("Strength ( e.g 500mg amoxicilin )") || quantity_in_stock.equals("Quantity In Stock") || unit_price_text.equals("Unit Price")){
+        if(medicine_name.equals("Medicine Name") || strength_of_dosage.equals("Strength ( e.g 500mg amoxicillin )") || quantity_in_stock.equals("Quantity In Stock") || unit_price_text.equals("Unit Price")){
             // User needs to fill all inputs
             Log("FATAL","User didn't fill all inputs",null,Inventory.class.getName());
             showMessage(container,"Fill in all inputs","Blank inputs",0);
