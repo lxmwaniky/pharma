@@ -1,6 +1,6 @@
 package com.lomoni.pages.utils;
 
-import com.formdev.flatlaf.FlatIntelliJLaf;
+import com.formdev.flatlaf.*;
 import org.apache.logging.log4j.Level;
 
 import javax.swing.*;

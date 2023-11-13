@@ -5,10 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19d791b9-e31e-432b-9f0f-9108897f0020" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/lomoni/tests/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lomoni/database/config/DBConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/database/config/DBConnector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/pages/Inventory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lomoni/services/InventoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lomoni/services/InventoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pharma.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pharma.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/components/inventory/logger/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/components/inventory/logger/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/database/config/DBConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/database/config/DBConnector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/database/sql/db_braine_lomoni_168864.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/database/sql/db_braine_lomoni_168864.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/database/sql/db_braine_lomoni_168864_lab_4.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/database/sql/db_braine_lomoni_168864_lab_4.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Inventory.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Inventory.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Inventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Login.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Login.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Prescription.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Prescription.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Prescription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Prescription.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Sell.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Sell.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/Sell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Sell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/SellReceipt.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/SellReceipt.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/SellReceipt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/SellReceipt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/utils/ImplementLookAndFeel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/utils/ImplementLookAndFeel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/utils/InputFieldFocusListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/utils/InputFieldFocusListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/utils/LogManagerImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/utils/LogManagerImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/utils/PharmaDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/utils/PharmaDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/pages/utils/TableFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/utils/TableFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/services/InventoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/services/InventoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/services/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/services/LoginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/services/PrescriptionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/services/PrescriptionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lomoni/services/SellService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/services/SellService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +49,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -46,17 +76,25 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "true",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW": "true",
     "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Briane's/IdeaProjects/school_code/lib/mysql-connector-j-8.2.0.jar",
-    "project.structure.last.edited": "Modules",
+    "last_directory_selection": "C:/Users/Briane's/IdeaProjects/pharma/src/test/java",
+    "last_opened_file_path": "C:/Users/Briane's/source/repos/contact-manager-starter-JUnit5-tutorial",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "project.structure.side.proportion": "0.2689655",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -69,6 +107,17 @@
       <recent name="C:\Users\Briane's\IdeaProjects\pharma\src\com\lomoni\components\inventory\logger" />
       <recent name="C:\Users\Briane's\IdeaProjects\pharma\src\com\lomoni" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.lomoni.tests" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+    </option>
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -106,14 +155,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697268887105</updated>
-    </task>
-    <task id="LOCAL-00024" summary="chore : Dependancy update">
-      <option name="closed" value="true" />
-      <created>1697316970907</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1697316970907</updated>
     </task>
     <task id="LOCAL-00025" summary="chore : Documenting files as per lecturer's instructions">
       <option name="closed" value="true" />
@@ -499,7 +540,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699817270709</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="feature : CRUD DB methods to add a new item in the database or  update an existing item's stock">
+      <option name="closed" value="true" />
+      <created>1699821065324</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1699821065324</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
