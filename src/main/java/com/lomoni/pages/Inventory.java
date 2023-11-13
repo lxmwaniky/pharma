@@ -8,6 +8,7 @@ import javax.swing.*;
 import javax.swing.table.*;
 
 import java.awt.*;
+import java.util.Arrays;
 import java.util.Objects;
 
 import static com.lomoni.pages.utils.LogManagerImplementation.Log;
@@ -42,6 +43,7 @@ public class Inventory {
             this.container = container;
             this.cardLayout = cardLayout;
             this.inventoryService = inventoryService;
+
             //Set the event listeners
             signOutButton.addActionListener(e->{setSignOutButton();});
             submitButton.addActionListener(e->{handleInventoryFormData();});
@@ -67,9 +69,10 @@ public class Inventory {
 
     }
 
-    private void setInventoryServiceData(InventoryService prescriptionService){
+    private void setInventoryServiceData(InventoryService inventoryService){
         try{
-            TableModel inventoryModel = new DefaultTableModel(prescriptionService.getInventoryDisplayData(), prescriptionService.getInventoryDisplayColumns());
+            inventoryService.getInventoryDisplayData();
+            TableModel inventoryModel = new DefaultTableModel(inventoryService.getInventoryDisplayData(), inventoryService.getInventoryDisplayColumns());
             inventoryTable.setModel(inventoryModel);
             Log("INFO", "Prescription data set",null,Prescription.class.getName());
         }catch(Exception e){

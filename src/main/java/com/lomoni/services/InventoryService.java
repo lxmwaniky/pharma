@@ -2,6 +2,9 @@ package com.lomoni.services;
 
 import com.lomoni.database.config.DBConnector;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
 
 import static com.lomoni.pages.utils.LogManagerImplementation.Log;
@@ -11,21 +14,9 @@ public class InventoryService {
     private final String[] inventoryDisplayColumns = new String[]{
             "Medicine name",
             "Quantity",
-            "Price"
-    };
-
-    //DATA
-    private final Object[][] inventoryDisplayData = new Object[][]{
-            {"Penicillin", "43", "907"},
-            {"Ibuprofen", "16", "396"},
-            {"Amoxicillin", "44", "854"},
-            {"Penicillin", "86", "831"},
-            {"Ibuprofen", "69", "735"},
-            {"Amoxicillin", "62", "307"},
-            {"Amoxicillin", "42", "541"},
-            {"Amoxicillin", "30", "208"},
-            {"Ibuprofen", "100", "589"},
-            {"Amoxicillin", "50", "738"}
+            "Price",
+            "Dosage Form",
+            "Strength of Dosage"
     };
 
     //Getter functions
@@ -35,7 +26,30 @@ public class InventoryService {
     }
 
     public Object[][] getInventoryDisplayData() {
-        return inventoryDisplayData;
+        HashMap inventoryRowsObject;
+        Object[][] inventoryData = new Object[300][];
+        try{
+            DBConnector dbConnector = new DBConnector();
+            inventoryRowsObject = dbConnector.getInventoryRows();
+            int counter = 0;
+
+            for(Object i : inventoryRowsObject.keySet()){
+                ArrayList inventoryRowList = new ArrayList<>();
+                inventoryRowList = (ArrayList) inventoryRowsObject.get(i);
+                String medicine_name = (String) inventoryRowList.get(0);
+                String medicine_quantity = (String) inventoryRowList.get(1);
+                String price = (String) inventoryRowList.get(2);
+                String dosageForm = (String) inventoryRowList.get(3);
+                String strengthOfDosage = (String) inventoryRowList.get(4);
+
+                inventoryData[counter] = new Object[]{medicine_name,medicine_quantity,price,dosageForm,strengthOfDosage};
+                counter++;
+            }
+            return inventoryData;
+        }catch(Exception exception) {
+            Log("FATAL", "Exception while getting inventory rows from the db : " + exception.getMessage(), exception, InventoryService.class.getName());
+        }
+        return inventoryData;
     }
 
     //Handling data from the form
