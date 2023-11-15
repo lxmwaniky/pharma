@@ -68,17 +68,6 @@
           <verticalTextPosition value="3"/>
         </properties>
       </component>
-      <component id="2cfd7" class="javax.swing.JLabel">
-        <constraints>
-          <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <font name="Calibri" size="18" style="0"/>
-          <text value="+ Add New Item"/>
-          <verticalAlignment value="3"/>
-          <verticalTextPosition value="3"/>
-        </properties>
-      </component>
       <hspacer id="6bac7">
         <constraints>
           <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
@@ -243,6 +232,17 @@
           </component>
         </children>
       </grid>
+      <component id="2cfd7" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Calibri" size="18" style="0"/>
+          <text value="+ Add New Item"/>
+          <verticalAlignment value="3"/>
+          <verticalTextPosition value="3"/>
+        </properties>
+      </component>
     </children>
   </grid>
 </form>

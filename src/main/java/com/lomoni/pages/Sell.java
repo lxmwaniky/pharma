@@ -3,7 +3,7 @@ package com.lomoni.pages;
 import javax.swing.*;
 
 public class Sell {
-    private JComboBox medicineNameComboBox;
+    private JComboBox patientIdComboBox;
     private JTextField quantityBought;
     private JButton submitButton;
     private JLabel lbl_error;
