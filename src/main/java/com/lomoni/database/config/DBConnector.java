@@ -1,8 +1,5 @@
 package com.lomoni.database.config;
 
-import com.mysql.cj.jdbc.Driver;
-
-import java.awt.*;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -243,13 +240,13 @@ public class DBConnector {
 
     //PRESCRIPTION SERVICE FUNCTIONS
     //Handle Prescription Form Data
-    public char createNewPrescriptionRecord(String medicine_name, String patientBirthCertNo, String frequency, String dosage){
+    public char createNewPrescriptionRecord(String medicine_name, String patientBirthCertNo, String frequency, String dosage, String quantity){
         char newRecordInserted = 'A';
         char anErrorOccurred = 'C';
 
         try{
             //Create new prescription
-            insertNewPrescription(medicine_name,patientBirthCertNo,frequency,dosage);
+            insertNewPrescription(medicine_name,patientBirthCertNo,frequency,dosage,quantity);
             return newRecordInserted;
         }catch(Exception e){
             Log("TRACE","Exception while handling prescription data : "+e.getMessage(),e,DBConnector.class.getName());
@@ -257,18 +254,18 @@ public class DBConnector {
         return anErrorOccurred;
     }
 
-    private void insertNewPrescription(String medicine_name, String patientBirthCertNo, String frequency, String dosage){
+    private void insertNewPrescription(String medicine_name, String patientBirthCertNo, String frequency, String dosage, String quantity){
         try{
             String sql_prescriptionTable = "";
-            ResultSet result_prescriptionTable = null;
             //Create new record in Prescription Table
 
-            sql_prescriptionTable = "INSERT INTO "+prescriptionTable+" (medicine_name, patient_birth_certificate, frequency, dosage) VALUES (?, ?, ?, ?)";
+            sql_prescriptionTable = "INSERT INTO "+prescriptionTable+" (medicine_name, patient_birth_certificate, frequency, dosage, quantity) VALUES (?, ?, ?, ?, ?)";
             PreparedStatement insertIntoPrescriptionTable = conn.prepareStatement(sql_prescriptionTable);
             insertIntoPrescriptionTable.setString(1, medicine_name);
             insertIntoPrescriptionTable.setString(2, patientBirthCertNo);
             insertIntoPrescriptionTable.setString(3, frequency);
             insertIntoPrescriptionTable.setString(4, dosage);
+            insertIntoPrescriptionTable.setInt(5, Integer.parseInt(quantity));
             int insertIntoPrescriptionTableResult = insertIntoPrescriptionTable.executeUpdate();
             insertIntoPrescriptionTable.close();
 
@@ -287,7 +284,7 @@ public class DBConnector {
     public HashMap getPrescriptionRows(){
         HashMap<String, List> prescriptionRowsObject = new HashMap<>();
         try{
-            result = statement.executeQuery("SELECT prescription_id,medicine_name,patient_birth_certificate,frequency,dosage FROM "+prescriptionTable);
+            result = statement.executeQuery("SELECT prescription_id,medicine_name,patient_birth_certificate,frequency,dosage,quantity FROM "+prescriptionTable);
             while(result.next()){
                 List<String> prescriptionRows = new ArrayList<>();
                 int prescription_id = result.getInt("prescription_id");
@@ -295,10 +292,12 @@ public class DBConnector {
                 int patient_birth_cert_no = result.getInt("patient_birth_certificate");
                 String frequency = result.getString("frequency");
                 String dosage = result.getString("dosage");
+                int quantity = result.getInt("quantity");
                 prescriptionRows.add(medicine_name);
                 prescriptionRows.add(String.valueOf(patient_birth_cert_no));
                 prescriptionRows.add(frequency);
                 prescriptionRows.add(dosage);
+                prescriptionRows.add(String.valueOf(quantity));
 
                 prescriptionRowsObject.put("prescription_item_"+prescription_id,prescriptionRows);
             }

@@ -14,7 +14,6 @@ public class SellReceipt {
     private JLabel prescriptionIDSoldValue;
     private JLabel dateOfDispensingValue;
     private JLabel totalCostValue;
-
     private int patientBirthCertNo;
 
     public SellReceipt(Container container, CardLayout cardLayout){
@@ -31,7 +30,7 @@ public class SellReceipt {
     void setPatientBirthCertNo(int patientBirthCertNo){
         this.patientBirthCertNo = patientBirthCertNo;
 
-        System.out.println(patientBirthCertNo);
+
     }
     public JPanel createMainPanel(){
         return mainPanel;

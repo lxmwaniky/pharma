@@ -28,6 +28,7 @@ public class Prescription {
     private JPanel mainPanel;
     private JComboBox medicineName;
     private JButton signOutButton;
+    private JTextField quantity;
     private ComboBoxModel<String> comboBoxModel;
 
     private Container container;
@@ -93,10 +94,12 @@ public class Prescription {
             InputFieldFocusListener patientBirthCertNoPlaceholder = new InputFieldFocusListener(patientBirthCertNo, "Patient Birth Certificate No.");
             InputFieldFocusListener dosagePlaceholder = new InputFieldFocusListener(dosage, "Dosage ( e.g 500mg amoxicillin )");
             InputFieldFocusListener frequencyPlaceholder = new InputFieldFocusListener(frequency, "Frequency ( e.g twice daily )");
+            InputFieldFocusListener quantityPlaceholder = new InputFieldFocusListener(quantity, "Quantity ( e.g 50 )");
             rowFilterTextField.addFocusListener(rowFilterTextFieldPlaceholder);
             patientBirthCertNo.addFocusListener(patientBirthCertNoPlaceholder);
             dosage.addFocusListener(dosagePlaceholder);
             frequency.addFocusListener(frequencyPlaceholder);
+            quantity.addFocusListener(quantityPlaceholder);
             Log("INFO", "Placeholders set",null,Prescription.class.getName());
         }catch(Exception e){
             Log("FATAL","Exception occurred while setting placeholders : "+e.getMessage(),e,Prescription.class.getName());
@@ -118,14 +121,15 @@ public class Prescription {
         String patientBirthCert = patientBirthCertNo.getText();
         String dosageValue  = dosage.getText();
         String frequencyValue = frequency.getText();
+        String quantityValue = quantity.getText();
 
-        if(patientBirthCert.equals("Patient Birth Certificate No.") || dosageValue.equals("Dosage ( e.g 500mg amoxicillin )") || frequencyValue.equals("Frequency ( e.g twice daily )")){
+        if(patientBirthCert.equals("Patient Birth Certificate No.") || dosageValue.equals("Dosage ( e.g 500mg amoxicillin )") || frequencyValue.equals("Frequency ( e.g twice daily )") || quantityValue.equals("Quantity ( e.g 50 )")){
             // User needs to fill all inputs
             Log("FATAL","User didn't fill all inputs",null,Prescription.class.getName());
             showMessage(container,"Fill in all inputs","Blank inputs",0);
         } else {
             Log("TRACE","User input data passed to the service",null,Prescription.class.getName());
-            char prescriptionFormResult = prescriptionService.handlePrescriptionFormData(medicine_name, patientBirthCert, dosageValue, frequencyValue);
+            char prescriptionFormResult = prescriptionService.handlePrescriptionFormData(medicine_name, patientBirthCert, dosageValue, frequencyValue, quantityValue);
             String message = null;
             if(prescriptionFormResult == 'A'){
                 message = "A new prescription has been created for "+patientBirthCert;

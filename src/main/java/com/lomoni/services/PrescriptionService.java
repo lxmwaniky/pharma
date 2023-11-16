@@ -2,7 +2,6 @@ package com.lomoni.services;
 
 
 import com.lomoni.database.config.DBConnector;
-import com.lomoni.pages.Prescription;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -16,19 +15,10 @@ public class PrescriptionService {
             "Medicine Name",
             "Patient Birth Cert. No",
             "Dosage",
-            "Frequency"
+            "Frequency",
+            "Quantity"
     };
 
-    //DATA
-    private final Object[][] inventoryDisplayData = new Object[][]{
-            {"Amoxicillin", "123456", "3 times a day", "500mg"},
-            {"Penicillin", "123456", "4 times a day", "250mg"},
-            {"Ibuprofen", "123456", "Every 4-6 hours as needed", "200mg"},
-            {"Metformin", "123456", "2 times a day", "500mg"},
-            {"Simvastatin", "123456", "Once a day", "40mg"},
-            {"Lisinopril", "123456", "Once a day", "10mg"},
-            {"Loratadine", "123456", "Once a day", "10mg"}
-    };
 
     //Getter functions
 
@@ -51,8 +41,9 @@ public class PrescriptionService {
                 String patientBirthCertNo = (String) prescriptionRowList.get(1);
                 String frequency = (String) prescriptionRowList.get(2);
                 String dosage = (String) prescriptionRowList.get(3);
+                String quantity = (String) prescriptionRowList.get(4);
 
-                prescriptionData[counter] = new Object[]{medicine_name,patientBirthCertNo,frequency,dosage};
+                prescriptionData[counter] = new Object[]{medicine_name,patientBirthCertNo,frequency,dosage,quantity};
                 counter++;
             }
             return prescriptionData;
@@ -68,11 +59,11 @@ public class PrescriptionService {
     }
 
     //Handling data from the form
-    public char handlePrescriptionFormData(String medicine_name,String patientBirthCertNo, String dosageForm, String frequency){
+    public char handlePrescriptionFormData(String medicine_name, String patientBirthCertNo, String dosageForm, String frequency, String quantityValue){
         try{
             DBConnector dbConnector = new DBConnector();
             Log("TRACE","Prescription form data has been passed to the database access",null,PrescriptionService.class.getName());
-            return dbConnector.createNewPrescriptionRecord(medicine_name,patientBirthCertNo,dosageForm,frequency);
+            return dbConnector.createNewPrescriptionRecord(medicine_name,patientBirthCertNo,dosageForm,frequency,quantityValue);
         }catch(Exception e){
             Log("FATAL","Error while passing inventory form data to the database access",e,PrescriptionService.class.getName());
         }
