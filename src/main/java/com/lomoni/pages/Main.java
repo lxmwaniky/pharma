@@ -46,7 +46,7 @@ public class Main{
             //LOGIN SCREEN
             Login loginScreen = new Login(container,cardLayout);
             //SELL SCREEN
-            Sell sellScreen = new Sell();
+            Sell sellScreen = new Sell(container,cardLayout);
             //PRESCRIPTION SCREEN
             Prescription prescriptionScreen = new Prescription(new PrescriptionService(), new TableFilter(), container, cardLayout);
             //INVENTORY SCREEN

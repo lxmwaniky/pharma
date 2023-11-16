@@ -54,12 +54,12 @@ FROM (Orders LEFT JOIN ( SalesRep LEFT JOIN Customers ON SalesRep.repNo = Custom
 ON Orders.Cust = Customers.CustNo)
 WHERE Amt > 25000;
 
-SELECT Customers.Company, Orders.OrderNo
+SELECT Customers.Company, Orders.OrderNo, Orders.Product, Orders.Quantity, Orders.Amt
 FROM Customers LEFT JOIN Orders
 ON Customers.CustNo = Orders.Cust;
  
 SELECT Offices.OfficeNo, Offices.City, Offices.Region, SalesRep.Name
-FROM Offices LEFT JOIN SalesReptbl_medicines
+FROM Offices LEFT JOIN SalesRep
 ON Offices.OfficeNo = SalesRep.RepOffice;
 
 SELECT * FROM Customers FULL JOIN Orders;

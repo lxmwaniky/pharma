@@ -1,5 +1,7 @@
 package com.lomoni.services;
 
+import com.lomoni.database.config.DBConnector;
+
 public class SellService {
     private String medicineName;
     private String dosageSoldValue;
@@ -54,5 +56,11 @@ public class SellService {
 
     public String getTotalCost() {
         return "500";
+    }
+
+    //Sell Page Functions
+    public int getPatientDataFromDatabaseAccess(int birthCertNo){
+        DBConnector dbConnector = new DBConnector();
+        return dbConnector.getPatientDataFromDB(birthCertNo);
     }
 }

@@ -308,4 +308,18 @@ public class DBConnector {
         }
         return prescriptionRowsObject;
     }
+
+    //SELL SERVICE FUNCTIONS
+    public int getPatientDataFromDB(int birthCertNo){
+        int patientBirthCert = 0;
+        try{
+            result = statement.executeQuery("SELECT * FROM "+prescriptionTable+" WHERE patient_birth_certificate="+birthCertNo);
+            if(result.next()){
+                patientBirthCert = result.getInt("patient_birth_certificate");
+            }
+        }catch(Exception e){
+            Log("FATAL","Exception while selecting patient data from the db : "+e.getMessage(),e,DBConnector.class.getName());
+        }
+        return patientBirthCert;
+    }
 }
