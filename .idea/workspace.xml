@@ -6,14 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="19d791b9-e31e-432b-9f0f-9108897f0020" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lomoni/database/config/DBConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/database/config/DBConnector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lomoni/database/sql/db_braine_lomoni_168864_lab_4.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/database/sql/db_braine_lomoni_168864_lab_4.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Sell.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Sell.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Sell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Sell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lomoni/services/SellService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/services/SellService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lomoni/database/config/DBConnector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lomoni/database/config/DBConnector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/SellReceipt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/SellReceipt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lomoni/pages/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lomoni/pages/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/lomoni/pages/Sell.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lomoni/pages/Sell.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lomoni/services/SellService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lomoni/services/SellService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,15 +138,7 @@
       <updated>1697268887105</updated>
       <workItem from="1700039176319" duration="144000" />
       <workItem from="1700071753389" duration="2338000" />
-      <workItem from="1700122121394" duration="3029000" />
-    </task>
-    <task id="LOCAL-00033" summary="fix : Implemented Prescribe Functionality for Doctor">
-      <option name="closed" value="true" />
-      <created>1697473376360</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1697473376360</updated>
+      <workItem from="1700122121394" duration="6333000" />
     </task>
     <task id="LOCAL-00034" summary="feature : Some more configurations.">
       <option name="closed" value="true" />
@@ -534,7 +524,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700076288351</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="feature : Carry out transaction on Sell Page">
+      <option name="closed" value="true" />
+      <created>1700126253182</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1700126253182</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -542,7 +540,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="feature : Dialog to show the client messages" />
     <MESSAGE value="feature : Dialog to show the client message when inputs are empty" />
     <MESSAGE value="feature : DB Connecting" />
     <MESSAGE value="feature : Retrieving all users and passing the data to the service" />
@@ -567,6 +564,7 @@
     <MESSAGE value="feature : Sell Button to send pharmacist to sell screen" />
     <MESSAGE value="feature : Prescription Screen functionality added." />
     <MESSAGE value="feature : Form design for the sell screen" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature : Form design for the sell screen" />
+    <MESSAGE value="feature : Carry out transaction on Sell Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature : Carry out transaction on Sell Page" />
   </component>
 </project>

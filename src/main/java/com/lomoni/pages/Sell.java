@@ -16,6 +16,9 @@ public class Sell {
 
     private final Container container;
     private final CardLayout cardLayout;
+    private final SellReceipt sellReceipt;
+
+    public int patient_birth_certNO;
 
     /*
      * The pharmacist will enter the patient's information and the prescription information into the sell page.
@@ -25,9 +28,10 @@ public class Sell {
      * The sell page will update the medicine inventory in the tbl_inventory table.
      * The sell page will move to the sell-receipt
      */
-    public Sell(Container container, CardLayout cardLayout){
+    public Sell(Container container, CardLayout cardLayout, SellReceipt sellReceipt){
         this.container = container;
         this.cardLayout = cardLayout;
+        this.sellReceipt = sellReceipt;
 
 
         submitButton.addActionListener(e->{
@@ -37,6 +41,9 @@ public class Sell {
                 showMessage(this.container,"Prescription for this patient doesn't exist","Trying to transact?",0);
             } else {
                 // Redirect user to the sell receipt screen
+
+                //Pass the patient receipt data
+                sellReceipt.setPatientBirthCertNo(grabPatientBirthCertNo(patientBirthCertNoComboBox));
                 this.cardLayout.show(container,"sell-receipt");
             }
         });
@@ -54,6 +61,10 @@ public class Sell {
     private int getPatientDataFromService(int birthCertNo){
         SellService sellService = new SellService();
         return sellService.getPatientDataFromDatabaseAccess(birthCertNo);
+    }
+
+    public int getPatient_birth_certNO() {
+        return patient_birth_certNO;
     }
 
     public JPanel createMainPanel(){

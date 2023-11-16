@@ -45,14 +45,15 @@ public class Main{
 
             //LOGIN SCREEN
             Login loginScreen = new Login(container,cardLayout);
+            //SELL RECEIPT SCREEN
+            SellReceipt sellReceiptScreen = new SellReceipt(container, cardLayout);
             //SELL SCREEN
-            Sell sellScreen = new Sell(container,cardLayout);
+            Sell sellScreen = new Sell(container,cardLayout,sellReceiptScreen);
             //PRESCRIPTION SCREEN
             Prescription prescriptionScreen = new Prescription(new PrescriptionService(), new TableFilter(), container, cardLayout);
             //INVENTORY SCREEN
             Inventory inventoryScreen = new Inventory(new InventoryService(), new TableFilter(),container,cardLayout);
-            //SELL RECEIPT SCREEN
-            SellReceipt sellReceiptScreen = new SellReceipt();
+
             Log("TRACE","Screens initialized",null,Main.class.getName());
 
             container.add("login",loginScreen.createMainPanel());
