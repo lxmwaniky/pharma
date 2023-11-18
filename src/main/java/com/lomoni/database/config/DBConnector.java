@@ -17,7 +17,7 @@ public class DBConnector {
     private String inventoryTable = "tbl_inventory";
     private String prescriptionTable = "tbl_prescription";
     private String prescriptionItemsTable = "tbl_prescription_items";
-    private String transactionItemsTable = "tbl_transactions_items";
+    private String transactionItemsTable = "tbl_transaction_items";
     private String medicinesTable = "tbl_medicines";
     private Connection conn;
     private Statement statement;
@@ -310,15 +310,116 @@ public class DBConnector {
 
     //SELL SERVICE FUNCTIONS
     public int getPatientDataFromDB(int birthCertNo){
-        int patientBirthCert = 0;
+        int patientBirthCertNo = 0;
         try{
             result = statement.executeQuery("SELECT * FROM "+prescriptionTable+" WHERE patient_birth_certificate="+birthCertNo);
             if(result.next()){
-                patientBirthCert = result.getInt("patient_birth_certificate");
+                int prescription_id = result.getInt("prescription_id");
+                patientBirthCertNo = result.getInt("patient_birth_certificate");
+                int quantity = result.getInt("quantity");
             }
         }catch(Exception e){
             Log("FATAL","Exception while selecting patient data from the db : "+e.getMessage(),e,DBConnector.class.getName());
         }
-        return patientBirthCert;
+        return patientBirthCertNo;
+    }
+
+    public HashMap<String, List> getPatientDataFromPrescription(int birthCertNo){
+        HashMap<String, List> patientObject = new HashMap<>();
+        try{
+            result = statement.executeQuery("SELECT * FROM "+prescriptionTable+" WHERE patient_birth_certificate="+birthCertNo);
+            while(result.next()) {
+                List<String> prescriptionRows = new ArrayList<>();
+                int prescription_id = result.getInt("prescription_id");
+                String medicine_name = result.getString("medicine_name");
+                int patient_birth_cert_no = result.getInt("patient_birth_certificate");
+                String frequency = result.getString("frequency");
+                String dosage = result.getString("dosage");
+                int quantity = result.getInt("quantity");
+                prescriptionRows.add(String.valueOf(prescription_id));
+                prescriptionRows.add(medicine_name);
+                prescriptionRows.add(String.valueOf(patient_birth_cert_no));
+                prescriptionRows.add(frequency);
+                prescriptionRows.add(dosage);
+                prescriptionRows.add(String.valueOf(quantity));
+
+                patientObject.put(String.valueOf(prescription_id),prescriptionRows);
+            }
+        }catch(Exception e){
+            Log("FATAL","Exception while selecting patient data from the db : "+e.getMessage(),e,DBConnector.class.getName());
+        }
+        return patientObject;
+    }
+    public List<String> getPatientDataFromTransactionItems(int prescriptionID){
+        List<String> transactionRows = new ArrayList<>();
+        try{
+            result = statement.executeQuery("SELECT * FROM "+transactionItemsTable+" WHERE prescription_id="+prescriptionID);
+            while(result.next()) {
+                int prescription_id = result.getInt("prescription_id");
+                int transaction_id = result.getInt("transaction_id");
+                int medicine_inventory_id = result.getInt("medicine_inventory_id");
+                String dosage = result.getString("dosage");
+                Date date_of_dispensing = result.getDate("date_of_dispensing");
+                int total_cost = result.getInt("total_cost");
+
+                transactionRows.add(String.valueOf(transaction_id));
+                transactionRows.add(String.valueOf(medicine_inventory_id));
+                transactionRows.add(String.valueOf(prescription_id));
+                transactionRows.add(dosage);
+                transactionRows.add(String.valueOf(date_of_dispensing));
+                transactionRows.add(String.valueOf(total_cost));
+            }
+        }catch(Exception e){
+            Log("FATAL","Exception while selecting transaction data from the db : "+e.getMessage(),e,DBConnector.class.getName());
+        }
+        return transactionRows;
+    }
+    public List<String> getMedicineDataFromInventory(int inventoryID){
+        List<String> inventoryRows = new ArrayList<>();
+        try{
+            result = statement.executeQuery("SELECT * FROM "+inventoryTable+" WHERE inventory_id="+inventoryID);
+            if(result.next()) {
+                String medicine_name = result.getString("medicine_name");
+                int medicine_quantity = result.getInt("medicine_quantity");
+                double price = result.getInt("price");
+                String dosageForm = result.getString("dosageForm");
+                String strengthOfDosage = result.getString("strengthOfDosage");
+                inventoryRows.add(String.valueOf(inventoryID));
+                inventoryRows.add(medicine_name);
+                inventoryRows.add(String.valueOf(medicine_quantity));
+                inventoryRows.add(String.valueOf(price));
+                inventoryRows.add(dosageForm);
+                inventoryRows.add(strengthOfDosage);
+            }
+        }catch(Exception e){
+            Log("FATAL","Exception while selecting medicine data from the db : "+e.getMessage(),e,DBConnector.class.getName());
+        }
+        return inventoryRows;
+    }
+
+    public boolean deductQuantityFromStock(int inventoryID, int quantityToBeDeducted) {
+        boolean success = false;
+        try{
+            String sql_inventoryTable = "";
+
+            //Update the quantity
+            sql_inventoryTable = "UPDATE "+inventoryTable+" SET quantity = quantity - "+quantityToBeDeducted+" WHERE inventory_id=?";
+            PreparedStatement updateInventoryTable = conn.prepareStatement(sql_inventoryTable);
+            updateInventoryTable.setInt(1,quantityToBeDeducted);
+            int updateInventoryTableResult = updateInventoryTable.executeUpdate();
+            System.out.println(updateInventoryTableResult);
+            updateInventoryTable.close();
+
+            if(updateInventoryTableResult > 0){
+                Log("INFO","Quantity sold to patient deduction ",null,DBConnector.class.getName());
+
+            } else {
+                Log("FATAL","An Exception occurred while inserting data to the prescription table : ",null,DBConnector.class.getName());
+            }
+
+        }catch(Exception e){
+            Log("FATA","Exception while deducting sold quantity from db : "+e.getMessage(),e,DBConnector.class.getName());
+        }
+        return success;
     }
 }

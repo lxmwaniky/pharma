@@ -2,6 +2,10 @@ package com.lomoni.services;
 
 import com.lomoni.database.config.DBConnector;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
 public class SellService {
     private String medicineName;
     private String dosageSoldValue;
@@ -62,5 +66,26 @@ public class SellService {
     public int getPatientDataFromDatabaseAccess(int birthCertNo){
         DBConnector dbConnector = new DBConnector();
         return dbConnector.getPatientDataFromDB(birthCertNo);
+    }
+
+    //Sell Receipt functions
+    public HashMap<String, List> getPatientDataFromPrescription(int birthCertNo){
+        DBConnector dbConnector = new DBConnector();
+        return dbConnector.getPatientDataFromPrescription(birthCertNo);
+    }
+
+    public List<String> getPatientDataFromTransactionItems(int prescriptionID){
+        DBConnector dbConnector = new DBConnector();
+        return dbConnector.getPatientDataFromTransactionItems(prescriptionID);
+    }
+
+    public List<String> getMedicineDataFromInventory(int inventoryID){
+        DBConnector dbConnector = new DBConnector();
+        return dbConnector.getMedicineDataFromInventory(inventoryID);
+    }
+
+    public boolean deductQuantityFromStock(int inventoryID, int quantityToBeDeducted){
+        DBConnector dbConnector = new DBConnector();
+        return dbConnector.deductQuantityFromStock(inventoryID, quantityToBeDeducted);
     }
 }
