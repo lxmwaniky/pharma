@@ -38,7 +38,7 @@ public class SellReceipt {
 
         //Get Patient Info and Display on Screen Then Return Quantity To Be Deducted From DB
         // -> True if Successful
-        System.out.println(destructurePatientDataFromPrescription(sellService.getPatientDataFromPrescription(this.patientBirthCertNo), sellService));
+        destructurePatientDataFromPrescription(sellService.getPatientDataFromPrescription(this.patientBirthCertNo), sellService);
 
 
     }
@@ -73,7 +73,7 @@ public class SellReceipt {
                 date_of_dispensing = (String) transactionRowsList.get(4);
                 total_cost = (String) transactionRowsList.get(5);
 
-                medicineSoldValue.setText(medicine_inventory_id);
+                medicineSoldValue.setText(medicine_name);
                 dosageSoldValue.setText(dosageFormAndValue);
                 quantitySoldValue.setText(quantity);
                 prescriptionIDSoldValue.setText(prescription_id);

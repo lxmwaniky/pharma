@@ -403,11 +403,10 @@ public class DBConnector {
             String sql_inventoryTable = "";
 
             //Update the quantity
-            sql_inventoryTable = "UPDATE "+inventoryTable+" SET quantity = quantity - "+quantityToBeDeducted+" WHERE inventory_id=?";
+            sql_inventoryTable = "UPDATE "+inventoryTable+" SET medicine_quantity = medicine_quantity - "+quantityToBeDeducted+" WHERE inventory_id=?";
             PreparedStatement updateInventoryTable = conn.prepareStatement(sql_inventoryTable);
-            updateInventoryTable.setInt(1,quantityToBeDeducted);
+            updateInventoryTable.setInt(1,inventoryID);
             int updateInventoryTableResult = updateInventoryTable.executeUpdate();
-            System.out.println(updateInventoryTableResult);
             updateInventoryTable.close();
 
             if(updateInventoryTableResult > 0){
@@ -418,7 +417,8 @@ public class DBConnector {
             }
 
         }catch(Exception e){
-            Log("FATA","Exception while deducting sold quantity from db : "+e.getMessage(),e,DBConnector.class.getName());
+            System.out.println(e.getMessage());
+            Log("FATAL","Exception while deducting sold quantity from db : "+e.getMessage(),e,DBConnector.class.getName());
         }
         return success;
     }
