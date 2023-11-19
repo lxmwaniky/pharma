@@ -6,8 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="19d791b9-e31e-432b-9f0f-9108897f0020" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lomoni/database/config/DBConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/database/config/DBConnector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/SellReceipt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/SellReceipt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Sell.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Sell.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Sell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Sell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lomoni/database/config/DBConnector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lomoni/database/config/DBConnector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lomoni/pages/Sell.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lomoni/pages/Sell.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lomoni/pages/SellReceipt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lomoni/pages/SellReceipt.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,15 +139,8 @@
       <workItem from="1700071753389" duration="2338000" />
       <workItem from="1700122121394" duration="21162000" />
       <workItem from="1700321264537" duration="37000" />
-      <workItem from="1700365349484" duration="700000" />
-    </task>
-    <task id="LOCAL-00037" summary="refactor : Swap `FocusListener` for `DocumentListener` to get input vaues when focus of input is lost">
-      <option name="closed" value="true" />
-      <created>1697653294640</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1697653294640</updated>
+      <workItem from="1700365349484" duration="1136000" />
+      <workItem from="1700409780686" duration="618000" />
     </task>
     <task id="LOCAL-00038" summary="refactor : Separate method for handling login action">
       <option name="closed" value="true" />
@@ -529,7 +526,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700302182392</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="feature : Subtract quantity from db when pharmacist approves transaction.">
+      <option name="closed" value="true" />
+      <created>1700366311393</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1700366311394</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -537,7 +542,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="feature : Authentication system" />
     <MESSAGE value="feature : Authentication system complete" />
     <MESSAGE value="refactor : Switch from `Object.equals` to `.equals` for string comparison for better readability." />
     <MESSAGE value="refactor : Making the authenticate method better" />
@@ -562,6 +566,7 @@
     <MESSAGE value="feature : Pass data to the Sell Receipt screen." />
     <MESSAGE value="feature : Added prescription field in + New Prescription form" />
     <MESSAGE value="feature : Sell Receipt DB functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature : Sell Receipt DB functions" />
+    <MESSAGE value="feature : Subtract quantity from db when pharmacist approves transaction." />
+    <option name="LAST_COMMIT_MESSAGE" value="feature : Subtract quantity from db when pharmacist approves transaction." />
   </component>
 </project>

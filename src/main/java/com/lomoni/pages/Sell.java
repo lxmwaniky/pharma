@@ -13,6 +13,8 @@ public class Sell {
     private JComboBox patientBirthCertNoComboBox;
     private JButton submitButton;
     private JPanel mainPanel;
+    private JButton signOutButton;
+    private JButton backToInventoryButton;
 
     private final Container container;
     private final CardLayout cardLayout;
@@ -34,6 +36,15 @@ public class Sell {
         this.sellReceipt = sellReceipt;
 
 
+        //Sign Out Button
+        signOutButton.addActionListener(e->{setSignOutButton();});
+
+        //Back To Inventory Button
+        backToInventoryButton.addActionListener(e->{
+            //Redirect back to the inventory screen
+            showMessage(this.container,"...Going back to the inventory screen","Redirecting back to the inventory screen",1);
+            this.cardLayout.show(this.container,"inventory");
+        });
         submitButton.addActionListener(e->{
 
             //Notify user if patient had no record
@@ -65,6 +76,18 @@ public class Sell {
 
     public int getPatient_birth_certNO() {
         return patient_birth_certNO;
+    }
+
+    //Sign Out Functionality
+    private void setSignOutButton(){
+        try {
+            Log("TRACE", "User pharma signed out", null, Inventory.class.getName());
+            showMessage(container,"You have signed out!","User pharma is signing out...",1);
+            cardLayout.show(container, "login");
+        }catch (Exception exception){
+            Log("ERROR","Error when signOutButton is clicked"+exception.getMessage(),exception,Inventory.class.getName());
+            showMessage(container,"Sorry for the inconvenience, try signing out again","Error while signing out",0);
+        }
     }
 
     public JPanel createMainPanel(){
