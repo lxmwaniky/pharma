@@ -55,10 +55,7 @@
               <foreground color="-16711422"/>
               <inheritsPopupMenu value="false"/>
               <model>
-                <item value="Select Birth Certificate No."/>
-                <item value="123456"/>
-                <item value="654321"/>
-                <item value="987654"/>
+                <item value="Select Birth Certificate Number :"/>
               </model>
               <opaque value="false"/>
               <popupVisible value="false"/>

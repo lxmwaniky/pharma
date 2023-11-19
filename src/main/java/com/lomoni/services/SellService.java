@@ -68,6 +68,11 @@ public class SellService {
         return dbConnector.getPatientDataFromDB(birthCertNo);
     }
 
+    public List<String> getAllPatientBirthCertNo(){
+        DBConnector dbConnector = new DBConnector();
+        return dbConnector.getAllPatientBirthCertNo();
+    }
+
     //Sell Receipt functions
     public HashMap<String, List> getPatientDataFromPrescription(int birthCertNo){
         DBConnector dbConnector = new DBConnector();
@@ -84,6 +89,7 @@ public class SellService {
         return dbConnector.getMedicineDataFromInventory(inventoryID);
     }
 
+    //Calculations
     public boolean deductQuantityFromStock(int inventoryID, int quantityToBeDeducted){
         DBConnector dbConnector = new DBConnector();
         return dbConnector.deductQuantityFromStock(inventoryID, quantityToBeDeducted);

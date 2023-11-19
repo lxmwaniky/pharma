@@ -6,12 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="19d791b9-e31e-432b-9f0f-9108897f0020" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lomoni/database/config/DBConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/database/config/DBConnector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Sell.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Sell.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Sell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Sell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lomoni/services/SellService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/services/SellService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/lomoni/database/config/DBConnector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lomoni/database/config/DBConnector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lomoni/pages/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lomoni/pages/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/lomoni/pages/Sell.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lomoni/pages/Sell.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lomoni/pages/SellReceipt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lomoni/pages/SellReceipt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lomoni/services/SellService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lomoni/services/SellService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,15 +142,7 @@
       <workItem from="1700122121394" duration="21162000" />
       <workItem from="1700321264537" duration="37000" />
       <workItem from="1700365349484" duration="1136000" />
-      <workItem from="1700409780686" duration="618000" />
-    </task>
-    <task id="LOCAL-00038" summary="refactor : Separate method for handling login action">
-      <option name="closed" value="true" />
-      <created>1697653351482</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1697653351482</updated>
+      <workItem from="1700409780686" duration="1817000" />
     </task>
     <task id="LOCAL-00039" summary="refactor : Replace loginButton event listener logic with lambda expression">
       <option name="closed" value="true" />
@@ -534,15 +528,33 @@
       <option name="project" value="LOCAL" />
       <updated>1700366311394</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="feature : Added navigation buttons to the sell screen.">
+      <option name="closed" value="true" />
+      <created>1700412871034</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1700412871036</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="feature : Authentication system complete" />
     <MESSAGE value="refactor : Switch from `Object.equals` to `.equals` for string comparison for better readability." />
     <MESSAGE value="refactor : Making the authenticate method better" />
     <MESSAGE value="feature : Modal to notify user when credentials are incorrect" />
@@ -567,6 +579,7 @@
     <MESSAGE value="feature : Added prescription field in + New Prescription form" />
     <MESSAGE value="feature : Sell Receipt DB functions" />
     <MESSAGE value="feature : Subtract quantity from db when pharmacist approves transaction." />
-    <option name="LAST_COMMIT_MESSAGE" value="feature : Subtract quantity from db when pharmacist approves transaction." />
+    <MESSAGE value="feature : Added navigation buttons to the sell screen." />
+    <option name="LAST_COMMIT_MESSAGE" value="feature : Added navigation buttons to the sell screen." />
   </component>
 </project>

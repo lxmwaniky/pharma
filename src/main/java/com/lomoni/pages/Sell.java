@@ -5,6 +5,7 @@ import com.lomoni.services.SellService;
 import javax.swing.*;
 
 import java.awt.*;
+import java.util.List;
 
 import static com.lomoni.pages.utils.LogManagerImplementation.Log;
 import static com.lomoni.pages.utils.PharmaDialog.showMessage;
@@ -35,7 +36,11 @@ public class Sell {
         this.cardLayout = cardLayout;
         this.sellReceipt = sellReceipt;
 
-
+        SellService sellService = new SellService();
+        List<String> patientBirthCertInString = sellService.getAllPatientBirthCertNo();
+        patientBirthCertInString.add(0,"Select a patient's birth certificate number :");
+        ComboBoxModel<String> patientBirthCertNoComboBoxModel = new DefaultComboBoxModel(patientBirthCertInString.toArray());
+        patientBirthCertNoComboBox.setModel(patientBirthCertNoComboBoxModel);
         //Sign Out Button
         signOutButton.addActionListener(e->{setSignOutButton();});
 

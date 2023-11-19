@@ -309,6 +309,20 @@ public class DBConnector {
     }
 
     //SELL SERVICE FUNCTIONS
+    public List<String> getAllPatientBirthCertNo(){
+        List<String> allPatientBirthCertNumbers = new ArrayList<>();
+        try{
+            result = statement.executeQuery("SELECT patient_birth_certificate FROM "+prescriptionTable);
+            while(result.next()){
+                int patient_birth_certificate = result.getInt(1);
+                allPatientBirthCertNumbers.add(String.valueOf(patient_birth_certificate));
+            }
+        }catch(Exception exception){
+            Log("FATAL","SQL Exception : "+exception.getMessage(),exception,DBConnector.class.getName());
+        }
+        return allPatientBirthCertNumbers;
+    }
+
     public int getPatientDataFromDB(int birthCertNo){
         int patientBirthCertNo = 0;
         try{
