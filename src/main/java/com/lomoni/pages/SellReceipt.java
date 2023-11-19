@@ -4,10 +4,11 @@ import com.lomoni.services.SellService;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ItemEvent;
-import java.awt.event.ItemListener;
 import java.util.ArrayList;
 import java.util.HashMap;
+
+import static com.lomoni.pages.utils.LogManagerImplementation.Log;
+import static com.lomoni.pages.utils.PharmaDialog.showMessage;
 
 public class SellReceipt {
     private JPanel mainPanel;
@@ -18,6 +19,8 @@ public class SellReceipt {
     private JLabel prescriptionIDSoldValue;
     private JLabel dateOfDispensingValue;
     private JLabel totalCostValue;
+    private JButton signOutButton;
+    private JButton backToSellScreenButton;
     private JComboBox datesOfDispensingComboBox;
     private int patientBirthCertNo;
 
@@ -40,7 +43,25 @@ public class SellReceipt {
         // -> True if Successful
         destructurePatientDataFromPrescription(sellService.getPatientDataFromPrescription(this.patientBirthCertNo), sellService);
 
+        backToSellScreenButton.addActionListener(e->{
+            //Redirect back to the inventory screen
+            showMessage(this.container,"...Going back to the sell screen","Redirecting back to the sell screen",1);
+            this.cardLayout.show(this.container,"sell");
+        });
 
+        signOutButton.addActionListener(e->{setSignOutButton();});
+    }
+
+    //Sign Out Functionality
+    private void setSignOutButton(){
+        try {
+            Log("TRACE", "User pharma signed out", null, Inventory.class.getName());
+            showMessage(container,"You have signed out!","User pharma is signing out...",1);
+            cardLayout.show(container, "login");
+        }catch (Exception exception){
+            Log("ERROR","Error when signOutButton is clicked"+exception.getMessage(),exception,Inventory.class.getName());
+            showMessage(container,"Sorry for the inconvenience, try signing out again","Error while signing out",0);
+        }
     }
 
     private boolean destructurePatientDataFromPrescription(HashMap<String, java.util.List> patientDataFromPrescription, SellService sellService){
