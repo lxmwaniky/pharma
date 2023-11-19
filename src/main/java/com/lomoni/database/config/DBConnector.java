@@ -276,6 +276,8 @@ public class DBConnector {
                 Log("FATAL","An Exception occurred while inserting data to the prescription table : ",null,DBConnector.class.getName());
             }
 
+
+            //
         }catch(SQLException sqlException){
             Log("FATAL","Error while updating the prescription table : "+sqlException,sqlException,DBConnector.class.getName());
         }

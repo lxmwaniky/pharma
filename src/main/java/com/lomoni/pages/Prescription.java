@@ -63,7 +63,6 @@ public class Prescription {
         }catch (Exception e){
             Log("FATAL","Exception while setting table filter on Prescription data",e,Prescription.class.getName());
         }
-
     }
 
     private void setTableFilter(TableFilter tableFilter){
