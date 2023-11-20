@@ -67,7 +67,7 @@ public class Main{
             container.add("sell-receipt", sellReceiptScreen.createMainPanel());
             Log("TRACE","Screen main panels added to the container",null,Main.class.getName());
 
-            cardLayout.show(container,"prescription");
+            cardLayout.show(container,"login");
             container.setLayout(cardLayout);
             screen.setContentPane(container);
             screen.setTitle("Pharma | Pharmacy POS");

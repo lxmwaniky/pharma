@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="19d791b9-e31e-432b-9f0f-9108897f0020" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lomoni/database/config/DBConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/database/config/DBConnector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lomoni/database/config/DBConnector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lomoni/database/config/DBConnector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Prescription.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Prescription.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/lomoni/pages/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lomoni/pages/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/lomoni/pages/Prescription.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lomoni/pages/Prescription.class" afterDir="false" />
     </list>
@@ -55,7 +54,7 @@
     "Repository.Attach.Sources": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW": "false",
+    "UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW": "true",
     "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW": "true",
     "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "357",
     "WebServerToolWindowFactoryState": "false",
@@ -140,15 +139,7 @@
       <workItem from="1700122121394" duration="21162000" />
       <workItem from="1700321264537" duration="37000" />
       <workItem from="1700365349484" duration="1136000" />
-      <workItem from="1700409780686" duration="8959000" />
-    </task>
-    <task id="LOCAL-00042" summary="docs : Functionality of the class">
-      <option name="closed" value="true" />
-      <created>1697654259643</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1697654259643</updated>
+      <workItem from="1700409780686" duration="10156000" />
     </task>
     <task id="LOCAL-00043" summary="refactor : Unecessary class">
       <option name="closed" value="true" />
@@ -534,7 +525,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700418127128</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="feature : Update respective tables when a new Prescription is set.">
+      <option name="closed" value="true" />
+      <created>1700470629707</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1700470629707</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -553,7 +552,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="feature : Modal to notify user when credentials are incorrect" />
     <MESSAGE value="refactor : Features of login" />
     <MESSAGE value="feature : Switch screen based on user type" />
     <MESSAGE value="feature : Get medicine names from the database" />
@@ -578,6 +576,7 @@
     <MESSAGE value="feature : Added navigation buttons to the sell screen." />
     <MESSAGE value="feature : Update list of patients with prescription from DB on Sell screen." />
     <MESSAGE value="feature : Added navigation buttons to the sell receipt screen." />
-    <option name="LAST_COMMIT_MESSAGE" value="feature : Added navigation buttons to the sell receipt screen." />
+    <MESSAGE value="feature : Update respective tables when a new Prescription is set." />
+    <option name="LAST_COMMIT_MESSAGE" value="feature : Update respective tables when a new Prescription is set." />
   </component>
 </project>
