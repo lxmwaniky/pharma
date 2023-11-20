@@ -1,6 +1,9 @@
 package com.lomoni.database.config;
 
 import java.sql.*;
+import java.time.ZoneId;
+import java.time.ZonedDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -254,30 +257,94 @@ public class DBConnector {
         return anErrorOccurred;
     }
 
+    private int calculateTotalCost(int medicineInventoryId, int quantity) throws SQLException {
+        // Retrieve the price of the medicine from the tbl_inventory table
+        String sqlGetPrice = "SELECT price FROM "+inventoryTable+" WHERE inventory_id = ?";
+        PreparedStatement selectPrice = conn.prepareStatement(sqlGetPrice);
+        selectPrice.setInt(1, medicineInventoryId);
+        ResultSet priceResultSet = selectPrice.executeQuery();
+        int price = 0;
+        if (priceResultSet.next()) {
+            price = priceResultSet.getInt("price");
+        }
+        selectPrice.close();
+
+        // Calculate the total cost
+        int totalCost = price * quantity;
+        return totalCost;
+    }
     private void insertNewPrescription(String medicine_name, String patientBirthCertNo, String frequency, String dosage, String quantity){
         try{
-            String sql_prescriptionTable = "";
-            //Create new record in Prescription Table
+            // Retrieve the newly created prescription ID
+            int prescriptionId = -1;
+            //The number of affected rows is greator than 0
+            Log("INFO", "Insertion occurred into the prescription table", null, DBConnector.class.getName());
 
-            sql_prescriptionTable = "INSERT INTO "+prescriptionTable+" (medicine_name, patient_birth_certificate, frequency, dosage, quantity) VALUES (?, ?, ?, ?, ?)";
-            PreparedStatement insertIntoPrescriptionTable = conn.prepareStatement(sql_prescriptionTable);
-            insertIntoPrescriptionTable.setString(1, medicine_name);
-            insertIntoPrescriptionTable.setString(2, patientBirthCertNo);
-            insertIntoPrescriptionTable.setString(3, frequency);
-            insertIntoPrescriptionTable.setString(4, dosage);
-            insertIntoPrescriptionTable.setInt(5, Integer.parseInt(quantity));
-            int insertIntoPrescriptionTableResult = insertIntoPrescriptionTable.executeUpdate();
-            insertIntoPrescriptionTable.close();
-
-
-            if(insertIntoPrescriptionTableResult > 0){
-                Log("INFO","Insertion occurred into the prescription table",null,DBConnector.class.getName());
-            } else {
-                Log("FATAL","An Exception occurred while inserting data to the prescription table : ",null,DBConnector.class.getName());
+            // Get the newly created prescription ID
+            //Select the newest prescriptionID from the table
+            String sqlGetPrescriptionId = "SELECT prescription_id FROM " + prescriptionTable + " ORDER BY prescription_id DESC LIMIT 1";
+            PreparedStatement selectPrescriptionId = conn.prepareStatement(sqlGetPrescriptionId);
+            ResultSet prescriptionIdResultSet = selectPrescriptionId.executeQuery();
+            if (prescriptionIdResultSet.next()) {
+                prescriptionId = prescriptionIdResultSet.getInt("prescription_id");
             }
+            selectPrescriptionId.close();
 
+            // Get medicine inventory id
+            int medicineInventoryId = 1;
+            // Select the inventory id associated with the medicine_name and avoid duplicates
+            String sqlGetMedicineId = "SELECT inventory_id FROM " + inventoryTable + " WHERE medicine_name = ? LIMIT 1";
+            PreparedStatement selectMedicineId = conn.prepareStatement(sqlGetMedicineId);
+            selectMedicineId.setString(1,medicine_name);
+            ResultSet medicineInventoryIdResultSet = selectMedicineId.executeQuery();
+            if (medicineInventoryIdResultSet.next()) {
+                medicineInventoryId = medicineInventoryIdResultSet.getInt("inventory_id");
+            }
+            selectMedicineId.close();
 
-            //
+            if (prescriptionId > 0) {
+                //Create new record in Prescription Table
+                String sql_prescriptionTable = "INSERT INTO "+prescriptionTable+" (medicine_name, medicine_inventory_id, patient_birth_certificate, frequency, dosage, quantity) VALUES (?, ?, ?, ?, ?, ?)";
+                PreparedStatement insertIntoPrescriptionTable = conn.prepareStatement(sql_prescriptionTable);
+                insertIntoPrescriptionTable.setString(1, medicine_name);
+                insertIntoPrescriptionTable.setInt(2, medicineInventoryId);
+                insertIntoPrescriptionTable.setString(3, patientBirthCertNo);
+                insertIntoPrescriptionTable.setString(4, frequency);
+                insertIntoPrescriptionTable.setString(5, dosage);
+                insertIntoPrescriptionTable.setInt(6, Integer.parseInt(quantity));
+                int insertIntoPrescriptionTableResult = insertIntoPrescriptionTable.executeUpdate();
+                insertIntoPrescriptionTable.close();
+
+                if(insertIntoPrescriptionTableResult > 0) {
+                    //If prescription is created
+                    // Insert a new record into the tbl_prescription_items table
+                    String sqlInsertIntoPrescriptionItem = "INSERT INTO " + prescriptionItemsTable + " (prescription_id, medicine_inventory_id, frequency, dosage) VALUES (?, ?, ?, ?)";
+                    PreparedStatement insertIntoPrescriptionItem = conn.prepareStatement(sqlInsertIntoPrescriptionItem);
+                    insertIntoPrescriptionItem.setInt(1, prescriptionId);
+                    insertIntoPrescriptionItem.setInt(2, medicineInventoryId);
+                    insertIntoPrescriptionItem.setString(3, frequency);
+                    insertIntoPrescriptionItem.setString(4, dosage);
+                    insertIntoPrescriptionItem.executeUpdate();
+                    insertIntoPrescriptionItem.close();
+
+                    // Insert a new record into the tbl_transaction_items table
+                    //Not inserting into the transaction_id column as it's set to auto increment
+                    //date_of_dispensing is in string format in the database.
+                    String sqlInsertTransactionItem = "INSERT INTO " + transactionItemsTable + " (medicine_inventory_id, dosage, prescription_id, date_of_dispensing, total_cost) VALUES (?, ?, ?, ?, ?)";
+                    PreparedStatement insertIntoTransactionItem = conn.prepareStatement(sqlInsertTransactionItem);
+                    insertIntoTransactionItem.setInt(1, medicineInventoryId);
+                    insertIntoTransactionItem.setString(2, dosage);
+                    insertIntoTransactionItem.setInt(3, prescriptionId);
+                    String currentTimeStamp = ZonedDateTime.now(ZoneId.of("Africa/Nairobi")).format(DateTimeFormatter.ofPattern("uuuu.MM.dd"));
+                    insertIntoTransactionItem.setString(4, currentTimeStamp);
+                    // Calculate the total cost based on the medicine price and quantity
+                    insertIntoTransactionItem.setInt(5, calculateTotalCost(medicineInventoryId, Integer.parseInt(quantity)));
+                    insertIntoTransactionItem.executeUpdate();
+                    insertIntoTransactionItem.close();
+                }
+            } else {
+                Log("FATAL", "An Exception occurred while inserting data to the prescription table : ", null, DBConnector.class.getName());
+            }
         }catch(SQLException sqlException){
             Log("FATAL","Error while updating the prescription table : "+sqlException,sqlException,DBConnector.class.getName());
         }
