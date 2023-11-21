@@ -26,6 +26,7 @@
               <enabled value="false"/>
               <focusable value="false"/>
               <intercellSpacing width="1" height="10"/>
+              <preferredScrollableViewportSize width="500" height="400"/>
               <rowHeight value="40"/>
               <rowMargin value="10"/>
               <rowSelectionAllowed value="false"/>

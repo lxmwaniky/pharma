@@ -17,8 +17,7 @@ public class PrescriptionService {
             "Patient Birth Cert. No",
             "Dosage",
             "Frequency",
-            "Quantity",
-            "DELETE"
+            "Quantity"
     };
 
 
@@ -44,9 +43,8 @@ public class PrescriptionService {
                 String frequency = (String) prescriptionRowList.get(2);
                 String dosage = (String) prescriptionRowList.get(3);
                 String quantity = (String) prescriptionRowList.get(4);
-                JButton deleteButton = new JButton("DELETE");
 
-                prescriptionData[counter] = new Object[]{medicine_name,patientBirthCertNo,frequency,dosage,quantity, deleteButton};
+                prescriptionData[counter] = new Object[]{medicine_name,patientBirthCertNo,frequency,dosage,quantity};
                 counter++;
             }
             return prescriptionData;

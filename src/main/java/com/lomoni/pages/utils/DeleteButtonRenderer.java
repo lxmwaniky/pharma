@@ -20,6 +20,7 @@ public class DeleteButtonRenderer extends DefaultTableCellRenderer {
                 @Override
                 public void actionPerformed(ActionEvent e) {
                     // Handle the button click here
+                    System.out.println("Something");
                 }
             });
             return button;

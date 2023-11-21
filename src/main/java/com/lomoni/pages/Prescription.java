@@ -1,5 +1,6 @@
 package com.lomoni.pages;
 
+import com.lomoni.pages.utils.DeleteButtonEditor;
 import com.lomoni.pages.utils.DeleteButtonRenderer;
 import com.lomoni.pages.utils.InputFieldFocusListener;
 import com.lomoni.pages.utils.TableFilter;
@@ -85,8 +86,9 @@ public class Prescription {
             prescriptionTable.setModel(inventoryModel);
 
             //Just add a delete button
-            TableColumn deleteColumn = prescriptionTable.getColumnModel().getColumn(prescriptionService.getInventoryDisplayColumns().length - 1);
-            deleteColumn.setCellRenderer(new DeleteButtonRenderer(prescriptionTable));
+//            TableColumn deleteColumn = prescriptionTable.getColumnModel().getColumn(prescriptionService.getInventoryDisplayColumns().length - 1);
+//            deleteColumn.setCellRenderer(new DeleteButtonRenderer(prescriptionTable));
+//            deleteColumn.setCellEditor(new DeleteButtonEditor());
 
             Log("INFO", "Prescription data set",null,Prescription.class.getName());
         }catch(Exception e){
