@@ -4,12 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19d791b9-e31e-432b-9f0f-9108897f0020" name="Changes" comment="">
+    <list default="true" id="19d791b9-e31e-432b-9f0f-9108897f0020" name="Changes" comment="feature : Update respective tables when a new Prescription is set.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/utils/DeleteButtonRenderer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lomoni/database/config/DBConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/database/config/DBConnector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Prescription.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Prescription.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Prescription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Prescription.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lomoni/services/InventoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/services/InventoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lomoni/services/PrescriptionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/services/PrescriptionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lomoni/database/config/DBConnector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lomoni/database/config/DBConnector.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/lomoni/pages/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lomoni/pages/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/lomoni/pages/Prescription.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lomoni/pages/Prescription.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lomoni/services/InventoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lomoni/services/InventoryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lomoni/services/PrescriptionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lomoni/services/PrescriptionService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +27,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -45,43 +52,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "true",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW": "true",
-    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW": "true",
-    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "357",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "master",
-    "last_directory_selection": "C:/Users/Briane's/IdeaProjects/pharma/src/test/java",
-    "last_opened_file_path": "C:/Users/Briane's/IdeaProjects/pharma/lib/apache-log4j-2.12.4-bin/log4j-api-2.12.4.jar",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2321839",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW&quot;: &quot;true&quot;,
+    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW&quot;: &quot;false&quot;,
+    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH&quot;: &quot;357&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/Briane's/IdeaProjects/pharma/src/test/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Briane's/IdeaProjects/pharma/lib/apache-log4j-2.12.4-bin/log4j-api-2.12.4.jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2321839&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Briane's\IdeaProjects\pharma\src\com\lomoni\components\inventory" />
       <recent name="C:\Users\Briane's\IdeaProjects\pharma\src\com\lomoni\pages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Briane's\IdeaProjects\pharma\src\main\java\com\lomoni" />
       <recent name="C:\Users\Briane's\IdeaProjects\pharma\src\com\lomoni\database\sql" />
       <recent name="C:\Users\Briane's\IdeaProjects\pharma\src\com\lomoni\components\inventory\logger" />
       <recent name="C:\Users\Briane's\IdeaProjects\pharma\src\com\lomoni" />
@@ -139,15 +147,9 @@
       <workItem from="1700122121394" duration="21162000" />
       <workItem from="1700321264537" duration="37000" />
       <workItem from="1700365349484" duration="1136000" />
-      <workItem from="1700409780686" duration="10156000" />
-    </task>
-    <task id="LOCAL-00043" summary="refactor : Unecessary class">
-      <option name="closed" value="true" />
-      <created>1697654473793</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1697654473793</updated>
+      <workItem from="1700409780686" duration="13383000" />
+      <workItem from="1700483618903" duration="2278000" />
+      <workItem from="1700557686611" duration="4624000" />
     </task>
     <task id="LOCAL-00044" summary="refactor : Unecessary class">
       <option name="closed" value="true" />
@@ -533,7 +535,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700470629707</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="feature : Update respective tables when a new Prescription is set.">
+      <option name="closed" value="true" />
+      <created>1700472196107</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1700472196107</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

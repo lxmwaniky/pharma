@@ -442,7 +442,7 @@ public class DBConnector {
                 int transaction_id = result.getInt("transaction_id");
                 int medicine_inventory_id = result.getInt("medicine_inventory_id");
                 String dosage = result.getString("dosage");
-                Date date_of_dispensing = result.getDate("date_of_dispensing");
+                String date_of_dispensing = result.getString("date_of_dispensing");
                 int total_cost = result.getInt("total_cost");
 
                 transactionRows.add(String.valueOf(transaction_id));

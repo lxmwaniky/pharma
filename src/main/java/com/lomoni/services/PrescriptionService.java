@@ -3,6 +3,7 @@ package com.lomoni.services;
 
 import com.lomoni.database.config.DBConnector;
 
+import javax.swing.*;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -16,7 +17,8 @@ public class PrescriptionService {
             "Patient Birth Cert. No",
             "Dosage",
             "Frequency",
-            "Quantity"
+            "Quantity",
+            "DELETE"
     };
 
 
@@ -42,8 +44,9 @@ public class PrescriptionService {
                 String frequency = (String) prescriptionRowList.get(2);
                 String dosage = (String) prescriptionRowList.get(3);
                 String quantity = (String) prescriptionRowList.get(4);
+                JButton deleteButton = new JButton("DELETE");
 
-                prescriptionData[counter] = new Object[]{medicine_name,patientBirthCertNo,frequency,dosage,quantity};
+                prescriptionData[counter] = new Object[]{medicine_name,patientBirthCertNo,frequency,dosage,quantity, deleteButton};
                 counter++;
             }
             return prescriptionData;

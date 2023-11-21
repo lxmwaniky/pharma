@@ -1,11 +1,13 @@
 package com.lomoni.pages;
 
+import com.lomoni.pages.utils.DeleteButtonRenderer;
 import com.lomoni.pages.utils.InputFieldFocusListener;
 import com.lomoni.pages.utils.TableFilter;
 import com.lomoni.services.PrescriptionService;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
+import javax.swing.table.TableColumn;
 import javax.swing.table.TableModel;
 
 import java.awt.*;
@@ -70,7 +72,7 @@ public class Prescription {
             tableFilter.setInventoryTable(prescriptionTable);
             tableFilter.setFilterTextInput(rowFilterTextField);
             rowFilterTextField.addKeyListener(tableFilter);
-            Log("INFO","Set table filter occured",null,Prescription.class.getName());
+            Log("INFO","Set table filter occurred",null,Prescription.class.getName());
         }catch(Exception e){
             Log("FATAL","Exception occurred while setting the table filter : "+e.getMessage(),e,Prescription.class.getName());
         }
@@ -81,6 +83,11 @@ public class Prescription {
         try{
             TableModel inventoryModel = new DefaultTableModel(prescriptionService.getInventoryDisplayData(), prescriptionService.getInventoryDisplayColumns());
             prescriptionTable.setModel(inventoryModel);
+
+            //Just add a delete button
+            TableColumn deleteColumn = prescriptionTable.getColumnModel().getColumn(prescriptionService.getInventoryDisplayColumns().length - 1);
+            deleteColumn.setCellRenderer(new DeleteButtonRenderer(prescriptionTable));
+
             Log("INFO", "Prescription data set",null,Prescription.class.getName());
         }catch(Exception e){
             Log("FATAL","Exception occurred while setting the prescription data : "+e.getMessage(),e,Prescription.class.getName());

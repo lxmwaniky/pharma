@@ -2,6 +2,7 @@ package com.lomoni.services;
 
 import com.lomoni.database.config.DBConnector;
 
+import javax.swing.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -41,6 +42,7 @@ public class InventoryService {
                 String price = (String) inventoryRowList.get(2);
                 String dosageForm = (String) inventoryRowList.get(3);
                 String strengthOfDosage = (String) inventoryRowList.get(4);
+
 
                 inventoryData[counter] = new Object[]{medicine_name,medicine_quantity,price,dosageForm,strengthOfDosage};
                 counter++;
