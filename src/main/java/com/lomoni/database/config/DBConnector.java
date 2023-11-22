@@ -182,7 +182,7 @@ public class DBConnector {
             int insertIntoMedicinesTableResult = insertIntoMedicinesTable.executeUpdate();
             insertIntoMedicinesTable.close();
 
-            sql_inventoryTable = "INSERT INTO "+inventoryTable+" (medicine_name, medicine_quantity, price, dosage_form, strength_of_dosage) VALUES (?, ?, ?, ?, ?)";
+            sql_inventoryTable = "INSERT INTO "+inventoryTable+" (medicine_name, medicine_quantity, price, dosageForm, strengthOfDosage) VALUES (?, ?, ?, ?, ?)";
             PreparedStatement insertIntoInventoryTable = conn.prepareStatement(sql_inventoryTable);
             insertIntoInventoryTable.setString(1, medicine_name);
             insertIntoInventoryTable.setInt(2, Integer.parseInt(quantity_in_stock));
@@ -302,7 +302,7 @@ public class DBConnector {
             }
             selectMedicineId.close();
 
-            if (prescriptionId > 0) {
+//            if (prescriptionId > 0) {
                 //Create new record in Prescription Table
                 String sql_prescriptionTable = "INSERT INTO "+prescriptionTable+" (medicine_name, medicine_inventory_id, patient_birth_certificate, frequency, dosage, quantity) VALUES (?, ?, ?, ?, ?, ?)";
                 PreparedStatement insertIntoPrescriptionTable = conn.prepareStatement(sql_prescriptionTable);
@@ -342,9 +342,10 @@ public class DBConnector {
                     insertIntoTransactionItem.executeUpdate();
                     insertIntoTransactionItem.close();
                 }
-            } else {
+//            } else {
+
                 Log("FATAL", "An Exception occurred while inserting data to the prescription table : ", null, DBConnector.class.getName());
-            }
+//            }
         }catch(SQLException sqlException){
             Log("FATAL","Error while updating the prescription table : "+sqlException,sqlException,DBConnector.class.getName());
         }

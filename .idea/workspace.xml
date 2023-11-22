@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19d791b9-e31e-432b-9f0f-9108897f0020" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/utils/DeleteButtonEditor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Prescription.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Prescription.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Prescription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Prescription.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/utils/DeleteButtonRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/utils/DeleteButtonRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lomoni/services/PrescriptionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/services/PrescriptionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lomoni/pages/Prescription.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lomoni/pages/Prescription.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lomoni/services/PrescriptionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lomoni/services/PrescriptionService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lomoni/database/config/DBConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/database/config/DBConnector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lomoni/pages/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lomoni/database/config/DBConnector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lomoni/database/config/DBConnector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lomoni/pages/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lomoni/pages/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,15 +142,7 @@
       <workItem from="1700365349484" duration="1136000" />
       <workItem from="1700409780686" duration="13383000" />
       <workItem from="1700483618903" duration="2278000" />
-      <workItem from="1700557686611" duration="7027000" />
-    </task>
-    <task id="LOCAL-00045" summary="refactor : Breaking down constructor functions into smaller methods each with a single responsibility.">
-      <option name="closed" value="true" />
-      <created>1697724560204</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1697724560204</updated>
+      <workItem from="1700557686611" duration="8707000" />
     </task>
     <task id="LOCAL-00046" summary="refactor : Breaking down constructor functions into smaller methods each with a single responsibility.">
       <option name="closed" value="true" />
@@ -539,7 +528,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700563280352</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="commit : Probably the last commit.">
+      <option name="closed" value="true" />
+      <created>1700566521813</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1700566521813</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -558,7 +555,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="feature : Switch screen based on user type" />
     <MESSAGE value="feature : Get medicine names from the database" />
     <MESSAGE value="feature : Combo Box on Prescription page to select medicine when doc is creating a new prescription." />
     <MESSAGE value="feature : Sign out button and functionality on Inventory Screen" />
@@ -583,6 +579,7 @@
     <MESSAGE value="feature : Added navigation buttons to the sell receipt screen." />
     <MESSAGE value="feature : Update respective tables when a new Prescription is set." />
     <MESSAGE value="feature : DELETE button on every row of the prescription table." />
-    <option name="LAST_COMMIT_MESSAGE" value="feature : DELETE button on every row of the prescription table." />
+    <MESSAGE value="commit : Probably the last commit." />
+    <option name="LAST_COMMIT_MESSAGE" value="commit : Probably the last commit." />
   </component>
 </project>
