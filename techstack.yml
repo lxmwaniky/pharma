@@ -1,0 +1,95 @@
+repo_name: lxmwaniky/pharma
+report_id: eed219e22def03d0aacfb3160bac2366
+version: 0.1
+repo_type: Public
+timestamp: '2024-04-17T21:48:35+00:00'
+requested_by: code-briomar
+provider: github
+branch: master
+detected_tools_count: 7
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/lxmwaniky/pharma
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/lxmwaniky/pharma/blob/master/src/main/java/com/lomoni/database/sql/db_braine_lomoni_168864.sql
+  detection_source: src/main/java/com/lomoni/database/sql/db_braine_lomoni_168864.sql
+  last_updated_by: Braine Lomoni
+  last_updated_on: 2023-11-06 09:01:48.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/lxmwaniky/pharma
+  detection_source: Repo Metadata
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/lxmwaniky/pharma/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Braine Lomoni
+  last_updated_on: 2023-11-13 10:09:15.000000000 Z
+- name: Log4j
+  description: A Java-based logging utility
+  website_url: https://logging.apache.org/log4j/2.x/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Logging Tools
+  image_url: https://img.stackshare.io/service/2804/Coralogix-log4j-integration.jpg
+  detection_source_url: https://github.com/lxmwaniky/pharma/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Braine Lomoni
+  last_updated_on: 2023-11-13 10:09:15.000000000 Z
+- name: org.apache.logging.log4j:log4j-core
+  description: The Apache Log4j Implementation
+  version: 3.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/lxmwaniky/pharma/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Braine Lomoni
+  last_updated_on: 2023-11-13 10:09:15.000000000 Z
+- name: org.junit.jupiter:junit-jupiter-engine
+  description: Module "junit-jupiter-engine" of JUnit 5
+  version: 5.7.0
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/lxmwaniky/pharma/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Braine Lomoni
+  last_updated_on: 2023-11-13 10:09:15.000000000 Z
